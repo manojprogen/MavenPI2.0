@@ -1,0 +1,65 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [4.712712,115.076254]},
+        "properties": {
+            "name": "Bangar"
+        }
+     },
+	
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [5.033321,115.073288]},
+        "properties": {
+            "name": "Muara"
+        }
+     },
+	
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [4.610106,114.331172]},
+        "properties": {
+            "name": "Seria"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [4.814052,114.660856]},
+        "properties": {
+            "name": "Tutong"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [4.583199,114.221217]},
+        "properties": {
+            "name": "Kuala Belait"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [4.871988,114.843826]},
+        "properties": {
+            "name": " Kampung Kilanas "
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [4.9030522,114.939821]},
+        "properties": {
+            "name": "Bandar Seri Begawan"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [4.814052,114.660856]},
+        "properties": {
+            "name": "Tutong"
+        }
+     },
+	
+     
+]     

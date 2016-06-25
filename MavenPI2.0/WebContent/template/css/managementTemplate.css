@@ -1,0 +1,480 @@
+/* 
+    Document   : managementTemplate
+    Created on : 19 May, 2016, 11:12:35 AM
+    Author     : Faiz Ansari
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body { 
+    display: block;
+    width:100%;
+    height:100%;
+    padding:0px;
+    marging:0px;
+}
+#contentSection{color: #555;}
+.rmpm{padding:0px;margin:0px;}
+.brd{
+    border:1px solid #d5d5d5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+}
+
+.t1Kpi{
+    height: calc((100% / 2) - 10px);
+    position: relative;
+     background-color: #fff;
+}
+.t1Kpi:first-child{    border-bottom: 1px solid #d5d5d5;}
+.t2Kpi,.t3Kpi{
+    height: calc((100% / 5) - 10px);
+    margin: 6px 0px;
+    position: relative;
+     background-color: #fff;
+}
+.t2Kpi:first-child{
+    margin: 0px;
+    margin-bottom: 7px;
+}
+.t3Kpi:last-child{
+    border: none;
+    margin-bottom: 0px;
+}
+.t3Kpi{
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #d5d5d5;
+}
+.pages{
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pages:hover{
+    box-shadow: 0px 0px 2px 2px #999;
+}
+.page4{
+    border-right: 1px solid #d5d5d5;
+}
+.page4:last-child{
+    border-right: none;
+}
+.pageActive{border-bottom: 2px solid #008cc9;}
+#rootContainer{
+    height:100vh;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+#contentSection{height: calc(100vh - 60px);padding: 10px;background-color: #f5f5f5;}
+#contentSection .leftSection,
+#contentSection .rightSection{height: calc(100% - 130px);  }
+#contentSection .topSection{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+        background-color: #fff;
+}    
+#contentSection .topSection .menuSection{
+    height: 100%;
+    width: 40px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#contentSection .topSection .menuSection i{
+    height: 100%;
+    font-size: 28px;
+    color: #555;
+    padding: 0px 7px;   
+}
+#contentSection .topSection .pageSection{
+    height: 100%;
+    width: calc(100% - 50px);
+    float: left;
+    background-color: #fff;
+}
+#contentSection .leftSection{    
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+#contentSection .rightSection{
+    width: 0%;
+    float: left;
+    margin-left: 2%
+}
+
+#managementTempl{
+    display:block;
+    background-color: rgb(236, 239, 241);
+    margin-bottom: 10px;
+}
+#managementTempl .rootContainer{
+    width: 100%;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    height: 80px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+#managementTempl .topLeftSection,
+#managementTempl .topRightSection{
+    width: calc(50% - 2px);
+    height: 80px;
+    border-right: 1px solid #ddd;
+    float: left;
+}
+#managementTempl .topRightSection{border-right: none}
+
+.leftSection1{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.leftSection2{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.leftSection3{
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+.topSectionV{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #008cc9;
+    font-size: 20px;
+    font-weight: lighter;
+    overflow: hidden;
+    line-height: 20px;
+}
+.middleSectionV{
+       width: 100%;
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: lighter;
+    overflow: hidden;
+    color: #a1a1a1;
+    height: 18px;
+    visibility: hidden;
+}
+.bottomSectionV{
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    color: #a1a1a1;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    line-height: 12px;
+    margin-top: 8px;
+}
+
+
+.leftSection1 .topSectionV{
+    font-size: 25px;
+    height: 40px;
+}
+.rightSection1{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+.rightSection2,
+.rightSection3{
+    width: 90%;
+    height: 40px;
+    margin: 0px 5%;
+    justify-content: center;
+    display: flex;
+}
+.rightSection4{
+    padding: 0px 10px;
+    width: calc(50% - 22px);
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+}
+.rightSection1 .data,
+.rightSection2 .data,
+.rightSection3 .data,
+.rightSection4 .data{
+    float: left;
+    color: #008cc9;
+    font-size: 50px;
+    font-weight: lighter;
+    display: block;
+    height: 40px;
+    line-height: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 30%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    width:100%;
+}
+.rightSection1 .prior,
+.rightSection2 .prior,
+.rightSection3 .prior,
+.rightSection4 .prior{
+    display: none;
+    width: 100%;
+    justify-content: flex-end;
+    color: #666;
+    font-size: 12px;
+}
+.rightSection1 .numericContainer,
+.rightSection2 .numericContainer,
+.rightSection3 .numericContainer,
+.rightSection4 .numericContainer{
+    width: 40%;
+    height: 100%;
+}
+.rightSection1 .details,
+.rightSection2 .details,
+.rightSection3 .details,
+.rightSection4 .details{
+    float: left;
+    width: 65%;
+    padding: 0px 10px;
+    color: #a1a1a1;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 100%;
+    overflow: hidden;
+/*    display: flex;*/
+/*    align-items: center;*/
+    line-height: 15px;
+}
+
+.rightSection1 .data{
+    font-size: 25px;
+    line-height: 80px;
+    height: 80px;
+}
+.rightSection1 .details{
+    font-size: 16px;
+    padding: 25px 0px;
+}
+.rightSection2 .details{padding: 5px 0px;}
+.rightSection3 .details{padding: 5px 0px;}
+.rightSection2 .data,
+.rightSection3 .data,
+.rightSection4 .data{
+    font-size: 20px;
+    line-height: 40px;
+}
+.rightSection2 .details,
+.rightSection3 .details,
+.rightSection4 .details{
+    font-size: 13px;
+}
+.rightSection3:nth-child(3),
+.rightSection3:nth-child(5){
+    float: left;
+    width: calc(50% - 2px);
+    margin: 0px;
+    height: 40px;
+/*    margin-top: 5px;*/
+}
+.rightSection4 .data{
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+}
+.rightSection4 .details{
+    height: 30px;
+}
+
+.dividerH{
+    border-bottom: 1px solid #d5d5d5;
+    width: 94%;
+    height: 0px;
+    float: left;
+    margin-left: 3%;
+}
+.dividerV{
+    float: left;
+    width: 0px;
+    border-right: 1px solid #d5d5d5;
+    height: 30px;
+    margin: 5px 0px;
+}
+
+
+
+#mgtMenu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #777;
+    border-radius: 2px;
+    right: 0px;
+    margin-top: 5px;
+    height: auto;
+    max-height: 60vh;
+    width: 120px;
+    box-shadow: 0px 0px 2px 2px #d5d5d5;
+    z-index: 999;
+}
+#mgtMenu a{
+    text-decoration: none;
+    display: block;
+    color: #444;
+    padding: 5px;
+    border-bottom: 1px solid #888;
+}
+#mgtMenu li{list-style-type: none;}
+#mgtMenu li:hover{background-color: #8BC34A}
+
+#gridsterDiv::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 1px;
+    background-color: #F5F5F5;
+}
+
+#gridsterDiv::-webkit-scrollbar
+{
+    width: 3px;
+    height: 3px;
+    background-color: #F5F5F5;
+}
+
+#gridsterDiv::-webkit-scrollbar-thumb
+{
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+#templateDesignCont{
+    height: 200px;
+}
+#templateDesign,
+#templateDesign img,
+#imageFullModal{
+    height: 100%;
+}
+#imageFullModal img{
+    height: 80vh;
+    margin-left: calc((100% - 80vw)/2);
+}
+/*Boostrap Override*/
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+/* .modal-fullscreen */
+
+.modal-fullscreen {
+  background: transparent;
+}
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: .97;
+  filter: alpha(opacity=97);
+}
+
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+
+.modal-fullscreen .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.mt2Title{
+        padding: 5px;
+    font-size: 16px;
+        color: #000;
+    font-weight: bold;
+}
+.mt2Data div.dataTables_scrollHead {
+    height: 40px;
+    background: rgba(73,155,234,1);
+background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+}
+.mt2Data div.dataTables_scrollHead div.dataTables_scrollHeadInner table,
+.mt2Data div.dataTables_scrollHead div.dataTables_scrollHeadInner table td{
+    border: none;
+}
+
+/*DialGuage*/
+.chart-gauge {
+  width: 400px;
+  margin: 10px auto;
+}
+
+.chart-color1 {
+  fill: #DEA82C;
+}
+
+.chart-color2 {
+  fill: #E9621A;
+}
+
+.chart-color3 {
+  fill: #e92213;
+}
+
+.needle,
+.needle-center {
+  fill: #464A4F;
+}
+
+.prose {
+  text-align: center;
+  font-family: sans-serif;
+  color: #ababab;
+}

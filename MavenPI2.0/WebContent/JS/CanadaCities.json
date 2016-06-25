@@ -1,0 +1,368 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.0486151,-114.0708459]},
+        "properties": {
+            "name": "Calgary"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.7615377,-79.4110794]},
+        "properties": {
+            "name": "North York"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.2827291,-123.12073750000002]},
+        "properties": {
+            "name": "Vancouver"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.4215296,-75.6971931]},
+        "properties": {
+            "name": "Ottawa"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.653226,-79.38318429999998]},
+        "properties": {
+            "name": "Toronto"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.8879519,-119.49601059999998]},
+        "properties": {
+            "name": "Kelowna"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.6204946,-79.5131983]},
+        "properties": {
+            "name": "Etobicoke"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.544389,-113.49092669999999]},
+        "properties": {
+            "name": "Edmonton"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.467517,-79.6876659]},
+        "properties": {
+            "name": "Oakville"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.183333,-122.85000000000002]},
+        "properties": {
+            "name": "Surrey"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.8997541,-97.1374937]},
+        "properties": {
+            "name": "Winnipeg"
+        }
+     },
+
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.5890452,-79.6441198]},
+        "properties": {
+            "name": "Mississauga"
+        }
+     },
+
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.266667,-122.966667]},
+        "properties": {
+            "name": "Burnaby"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.334905,-75.724101]},
+        "properties": {
+            "name": "Nepean"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.437085,-75.658968]},
+        "properties": {
+            "name": "Vanier"
+        }
+     },
+
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.226422,-75.686355]},
+        "properties": {
+            "name": "Manotick"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.2837626,-122.7932065]},
+        "properties": {
+            "name": "Coquitlam"
+        }
+     },
+
+
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.3974171,-123.5152222]},
+        "properties": {
+            "name": "Gibsons"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.5016889,-73.56725599999999]},
+        "properties": {
+            "name": "Montreal"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [44.8341639,-87.3770419]},
+        "properties": {
+            "name": "Sturgeon County"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.4129238,-80.47714719999999]},
+        "properties": {
+            "name": "Kitchener"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.1665898,-123.13356899999997]},
+        "properties": {
+            "name": "Richmond"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.2670137,-119.2720107]},
+        "properties": {
+            "name": "Vernon"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.334897,-123.166785]},
+        "properties": {
+            "name": "West Vancouver"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.3808951,-89.24768230000001]},
+        "properties": {
+            "name": "Thunder Bay"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.441347,-73.688585]},
+        "properties": {
+            "name": "Lachine"
+        }
+     },
+
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.413532,-97.940939]},
+        "properties": {
+            "name": "ST LAURENT"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.7315479,-79.7624177]},
+        "properties": {
+            "name": "BRAMPTON"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.452469,-63.379967]},
+        "properties": {
+            "name": "TORONTO"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.514286,-73.609011]},
+        "properties": {
+            "name": "OUTREMONT"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.4215296,-75.6971931]},
+        "properties": {
+            "name": "OTTAWA"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.6066487,-73.71240899999998]},
+        "properties": {
+            "name": "LAVAL"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.3255196,-79.7990319]},
+        "properties": {
+            "name": "BURLINGTON"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.691201,-79.341664]},
+        "properties": {
+            "name": "EAST YORK"
+        }
+     },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.430931,-73.868283]},
+        "properties": {
+            "name": "Beaconsfield"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.253775,-85.32321389999998]},
+        "properties": {
+            "name": "Ontario"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.695679,-79.450354]},
+        "properties": {
+            "name": "york"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.4991381,-119.59370769999998]},
+        "properties": {
+            "name": "Penticton"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.4284207,-123.36564440000001]},
+        "properties": {
+            "name": "VICTORIA"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.4765446,-75.7012723]},
+        "properties": {
+            "name": "Gatineau"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.483476,-75.501052]},
+        "properties": {
+            "name": "ORLEANS"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.2917005,-114.0143635]},
+        "properties": {
+            "name": "Airdrie"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.0747378,-115.35995919999999]},
+        "properties": {
+            "name": "Canmore"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.822605,-114.013295]},
+        "properties": {
+            "name": "De Winton"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.725494,-113.974947]},
+        "properties": {
+            "name": "okotoks"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.69349,-112.84183999999999]},
+        "properties": {
+            "name": "Lethbridge"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.1332144,-106.6700458]},
+        "properties": {
+            "name": "Saskatoon"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.6204946,-79.5131983]},
+        "properties": {
+            "name": "Etobicoke"
+        }
+     }
+
+
+
+
+]

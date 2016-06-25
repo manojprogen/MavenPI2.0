@@ -1,0 +1,5 @@
+[
+  {"title":"Gross Margin %","subtitle":"28.5%","ranges":[25,50,75,100],"measures":[28.5,100],"markers":[100]},
+  {"title":"Net Margin %","subtitle":"16.7%","ranges":[25,50,75,100],"measures":[16.7,100],"markers":[100]},
+  {"title":"Discount %","subtitle":"18%","ranges":[25,50,75,100],"measures":[18,100],"markers":[100]}
+]

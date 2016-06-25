@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" 
+"http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+    <form-beans>
+        <form-bean name="UploadExcelFormBean" type="com.progen.querylayer.UploadExcelFormBean"/>
+        <form-bean name="FileUploadAndSave" type="com.uploadfile.excel.StrutsUploadAndSaveForm"/>
+<!--        <form-bean name="FileUploadFormBean" type="com.progen.fileupload.FileUploadFormBean"/>-->
+        <form-bean name="StrutsUploadForm" type="StrutsUploadForm"/>
+        <form-bean name="FileUploadFormBean" type="com.progen.fileupload.FileUploadFormBean"/>
+        <form-bean name="BusinessGroupListForm" type="prg.business.group.BusinessGroupListForm"/>
+        <form-bean name="TimeSetUpTable" type="com.progen.timesetup.TimeSetUpTable"/>
+        <form-bean name="SaveRelationForm" type="prg.databaseralation.SaveRelationForm"/>
+        <form-bean name="TableForm" type="com.progen.querylayer.TableForm"/>
+        <form-bean name="DimensionForm" type="com.progen.querylayer.DimensionForm" />
+        <form-bean name="SaveDimensionForm" type="org.querydesigner.SaveDimensionForm"/>
+        <form-bean name="BusinessGroupForm" type="prg.business.group.BusinessGroupForm" />
+        <form-bean name="UserLayerForm" type="com.progen.userlayer.form.UserLayerForm"/>
+        <form-bean name="ReportTemplateActionForm" type="com.progen.reportdesigner.form.ReportTemplateActionForm"/>
+        <form-bean name="DashboardTemplateActionForm" type="com.progen.reportdesigner.form.DashboardTemplateActionForm"/>
+        <form-bean  name="FileUpload" type="StrutsUploadForm"/>
+        <form-bean  name="caction" type="StrutsUploadForm"/>
+        <form-bean name="strutsuplaodfileform" type="com.uploadingfile.struts.StrutsUplaodFile"></form-bean>
+
+    </form-beans>
+    
+     <global-forwards>
+        <forward name="startPage" path="/startCheck.jsp"/>
+        <forward name="homePage" path="/home.jsp"/>
+        <forward name="welcome"  path="/getAllTables.do"/>
+        <forward name="sessionExpired" path="/pbSessionExpired.jsp"/>
+        <forward name="exceptionPage" path="/pbExceptionPage.jsp"/>
+        <forward name="expireAccountPage" path="/pbExpireAccountPage.jsp"/>
+<!--      <forward name="loginPage" path="/newpbLoginPortal.jsp"/>-->
+          <!--<forward name="loginPage" path="/stdLogin.jsp"/>-->
+          <forward name="loginPage" path="/new_stdLogin.jsp"/>
+        <!--<forward name="loginPage" path="/walledit.jsp"/>-->
+        <!--<forward name="loginPage" path="/newpbLogin.jsp"/>-->
+          <!--<forward name="loginPagePortal" path="/newpbLoginPortal.jsp"/>-->
+        <forward name="logoutApp" path="/logoutApp.jsp"/>
+        <forward name="reportPage" path="/reportOpen.jsp"/>
+        <forward name="basePage" path="/pbBase.jsp"/>
+        <forward name="reportAssignment" path="/pbAssignReportDetails.jsp"/>
+        <forward name="reportAssignments" path="/pbAssignReportsToUsers.jsp"/>
+        <forward name="reportView" path="/reportViewer.do?reportBy=viewReport"/>
+        <forward name="reportTable" path="/reportTable.do?reportBy=viewReport"/>
+        <forward name="reportCustomize" path="/pbReportCustomize.jsp"/>
+        <forward name="fileUpload" path="/pbUploadFileSuccess.jsp"/>
+        <forward name="dashboardView" path="/dashboardViewer.do?reportBy=viewDashboard"/>
+        <forward name="dashboardAssignment" path="/pbAssignReportDetails.jsp"/>
+        <forward name="customizeMeasures" path="/pbTableParametersCustomize.jsp"/>
+        <forward name="reportAssignmentWithCompany" path="/pbAssignReportDetailsCompany.jsp"/>
+        <forward name="dashboardAssignmentWithCompany" path="/pbAssignReportDetailsCompany.jsp"/>
+        <forward name="kpiDrill" path="/pbKPIDrillDown.jsp"/>
+        <forward name="PortletGraphTemplate" path="/PbPortletGraphTemplate.jsp"/>
+        <forward name="PortletTableTemplate" path="/PbPortletTableTemplate.jsp"/>
+        <forward name="PortletKPIGraphTemplate" path="/PbPortletKPIGraphTemplate.jsp"/>
+        <forward name="PortletKPITableTemplate" path="/PbPortletKPITableTemplate.jsp"/>
+        <forward name="graphDisplay" path="/TableDisplay/pbGraphDisplayRegion.jsp"/>
+        <forward name="tableDisplay" path="/TableDisplay/pbGraphDisplayRegion.jsp"/>
+        <forward name="DashboardStudio" path="/home.jsp"/>
+        <forward name="ReportStudio" path="/home.jsp"/>
+        <forward name="dispDtls" path="/pbDisplayTableAsQuery.jsp"/>
+        <forward name="displayDashboard" path="/PbNewDashBoardViewer.jsp"></forward>
+        <forward name="forwardToReport" path="/reportViewer.do?reportBy=forwardToReport"/>
+        <forward name="forwardToDashBoard" path="/dashboardViewer.do?reportBy=forwardToDashBoard"/>
+        <forward name="reportDesigner" path="/pbReportTemplate.jsp"/>
+        <forward name="reportScheduler" path="/tracker/JSPS/scheduleReport.jsp"/>
+        <forward name="dashboardDesigner" path="/pbDashBoardDesigner.jsp"/>
+        <forward name="reportTracker" path="/tracker/JSPS/scheduleTracker.jsp"/>
+        <!-- Added by Amar on 27 june-2014-->
+       <forward name="uploadFileSucceed" path="/srchQueryAction.do?srchParam=pbBiManager"/> -->
+
+        <!-- added by uday on 19-mar-2010 -->
+        <forward name="whatIfReportAssignment" path="/pbAssignReportDetails.jsp"/>
+        <forward name="whatIfScenarioView" path="/reportViewer.do?reportBy=viewWhatIfScenario"/>
+        <forward name="whatIfGraphDisplay" path="/TableDisplay/pbWhatIfGraphDisplayRegion.jsp"/>
+         <forward name="viewerFormula" path="/createCustMemberinviewer.jsp"/>
+         <forward name="goToUploadFile" path="/createtableAction.do?param=uploadFile"/>
+         <forward name="uploadfile" path="/pbBase.jsp"/>
+         <forward name="uploadSSISData" path="/pbBIManager.jsp"/>
+         <forward name="goToUploadFileForDim" path="/createtableAction.do?param=uploadFilefordim"/>
+         <forward name="uploadfile" path="/srchQueryAction.do?srchParam=pbBiManager"/>
+         <forward name="workBench" path="/reportTemplateAction.do?templateParam=workBenchPage"/>
+    </global-forwards>
+	<action-mappings>
+            <action path="/managementViewer" type="com.template.action.ManagementViewerAction" parameter="templateBy">
+             <forward name="showTemplate" path="/template/templateViewer.jsp"></forward>
+            </action>
+             
+            
+            <action input="/" name="TableForm" path="/getAllTables" scope="request" type="com.progen.querylayer.TableAction" validate="false">
+            <forward name="success" path="/MyTable.jsp" />
+        </action>
+<!-- Action Mapping for praveen created actions-->
+        <action path="/UserprivilagesAction" type="com.progen.user.UserprivilagesAction">
+            <forward name="" path="/userList.jsp" />
+        </action>
+        <action path="/savePrivilages" type="com.progen.users.SavePrivilages">
+            <forward name="success" path="/AdminTab.jsp" />
+            <forward name="showprivilages" path="/Ajax Pages/AssignPrivilages.jsp"/>
+            <forward name="showRepPrivilages" path="/Ajax Pages/reportPrivileges.jsp"/>
+            <forward name="showRepGraphPrivilages" path="/Ajax Pages/reportGraphPrivileges.jsp"/>
+            <forward name="showRepTablePrivilages" path="/Ajax Pages/reportTablePrivileges.jsp"/>
+            <forward name="showstartpage" path="/loginStart.jsp"/>
+        </action>
+        <action path="/GetrolesAction" type="prg.business.group.GetrolesAction">
+            <forward name="ajaxroles" path="/AjaxPages/Rolereports.jsp" />
+        </action>
+          <action parameter="typeofdatabase" path="/validateConnectionAction" type="utils.db.validateConnectionAction">
+        </action>
+            <!-- Upto here praveen action mappings -->
+        <action path="/xlUpdate"  parameter="parm" type="com.progen.xlupdateAction.XlUpdate"/>
+        <action input="/" name="SaveRelationForm" path="/saveRelation" scope="request" type="prg.databaseralation.SaveRelationAction" validate="false" />
+        <action path="/Welcome" forward="/welcomeStruts.jsp" />
+        <action input="/" name="DimensionForm" path="/getAllDimensions" scope="request" type="com.progen.querylayer.DimensionAction" validate="false">
+            <forward name="success" path="/dimensionList.jsp" />
+        </action>
+        <action input="/" name="SaveDimensionForm" path="/saveDimension" scope="request" type="org.querydesigner.SaveDimensionsAction" validate="false">
+            <forward name="success" path="/dimensionList.jsp" />
+        </action>
+        <action input="/dimensionTableList1.jsp" name="DimensionTablesListForm" path="/dimTablesList" scope="request" type="org.querydesigner.DimensionTablesListAction">
+            <forward name="success" path="/dimensionTableList1.jsp" />
+        </action>
+        <action input="/" path="/saveDimTableList" scope="session" type="org.querydesigner.SaveDimTablesList">
+            <forward name="success" path="/dimensionList.jsp" />
+        </action>
+        <action input="/" name="BusinessGroupListForm" path="/getAllBusinessGroups" scope="request" type="prg.business.group.BusinessGroupListAction" validate="false">
+            <forward name="success" path="/MyBusinessGroups.jsp" />
+            <forward name="dynamicdimensions" path="/MyBusinessGroups.jsp"/>
+        </action>
+        <action path="/getBusinessTables" type="prg.grp.business.tables.GetBusinessTables">
+            <forward name="success" path="/tablePropertyDisplay.jsp" />
+        </action>
+        <action input="/" name="BusinessGroupForm" path="/businesGroup" scope="request" type="prg.business.group.BusinessGroupAction" validate="false" />
+        <action path="/updateTableColumns" type="prg.grp.business.tables.UpdateTableColumnsAction" />
+        <action path="/saveBusinessTables" type="prg.grp.business.tables.SaveBusinessTables" />
+        <action input="/" name="BusinessGroupForm" path="/businesGroup" scope="request" type="prg.business.group.BusinessGroupAction" validate="false" />
+        <action path="/addFilter" type="prg.business.group.AddFilter" />
+        <action path="/organisationDetails" parameter="param" type="com.progen.account.OrganisationDetails"/>
+        <action path="/addColumnFormula" type="prg.business.group.AddColumnFormula">
+            <forward name="success" path="/groupList.jsp" />
+        </action>
+        <action path="/addQuickFormula" type="prg.business.group.AddQuickFormula">
+            <forward name="success" path="/pbBase.jsp" />
+            <!--<forward name="testGRP" path="/pbBase.jsp"/>-->
+        </action>
+
+        <action path="/saveTimeDim" type="prg.business.group.SaveTimeDimension">
+            <forward name="success" path="/createTimeDimension.jsp" />
+        </action>
+        <action path="/saveBucket" type="prg.business.group.SaveBucketAction">
+            <forward name="success" path="/createBucket.jsp" />
+        </action>
+        <action input="/" name="BusinessGroupListForm" path="/saveTimeSetUp" scope="request" type="com.progen.timesetup.SaveTimeSetUp" validate="false">
+            <forward name="success" path="/editTimeSetup.jsp" />
+        </action>
+        <action input="/" name="TimeSetUpTable" path="/allTimeSetUps" scope="request" type="com.progen.timesetup.TimeSetUpAction" validate="false">
+            <forward name="success" path="/timeSetUpList.jsp" />
+        </action>
+        <action path="/saveCreateTimeSetUp" type="com.progen.timesetup.SaveCreateTimeSetUp">
+            <forward name="success" path="/test1.jsp" />
+        </action>
+        <action path="/saveStandardCalenderCustom" type="com.progen.timesetup.saveStandardCalenderCustom">
+            <forward name="success" path="/saveStandardCalenderCustom.jsp" />
+        </action>
+        <action path="/saveShowTimeDimension" type="prg.business.group.SaveShowTimeDimension">
+            <forward name="success" path="/showTimeDimension.jsp" />
+        </action>
+        <action path="/saveAssignUser" type="prg.business.group.SaveAssignUser">
+            <forward name="success" path="/getUserAssignList.jsp" />
+        </action>
+<action input="/" name="UserLayerForm" path="/userLayerAction"  parameter="userParam" scope="request" type="com.progen.userlayer.action.UserLayerAction" validate="false">
+            <forward name="userLayer" path="/pbUserLayer.jsp" />
+            <forward name="success" path="/home.jsp" />
+        </action>
+        <action path="/saveUserFolderAssignment" type="com.progen.reportdesigner.action.SaveUserFolderAssignment">
+            <forward name="success" path="/userFolderAssignment.jsp" />
+        </action>
+        <action path="/saveUserFolderAssignmentAll" type="com.progen.reportdesigner.action.SaveUserFolderAssignmentAll">
+            <forward name="success" path="/userFolderAssignment.jsp" />
+        </action>
+        <action path="/saveReportAssignDetails" type="com.progen.reportdesigner.action.SaveReportAssignDetails">
+            <forward name="success" path="/pbAssignReportDetails.jsp" />
+        </action>
+
+        <action input="/" parameter="groupdetails" path="/businessgroupeditaction" scope="request" type="prg.business.group.BusinessGroupEditAction"/>
+
+
+        <action path="/otherDimension" type="prg.business.group.SaveOtherDimensionAction" />
+
+        <forward name="success" path="/getUserAssignList.jsp" />
+
+        <action input="/" name="UserLayerForm" path="/userLayerAction"  parameter="userParam" scope="request" type="com.progen.userlayer.action.UserLayerAction" validate="false">
+            <forward name="userLayer" path="/pbUserLayer.jsp" />
+            <forward name="success" path="/home.jsp" />
+        </action>
+        <action path="/saveUserTypeAction" parameter="param" type="com.progen.saveusertype.SaveUserTypeAction"/>
+
+        <action path="/invalidateSession" parameter="ssoParam" type="com.progen.user.InvalidateSession" validate="false" scope="request" />
+
+        <action path="/xtendDataGenerator" type="com.progen.report.XtendDataGenerator" parameter="xtendReport" validate="false">
+        </action>
+
+        <action path="/reportViewer" type="com.progen.reportview.action.ReportViewerAction" parameter="reportBy" validate="false">
+            <forward name="showViewReport" path="/reportViewer.jsp"></forward>
+            <forward name="showEditReport" path="/reportEditor.jsp"></forward>
+             <forward name="Showkpidashboard" path="/newKpiDashboard.jsp"/>
+             <forward name="Showtimedashboard" path="/timebasedkpi.jsp"/>
+             <forward name="ShowtimeBaseddashboard" path="/timeBasedDashboard.jsp"/>
+            <forward name="invalidReportAccess" path="/invalidReportAccess.jsp"></forward>
+            <forward name="oneviewMeasures" path="/getOneViewMeasures.jsp"/>
+            <!-- added by uday on 19-mar-2010 -->
+            <forward name="showViewWhatIfScenario" path="/whatIfScenarioViewer.jsp"></forward>
+        </action>
+
+<!--        added by Dinanath dec 2015-->
+<action path="/reportViewerAction" type="com.progen.reportview.action.ProgenReportViewerAction" parameter="reportBy" validate="false">
+            <forward name="showViewReport" path="/reportViewer.jsp"></forward>
+            <forward name="showEditReport" path="/reportEditor.jsp"></forward>
+             <forward name="Showkpidashboard" path="/newKpiDashboard.jsp"/>
+             <forward name="Showtimedashboard" path="/timebasedkpi.jsp"/>
+             <forward name="ShowtimeBaseddashboard" path="/timeBasedDashboard.jsp"/>
+            <forward name="invalidReportAccess" path="/invalidReportAccess.jsp"></forward>
+            <forward name="oneviewMeasures" path="/getOneViewMeasures.jsp"/>
+            <forward name="showViewWhatIfScenario" path="/whatIfScenarioViewer.jsp"></forward>
+        </action>
+
+        <!-- For Report Table Actions -->
+        <action path="/reportTable" type="com.progen.report.action.ReportTableAction" parameter="reportBy" validate="false">
+            <forward name="success" path="/reportViewer.jsp"></forward>
+            <forward name="gotoPbDisplay" path="/TableDisplay/pbDisplay.jsp"></forward>
+        </action>
+
+        <!-- Excel Actions -->
+        <action path="/excel" type="com.progen.report.action.ExcelAction" parameter="reportBy" validate="false">
+            <forward name="success" path="/reportViewer.jsp"></forward>
+            <forward name="gotoPbDisplay" path="/TableDisplay/pbDisplay.jsp"></forward>
+        </action>
+
+        <!-- For Score Card Viewer Actions -->
+        <action path="/scoreCardViewer" type="com.progen.report.scorecard.action.ScorecardViewerAction" parameter="reportBy" validate="false">
+            <forward name="success" path="/PbNewDashBoardViewer.jsp"></forward>
+            <forward name="insightsPage" path="/kpiInsightViewer.jsp"/>
+        </action>
+
+        <!-- For Insights Actions -->
+        <action path="/insights" type="com.progen.report.insights.InsightsAction" parameter="reportBy" validate="false">
+            <forward name="success" path="/PbNewDashBoardViewer.jsp"></forward>
+        </action>
+
+        <!-- For Scheduler Actions -->
+        <action path="/scheduler" type="com.progen.scheduler.SchedulerAction" parameter="reportBy" validate="false">
+            <forward name="success" path="/reportViewer.jsp"></forward>
+            <forward name="ScorecardTracker" path="/scoreCardScheduler.jsp"></forward>
+        </action>
+
+        <action path="/mapAction" type="com.progen.report.map.MapAction" parameter="reportBy" validate="false">
+            <forward name="success" path="/PbNewDashBoardViewer.jsp"></forward>
+        </action>
+
+        <action path="/dataSnapshot" type="com.progen.datasnapshots.DataSnapshotAction" parameter="doAction" validate="false">
+           <forward name="viewSnapshot" path="/dataSnapshot.jsp"></forward>
+           <forward name="advancedHtmlSnapshot" path="/advancedHtmlSnapshot.jsp"></forward>
+        </action>
+        <!-- For Sentimental Analysis-->
+        <action path="/sentimentAction" type="com.progen.sentiment.analysis.SentimentAnalysisAction" parameter="doAction" validate="false">
+            <forward name="gotoAnalysis" path="/sentimentAnalysis.jsp"></forward>
+            <forward name="gotoClassify" path="/reclassification.jsp"></forward>
+            <forward name="gotoBuildGraph" path="/sentimentTableGraph.jsp"></forward>
+        </action>
+                <!--Report Designer-->
+
+        <action input="/" name="ReportTemplateActionForm"  parameter="templateParam" path="/reportTemplateAction" scope="request"  type="com.progen.reportdesigner.action.ReportTemplateAction" validate="false">
+            <forward name="success" path="/pbReportTemplate.jsp"/>
+            <forward name="dispREP" path="/pbTableParameters.jsp"/>
+            <forward name="dispCEP" path="/pbTableParameters.jsp"/>
+            <forward name="measures" path="/pbTableParameters.jsp"/>
+            <forward name="reportList" path="/metadata.jsp"/>
+            <forward name="dashList" path="/metadatadash.jsp"/>
+            <forward name="repList" path="/metadatarep.jsp"/>
+            <forward name="repList1" path="/metadatarep1.jsp"/>
+            <forward name="repList2" path="/metadatarep2.jsp"/>
+            <forward name="repPurgeList" path="/purgeReportTab.jsp"/>
+            <forward name="repStudioSortList" path="/metadatarep.jsp"/>
+            <forward name="allrepList" path="/metadataAllReports.jsp"/>
+            <forward name="allUserList" path="/userList.jsp"/>
+            <forward name="DashboardStudio" path="/home.jsp"/>
+            <forward name="ReportStudio" path="/home.jsp"/>
+            <forward name="compare" path="/compareReports.jsp"/>
+            <forward name="reportDesigner" path="/pbAdhocReport.jsp"/>
+            <forward name="reportDesigner1" path="/pbAdhocReport1.jsp"/>
+             <forward name="reportDesigner2" path="/pbAdhocReport1.jsp"/>
+            <forward name="reportDesignerAO" path="/pbReportAO.jsp"/>
+            <!-- added by uday on 19-mar-2010 -->
+            <forward name="allWhatIfList" path="/metadataAllWhatIfReports.jsp"/>
+            <forward name="goToWhatIfScenarioDesigner" path="/pbWhatIfScenarioTemplate.jsp"/>
+            <forward name="whatIfMeasures" path="/pbTableWhatIfParameters.jsp"/>
+            <forward name="selectManagementTemplateMeasures" path="/template/selectManagementTemplateMeasures.jsp"/>
+            <forward name="selectPages" path="/template/selectPages.jsp"/>
+            <forward name="addDims" path="/pbaddMoreDimensions.jsp"/>
+            <forward name="addDims1" path="/pbaddMoreDimensionsNew2.jsp"/>
+            <forward name="addDimsAO" path="/pbAddMoreDimensionsAO.jsp"/>
+            <forward name="addAODimsRep" path="/pbAddMoreAODimensionsRep.jsp"/>
+            <forward name="workBench" path="/workBench.jsp"/>
+            <forward name="filterview" path="/editCharts.jsp"/>
+            <forward name="insightworkBench" path="/InsightWorkBench.jsp"/>
+            <forward name="addflters" path="/pbaddMoreFilters.jsp"/>
+            <forward name="aoList" path="/metadataao.jsp" />
+             <forward name="managementList" path="/template/metadatamgmt.jsp" />
+            <forward name="aoDesigner" path="/pbAdhocAO.jsp" />
+            <forward name="measuresAO" path="/pbTableParameters.jsp"/>
+        </action>
+
+        <action input="/" name="DashboardTemplateActionForm"  parameter="templateParam2" path="/dashboardTemplateAction" scope="request" type="com.progen.reportdesigner.action.DashboardTemplateAction" validate="false">
+            <forward name="success" path="/pbDashBoardDesigner.jsp"/>
+            <forward name="kpis" path="/pbDashboardKpi.jsp"/>
+            <forward name="graphs" path="/pbShowGraphs.jsp"/>
+            <forward name="GraphImage" path="/pbDashBoardShowGraphs.jsp"/>
+            <forward name="temporarySaveGraph" path="/pbDashBoardShowGraphs.jsp"/>
+            <forward name="KpisGraphs" path="/pbDashboardKpiGraphMeasure.jsp"/>
+            <forward name="kpiGraphs" path="/pbDashboardKpiGraphType.jsp"/>
+            <forward name="complexKPI" path="/createComplexKPI.jsp"/>
+            <forward name="groupMeasures" path="/DashboardGroupMeasure.jsp"/>
+             <forward name="newkpidashboard" path="/newKpiDashboard.jsp"/>
+             <forward name="newtimedashboard" path="/timebasedkpi.jsp"/>
+             <forward name="timeBaseddashboard" path="/timeBasedDashboard.jsp"/>
+
+      </action>
+
+
+
+		 <!--added by K-->
+        <action input="/" name="DashboardTemplateActionForm"  parameter="templateParam2" path="/dashboardTemplateViewerAction" scope="request"
+        type="com.progen.reportdesigner.action.DashboardTemplateViewerAction" validate="false">
+            <!--<forward name="success" path="/pbDashBoardDesigner.jsp"/>-->
+            <forward name="Viewerkpis" path="/pbDashboardKpiViewer.jsp"/>
+             <forward name="Viewermorekpis" path="/pbDashboardMoreKpiViewer.jsp"/>
+             <forward name="kpis" path="/pbDashboardKpi.jsp"/>
+            <forward name="Viewer_graphs" path="/pbShowGraphsViewer.jsp"/>
+             <forward name="ViewerKpisGraphs" path="/pbDashboardrKpiGraphMeasureViewer.jsp"/>
+             <forward name="Viewer_scorecards" path="/pbShowScorecardViewer.jsp"/>
+             <forward name="groupKpis" path="/pbDashboardGroupKpi.jsp"/>
+             <forward name="TargetMappingkpis" path="/pbDashboardTargetMappingKpi.jsp"/>
+             <forward name="addallkpis" path="/pbDashboardReOrderKpi.jsp"/>
+             <forward name="oneviewSeq" path="/OneviewSequence.jsp"/>
+
+            <!--
+            <forward name="GraphImage" path="/pbDashBoardShowGraphs.jsp"/>
+            <forward name="temporarySaveGraph" path="/pbDashBoardShowGraphs.jsp"/>
+            <forward name="ViewerKpisGraphs" path="/pbDashboardKpiGraphMeasure.jsp"/>
+            <forward name="kpiGraphs" path="/pbDashboardKpiGraphType.jsp"/>
+-->
+        </action>
+
+
+
+
+        <action path="/dashboardViewer" type="com.progen.dashboardView.action.PbDashboardViewerAction" parameter="reportBy" validate="false">
+            <forward name="showViewDashboard" path="/pbDashboardViewer.jsp"></forward>
+            <forward name="displayDashboard" path="/PbNewDashBoardViewer.jsp"></forward>
+            <forward name="editDashboard" path="/pbDashBoardDesigner.jsp"></forward>
+            <forward name="insightsPage" path="/kpiInsightViewer.jsp"/>
+        </action>
+
+        <action input="/"  path="/baseAction"  type="com.progen.action.PbBaseAction" parameter="param">
+            <forward name="changepswrdpage" path="/passwordpages/passwordUpdate.jsp"/>
+            <forward name="frgtpswrdpage" path="/passwordpages/forgetPassword.jsp"/>
+            <forward name="register" path="/UserRegistration.jsp"/>
+        </action>
+
+        <!--sai code-->
+        <action input="/" name="DashboardTemplateActionForm1"  validate="false"  parameter="widgetParam" path="/progenWidgets" type="com.progen.wigdets.ProgenWidgetsAction">
+            <forward name="success" path="/pbFavLinks.jsp" />
+        </action>
+        <action path="/getFavouriteReports" type="com.progen.wigdets.GetFavouriteReports">
+            <forward name="success" path="/pbFavLinks.jsp" />
+        </action>
+        <action path="/getAllReports" type="com.progen.wigdets.GetAllReports">
+            <forward name="success" path="/pbAllLinks.jsp" />
+        </action>
+        <action path="/saveFavReport" type="com.progen.wigdets.SaveFavReport">
+            <forward name="success" path="/pbPrioritizeLinks.jsp" />
+        </action>
+        <action path="/getFolderTables" type="prg.grp.business.tables.GetFolderTables">
+            <forward name="success" path="/addFolderProperties.jsp" />
+        </action>
+        <action path="/UpdateTableColumns" type="prg.grp.business.tables.UpdateTableColumns">
+            <forward name="success" path="/addFolderProperties.jsp" />
+        </action>
+        <action path="/saveFolderTables" type="prg.grp.business.tables.SaveFolderTables">
+            <forward name="success" path="/addFolderProperties.jsp" />
+        </action>
+        <action path="/deleteUser" type="prg.grp.business.tables.DeleteUserFolderDets">
+            <forward name="success" path="/pbUserLayer.jsp" />
+        </action>
+
+        <action input="/pbUploadFile.jsp" name="FileUpload" path="/uploadFileAction" scope="session" type="StrutsUploadAction"/>
+
+
+        <action path="/userInsert" type="com.progen.users.UserInsert">
+            <forward name="success" path="/userList.jsp" />
+        </action>
+        <action input="/"  parameter="paramportal" path="/portalTemplateAction" scope="request" type="com.progen.portal.PortalTemplateAction">
+        </action>
+        <action parameter="parameter" path="/editconn" scope="request" type="com.progen.connection.ConnectionAction">
+        </action>
+        <action path="/saveStartPage" type="com.progen.users.SaveStartPage">
+            <forward name="success" path="/userList.jsp" />
+        </action>
+        <action  input="/"  parameter="portalBy" path="/portalViewer" scope="request" type="com.progen.portal.viewer.PortalViewerAction">
+            <forward name="showViewPortal" path="/pbPortalViewer.jsp"></forward>
+            <forward name="showViewPortalTab" path="/pbPortalTabViewer.jsp"></forward>
+        </action>
+
+         <!-- for targets susheela start-->
+        <action input="/" parameter="targetParams" path="/targetView" scope="request" type="com.progen.targetview.action.TargetViewerAction">
+            <forward name="showViewTarget" path="/QTarget/JSPs/pbDisplayTarget.jsp"></forward>
+            <forward name="showViewTargetForView" path="/QTarget/JSPs/pbViewTarget.jsp"></forward>
+        </action>
+        <action input="/" parameter="targetParams" path="/targetView" scope="request" type="com.progen.targetview.action.TargetViewerAction">
+            <forward name="showViewTarget" path="/QTarget/JSPs/pbDisplayTarget.jsp"></forward>
+            <forward name="showViewTargetForView" path="/QTarget/JSPs/pbViewTarget.jsp"></forward>
+        </action>
+
+        <!-- for targets susheela start-->
+        <action input="/" path="/targetmeasuresaction" parameter="targetMeasures" scope="request" type="prg.business.group.TargetMeasuresAction">
+            <forward name="targetmeasuresaction" path="/targetMeasureView.jsp"/>
+            <forward name="targetmeasuresparameters" path="/pbShowMeasureParameters.jsp"/>
+            <forward name="SaveQuickForm" path="/pbBase.jsp"/>
+
+        </action>
+            <!--end-->
+
+         <!-- end -->
+
+
+        <action path="/deletePersonalisedReports" type="com.progen.wigdets.DeletePersonalisedReports"/>
+        <action path="/savePrioritizeLinks" type="com.progen.wigdets.SavePrioritizeLinks"/>
+        <action  path="/SaveSnapShot" scope="request" type="com.progen.wigdets.SaveSnapShot"/>
+
+         <!--end-->
+
+        <action path="/getGraphDetails" type="prg.graphdetails.GetGraphDetails"/>
+
+		<!--end of Report Designer-->
+
+        <action input="/" parameter="relTables" path="/relatedTablesList" type="prg.business.group.PbGetRelatedTablesAction">
+            <forward name="relatedTablesList" path="/MyBusinessGroups.jsp"/>
+        </action>
+
+        <action  path="/saveParentGroup" scope="request" type="com.progen.querylayer.SaveParentGroup">
+            <forward name="success" path="/createParent.jsp" />
+        </action>
+        <action  path="/saveCustMemberRD" scope="request" type="com.progen.reportview.action.SaveCustMemberRD">
+            <forward name="success" path="/createCustMember.jsp" />
+        </action>
+        <action path="/Dbcontablepropertiesaction" type="com.progen.querylayer.Dbcontablepropertiesaction">
+            <forward name="showtabdetails" path="/Ajax Pages/Dbcontableproperties.jsp"/>
+        </action>
+        <action path="/BusinessGroups" parameter="parameter" type="prg.business.group.BusinessGroups"/>
+
+        <action path="/progentalkaction" type="com.progen.chating.progentalkaction" parameter="parameter"/>
+        <action  path="/dimensioncheck" parameter="dimensionParam"  type="com.progen.querylayer.DimensionActionCheck">
+        </action>
+        <action path="/UserRepAssign" type="com.progen.users.UserRepAssign"/>
+        <action  path="/calenderSetUpAction" parameter="timeCalenders" type="com.progen.timesetup.CalenSetUpAction"/>
+
+        <action path="/AddColumnParamFormula"  type="prg.business.group.AddColumnParamFormula"/>
+        <action path="/dimenkeyvalueaction" parameter="dimkeyparam"  type="com.progen.querylayer.Dimenkeyvalueaction"/>
+        <forward name="success" path="/columnParamFormula.jsp" />
+        <!-- This is for action form of struts and by susheela -->
+        <action path="/FileUploadAndSave" type="com.uploadfile.excel.StrutsUploadAndSaveAction" name="FileUploadAndSave" scope="request" validate="true" input="/FileUploadAndSave.jsp">
+            <forward name="success" path="/downloaduploadedfile.jsp"/>
+            <forward name="showTargetSheetStatus" path="/QTarget/JSPs/showTargetSheetStatus.jsp"></forward>
+        </action>
+
+        <!-- Here is the action class code for upadte and forgetpassword -->
+        <action parameter="pswrdparam" type="com.progen.passwordAction.passwordAction" path="/passwordAction">
+            <forward name="Invalid Username" path="/passwordpages/passwordUpdate.jsp"/>
+            <!--<forward name="UpdatedSuccessfully" path="/passwordpages/passwordUpdate.jsp"/>-->
+            <forward name="UpdatedSuccessfully" path="/baseAction.do?param=logoutApplication"/>
+            <forward name="InvalidEmailid" path="/passwordpages/forgetPassword.jsp"/>
+            <forward name="senttomail" path="/passwordpages/forgetPassword.jsp"/>
+        </action>
+
+        <!--<action  path="/saveUserTypePrivileges"  type="com.progen.userType.SaveUserTypePrivileges" parameter="previlegesType" >
+
+        </action>-->
+
+        <action path="/saveUserTypePrivileges" type="com.progen.userType.SaveUserTypePrivileges" parameter="previlegesType" >
+            <forward name="superPrivPage" path="/superAdminConsole.jsp"/>
+            <forward name="getChildList" path="/superAdminConsole.jsp"/>
+        </action>
+
+<!-- This Action class is for checking connection for excelsheet  -->
+        <action name="UploadExcelFormBean" parameter="exceltype" type="com.progen.querylayer.DatabaseforExcel" path="/excelaction"></action>
+        <!-- Upto here the action class for checking and saving the excelsheet connection and data -->
+        <!-- added by uday -->
+
+        <action parameter="scnTemplateParam" path="/ScenarioTemplateAction" scope="request" type="com.progen.scenariodesigner.action.ScenarioTemplateAction">
+            <forward name="success" path="/Scenario/JSPs/pbScenarioTemplate.jsp"/>
+            <forward name="scenariomeasures" path="/Scenario/JSPs/pbScenarioMeasure.jsp"/>
+            <forward name="scenarioViewermeasures" path="/Scenario/JSPs/pbScenarioViewerMeasures.jsp"/>
+            <forward name="scenarioTimeRange" path="/Scenario/JSPs/pbScenarioTimeRange.jsp"/>
+            <forward name="scenarioSeededModels" path="/Scenario/JSPs/pbSeededModels.jsp"/>
+            <forward name="analyzeScenario" path="/Scenario/JSPs/pbAnalyzeScenario.jsp"/>
+        </action>
+
+        <action parameter="scenarioParam" path="/ScenarioViewerAction" scope="request" type="com.progen.scenarioview.action.ScenarioViewerAction">
+            <forward name="displayscenario" path="/Scenario/JSPs/pbDisplayScenario.jsp"/>
+            <forward name="analyzeScenario" path="/Scenario/JSPs/pbAnalyzeScenario.jsp"/>
+            <forward name="compareScenario" path="/Scenario/JSPs/pbCompareScenario.jsp"/>
+        </action>
+
+        <action  path="/superAdminAction" parameter="superAdminParam" type="com.progen.superadmin.SuperAdminAction">
+            <forward name="success" path="/SuperAdmin/SuperAdminConsole.jsp"/>
+        </action>
+
+
+        <action   path="/stickyNoteAction"  parameter="stickyNoteParam"  type="com.progen.report.sticky.StickyNoteAction"/>
+        <action parameter="whatIfParam"  path="/whatIfScenerioAction" scope="request" type="com.progen.report.whatIf.WhatIfScenarioAction"/>
+        <action path="/sortTabdetails" parameter="param" type="com.progen.users.SortTabdetails"/>
+
+        <action path="/etlUpload" parameter="etlUploadParam" type="com.progen.etl.EtlUploadAction"/>
+        <action parameter="srchParam"  path="/srchQueryAction" scope="request" type="com.progen.search.SearchQuery">
+             <forward name="searchpage" path="/searchValues.jsp"/>
+             <forward name="oneViewBY" path="/oneview.jsp"/>
+             <forward name="icalPage" path="/MyAddCalendar.jsp"/>
+             <forward name="groupMeassure" path="/GroupMeassureHirarchy.jsp"/>
+             <forward name="pbBiManager" path="/pbBIManager.jsp"/>
+             <forward name="headlineHome" path="/headlinehome.jsp"/>
+              <forward name="editWall" path="/walledit.jsp"/>
+<!--              <forward name="editWall" path="/newpreloginwall.jsp"/>-->
+            </action>
+        <action path="/scorecardDesign" parameter="scorecardParam" type="com.progen.report.scorecard.action.ScorecardDesignAction">
+            <forward name="viewScorecard" path="/scorecardViewer.jsp"/>
+        </action>
+        <action input="/"  path="/studioAction" parameter="studioParam" scope="session" type="com.progen.studio.StudioAction">
+            <forward name="repList" path="/metadatarep.jsp"/>
+             <forward name="repList1" path="/metadatarep1.jsp"/>
+            <forward name="repList2" path="/metadatarep2.jsp"/>
+            <forward name="dashList" path="/metadatadash.jsp"/>
+            <forward name="scorecard" path="/createScorecard.jsp"/>
+            <forward name="allrepList" path="/metadataAllReports.jsp"/>
+             <forward name="snapshot" path="/metadatasnapshot.jsp"/>
+             <forward name="aoList" path="/metadataao.jsp" />
+             <forward name="managementList" path="/template/metadatamgmt.jsp" />
+
+        </action>
+        <action path="/pogenTwitterAction" parameter="twitterParam" type="com.progen.twitter.ProgenTwitterAction"/>
+        <action parameter="pixelParam"  path="/pixelPerfect" scope="session" type="com.progen.pixelperfect.PbPixelPerfectAction"/>
+<!--        <action path="/download" type="DownloadFileAction"/>
+        <action  name="FileUploadFormBean"  path="/fileUploadAction"  parameter="fileUploadParam" type="com.progen.fileupload.FileUploadAction"/>-->
+
+<!--        <action input="/" name="UploadExcelFormBean" path="/fileUploadAction" scope="session" type="com.progen.fileupload.FileUploadAction"/>-->
+        <!-- end by uday -->
+        <!-- Upto Here is the action class code for upadte and forgetpassword -->
+
+  <!-- add by sreekanth start-->
+        <action path="/bugDetailsAction" parameter="param" type="com.progen.bugDetails.BugDetailsAction"/>
+      <!-- add by sreekanth over-->
+        <!-- upto here action form of struts and by susheela -->
+
+        <action name="FileUploadFormBean"  path="/fileUploadAction"  parameter="fileUploadParam"  type="com.progen.fileupload.FileUploadAction">
+        <forward name="excelUpload" path="/ExcelFileRead.jsp"/>
+<!--        <forward name="excelUploadforSuccess" path="/fileUploadSucess.jsp"/>  -->
+        </action>
+       <action input="/"  path="/rulesHelpAction" parameter="rulesHelp" scope="session" type="com.progen.rulesHelp.RulesHelpAction">
+         </action>
+         <action path="/createtableAction" parameter="param"  name="strutsuplaodfileform"  scope="request"  type="com.progen.Createtable.CreatetableAction">
+           <forward name="excelUploadforSuccess" path="/fileUploadSucess.jsp"/>
+         </action>
+        <action input="/" parameter="templateParam" path="/GroupMeassureCreation" scope="request" type="com.progen.dashboard.GroupMeassureCreation">
+            </action>
+            <!--        added by srikanth.p    -->
+        <action path="/oneViewAction" type="com.progen.oneView.action.OneViewAction" parameter="templateParam2" scope="request" input="/">
+        </action>
+         <action path="/handsontableaction" type="com.progen.handsontable.action.HandsonTableAction" parameter="handsonParam" scope="request" input="/">
+        </action>
+		
+
+	</action-mappings>
+
+
+    <message-resources parameter="com/progen/resourcebundle/ProgenResourceBundle"/>
+    <message-resources key="Tooltips" parameter="com/progen/resourcebundle/ProgenTooltips"/>
+
+
+    <plug-in className="org.apache.struts.tiles.TilesPlugin" >
+        <set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />
+        <set-property property="moduleAware" value="true" />
+    </plug-in>
+
+    <!-- ========================= Validator plugin ================================= -->
+    <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+        <set-property  property="pathnames"  value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml"/>
+    </plug-in>
+</struts-config>

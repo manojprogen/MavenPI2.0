@@ -1,0 +1,109 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.0826802,80.2707184]},
+        "properties": {
+            "name": "CHENNAI"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [28.5355161,77.39102649999995]},
+        "properties": {
+            "name": "NOIDA"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [19.0759837,72.8776559]},
+        "properties": {
+            "name": "MUMBAI"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [28.6139391,77.2090212]},
+        "properties": {
+            "name": "DELHI"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [12.9715987,77.5945627]},
+        "properties": {
+            "name": "BANGALORE"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [8.5241391,76.93663760000004]},
+        "properties": {
+            "name": "TRIVANDRUM"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [17.385044,78.486671]},
+        "properties": {
+            "name": "HYDERABAD"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [23.022505,72.5713621]},
+        "properties": {
+            "name": "AHMEDABAD"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [28.4089123,77.31778940000004]},
+        "properties": {
+            "name": "Faridabad"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [28.459497,77.026638]},
+        "properties": {
+            "name": "Gurgaon"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [29.0587757,76.085601]},
+        "properties": {
+            "name": "HARYANA"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.572646,88.363895]},
+        "properties": {
+            "name": "KOLKATTA WB"
+        }
+     },{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [30.381945,75.546798]},
+        "properties": {
+            "name": "BARNALA"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [28.6139391,77.2090212]},
+        "properties": {
+            "name": "NEW DELHI"
+        }
+     }
+     
+     
+]     

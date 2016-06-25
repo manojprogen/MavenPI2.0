@@ -1,0 +1,320 @@
+/* 
+    Document   : reportPage
+    Created on : 30 Apr, 2016, 3:23:47 PM
+    Author     : Faiz Ansari
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#managementTempl{
+    display:none;
+    padding: 10px 0px;
+    background-color: rgb(236, 239, 241);
+}
+a{
+    text-decoration: none;
+}
+.rootContainer,
+.rootContainer2{
+    width: 98%;
+    margin: 0% 1%;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    height: 80px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+.outerBox{
+    margin-top: 10px;
+    height: 30px;
+    width: 99%;
+}
+.rootContainer2{
+    height: 30px;
+    width: 95%;
+    float: left;
+    margin: 0% 0% 0% 1%;
+}
+.leftSection,.rightSection{
+    width: calc(50% - 2px);
+    height: 80px;
+    border-right: 1px solid #ddd;
+    float: left;
+}
+.menuBar{
+    float: right;
+    height: 20px;
+    padding: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    border: 1px solid #ddd;
+}
+.menuBar>i{color: #666;cursor: pointer;}
+#optionMenu{
+    position: absolute;
+    background-color: #fff;
+    right: 2%;
+    z-index: 11;
+    margin-top: 7px;
+    width: 200px;
+    box-shadow: 0px 0px 5px 0px #666;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 160px;
+    display: none;
+}
+#optionMenu li{
+    list-style-type: none;
+    border-bottom: 1px solid #999;
+}
+#optionMenu li:hover{background-color: #8bc34a;}
+#optionMenu li a{
+    display: block;
+    color: #444;
+    font-size: 13px;
+    padding: 5px 0px 5px 10px;
+}
+.rightSection{
+    border: none;
+}
+.leftSection1{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.leftSection2{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.leftSection3{
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+.topSectionV{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #008cc9;
+    font-size: 20px;
+    font-weight: lighter;
+    overflow: hidden;
+    line-height: 20px;
+}
+.middleSectionV{
+       width: 100%;
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: lighter;
+    overflow: hidden;
+    color: #a1a1a1;
+    height: 18px;
+    visibility: hidden;
+}
+.bottomSectionV{
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    color: #a1a1a1;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    line-height: 12px;
+    margin-top: 8px;
+}
+
+
+.leftSection1 .topSectionV{
+    font-size: 25px;
+    height: 40px;
+}
+.rightSection1{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+.rightSection2,
+.rightSection3{
+    width: 90%;
+    height: 40px;
+    margin: 0px 5%;
+    justify-content: center;
+    display: flex;
+}
+.rightSection4{
+    padding: 0px 10px;
+    width: calc(50% - 22px);
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+}
+.rightSection1 .data,
+.rightSection2 .data,
+.rightSection3 .data,
+.rightSection4 .data{
+    float: left;
+    color: #008cc9;
+    font-size: 50px;
+    font-weight: lighter;
+    display: block;
+    height: 40px;
+    line-height: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 30%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    width:100%;
+}
+.rightSection1 .prior,
+.rightSection2 .prior,
+.rightSection3 .prior,
+.rightSection4 .prior{
+    display: none;
+    width: 100%;
+    justify-content: flex-end;
+    color: #666;
+    font-size: 12px;
+}
+.rightSection1 .numericContainer,
+.rightSection2 .numericContainer,
+.rightSection3 .numericContainer,
+.rightSection4 .numericContainer{
+    width: 40%;
+    height: 100%;
+}
+.rightSection1 .details,
+.rightSection2 .details,
+.rightSection3 .details,
+.rightSection4 .details{
+    float: left;
+    width: 65%;
+    padding: 0px 10px;
+    color: #a1a1a1;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 100%;
+    overflow: hidden;
+/*    display: flex;*/
+/*    align-items: center;*/
+    line-height: 15px;
+}
+
+.rightSection1 .data{
+    font-size: 25px;
+    line-height: 80px;
+    height: 80px;
+}
+.rightSection1 .details{
+    font-size: 16px;
+    padding: 25px 0px;
+}
+.rightSection2 .details{padding: 5px 0px;}
+.rightSection3 .details{padding: 5px 0px;}
+.rightSection2 .data,
+.rightSection3 .data,
+.rightSection4 .data{
+    font-size: 20px;
+    line-height: 40px;
+}
+.rightSection2 .details,
+.rightSection3 .details,
+.rightSection4 .details{
+    font-size: 13px;
+}
+.rightSection3:nth-child(3),
+.rightSection3:nth-child(5){
+    float: left;
+    width: calc(50% - 2px);
+    margin: 0px;
+    height: 40px;
+/*    margin-top: 5px;*/
+}
+.rightSection4 .data{
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+}
+.rightSection1 .data div:first-child,
+.rightSection2 .data div:first-child,
+.rightSection3 .data div:first-child,
+.rightSection4 .data div:first-child{
+    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.rightSection4 .details{
+    height: 30px;
+}
+
+.dividerH{
+    border-bottom: 1px solid #d5d5d5;
+    width: 94%;
+    height: 0px;
+    float: left;
+    margin-left: 3%;
+}
+.dividerV{
+    float: left;
+    width: 0px;
+    border-right: 1px solid #d5d5d5;
+    height: 30px;
+    margin: 5px 0px;
+}
+.rootContainer2 .section1,
+.rootContainer2 .section2,
+.rootContainer2 .section3,
+.rootContainer2 .section4{
+    width: calc(29.333% - 1px);
+    height: 100%;
+    float: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 2%;
+    color: #66696a;
+    transition: background-color .3s;
+    -webkit-transition: background-color .3s;
+    font-size: 18px;
+/*    border-right: 1px solid #d1d1d1;*/
+}
+.rootContainer2 .section1{width: 96%;}
+.rootContainer2 .section2{width: calc(46% - 2px)}
+.rootContainer2 .section3{width: calc(29.4% - 2px);}
+.rootContainer2 .section4{width: calc((84% / 4) - 1px);}
+.rootContainer2 .section4:nth-child(1),
+.rootContainer2 .section4:nth-child(2),
+.rootContainer2 .section4:nth-child(3){
+    border-left:1px solid #d5d5d5;
+}
+.rootContainer2>div:hover,
+.activeTemp{
+    color: #333;
+    box-shadow: 0px 0px 5px 3px #999;   
+}
+.rootContainer2 .section2:last-child,
+.rootContainer2 .section3:nth-child(2){
+    border-left: 1px solid #d5d5d5;
+}
+.rootContainer2 .section3:nth-child(2){
+    border-right: 1px solid #d5d5d5;
+}
+
+.enableComp{display:flex;}
+.compare .topSectionV{height:32px;}
+.compare .bottomSectionV{margin-top:0px}
+.compare .data{height:25px;line-height:25px;}

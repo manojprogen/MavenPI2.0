@@ -1,0 +1,285 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.73743,7.098206800000071]},
+        "properties": {
+            "name": "BONN"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.54128,9.915804]},
+        "properties": {
+            "name": "GOTTINGEN"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.659025,8.996182]},
+        "properties": {
+            "name": "ERBACH"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.481845,7.216236]},
+        "properties": {
+            "name": "BOCHUM"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.7561792,8.0425504]},
+        "properties": {
+            "name": "BECKUM"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.02601,11.51555]},
+        "properties": {
+            "name": "APOLDA"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.1351253,11.5819806]},
+        "properties": {
+            "name": "MUENCHEN"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.791304,9.953355]},
+        "properties": {
+            "name": "WUERZBURG"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.55581,9.680845]},
+        "properties": {
+            "name": "FULDA"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.937531,6.960278600000038]},
+        "properties": {
+            "name": "KOELN"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.744715,7.400702]},
+        "properties": {
+            "name": "APELDORN"
+        }
+     },
+	
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.7753455,6.0838868]},
+        "properties": {
+            "name": "AACH"
+        }
+     },
+	
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.5200066,13.404954]},
+        "properties": {
+            "name": "BERLIN"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.7998473,7.2074514]},
+        "properties": {
+            "name": "SIEGBURG"
+        }
+     },
+	
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.42958,7.068571]},
+        "properties": {
+            "name": "NORDHORN"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.5510846,9.99368179999999]},
+        "properties": {
+            "name": "HAMBURG"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.312197,9.601517]},
+        "properties": {
+            "name": "GEHRDEN"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.833148,9.193683]},
+        "properties": {
+            "name": "LOECHGAU"
+        }
+     },
+	 
+	  {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.827845,12.92137]},
+        "properties": {
+            "name": "CHEMNITZ"
+        }
+     },
+	
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.45203,11.07675]},
+        "properties": {
+            "name": "NUREMBURG"
+        }
+     },
+	
+	
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.249534,8.515435]},
+        "properties": {
+            "name": "WAGHAEUSEL"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.900377,10.560755]},
+        "properties": {
+            "name": "WALTERSHAUSEN"
+        }
+     },
+	
+	
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.591704,6.653072]},
+        "properties": {
+            "name": "MECHERNICH"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.7753455,6.0838868]},
+        "properties": {
+            "name": "AACHEN"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.54128,9.915804]},
+        "properties": {
+            "name": "GOETTINGEN"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.1109221,8.682126700000026]},
+        "properties": {
+            "name": "FRANKFURT AM MAIN"
+        }
+     },
+	  {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.5368948,7.2009147]},
+        "properties": {
+            "name": "HERNE"
+        }
+     },
+	  {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.7758459,9.182932100000016]},
+        "properties": {
+            "name": "STUTTGART"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.931368,9.470013]},
+        "properties": {
+            "name": "Heiligenstedtenrka"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.827845,12.92137]},
+        "properties": {
+            "name": "Chemnitz"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.45203,11.07675]},
+        "properties": {
+            "name": "Nuremberg"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.817349,12.390677]},
+        "properties": {
+            "name": "Crimmitschau"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.908192,47.908192]},
+        "properties": {
+            "name": "Bad Wurzach"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.948946,6.648791]},
+        "properties": {
+            "name": "Kenten"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.6738583,7.815981599999986]},
+        "properties": {
+            "name": "Hamm"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.223864,12.662084]},
+        "properties": {
+            "name": "Cham,"
+        }
+     }
+	 
+     
+]     

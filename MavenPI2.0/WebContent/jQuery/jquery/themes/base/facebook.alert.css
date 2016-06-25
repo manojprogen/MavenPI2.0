@@ -1,0 +1,52 @@
+#popup_container {
+    font-family:'Lucida Grande',arial;
+    font-weight:bold;
+
+    text-align:left;
+    font-size: 12px;
+    width: 364px;
+    height: 86px;
+    background: #F3F3F3;
+
+    border:solid 1px #dedede;
+    border-bottom: solid 2px #456FA5;
+    color: #000;
+
+}
+
+#popup_title {
+    display:none;
+}
+
+
+
+#popup_message {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#popup_panel {
+    text-align: left;
+    padding-left:15px;
+
+}
+input
+{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+    background:#79C9EC url(images/ui-bg_glass_75_79c9ec_1x400.png) repeat-x scroll 50% 50%;
+    border:1px solid #448DAE;
+    color:#000000;
+    cursor:pointer;
+    font-family:Verdana;
+    font-size:11px;
+    height:20px;
+    vertical-align:middle;
+    width:auto;
+}
+

@@ -1,0 +1,18 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [30.0444196,31.23571160000006]},
+        "properties": {
+            "name": "CAIRO"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [31.2000924,29.91873869999995]},
+        "properties": {
+            "name": "Alexandria"
+        }
+     }
+     
+]     

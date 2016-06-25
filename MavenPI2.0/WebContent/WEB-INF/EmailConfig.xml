@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+    <comment>pi Email properties</comment>
+	<entry key="smtpHostName">smtp.gmail.com</entry>
+	<entry key="smtpPortNo">587</entry>
+        <entry key="fromAddr">arun@progenbusiness.com</entry>
+        <entry key="debug">False</entry>
+        <entry key="authUser">noreply@progenbusiness.com</entry>
+        <entry key="authPwd">noreply</entry>
+</properties>

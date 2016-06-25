@@ -1,0 +1,291 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.7090259,139.73199249999993]},
+        "properties": {
+            "name": "TOKYO"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [33.5903547,130.40171550000002]},
+        "properties": {
+            "name": "Fukuoka-shi"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.861729,139.645482]},
+        "properties": {
+            "name": "Saitama-shi"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.530906,139.703051]},
+        "properties": {
+            "name": "Kawasaki-shi"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.4475073,139.6423446]},
+        "properties": {
+            "name": "Kanagawa-ken"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.443708,139.638026]},
+        "properties": {
+            "name": "Yokohama-shi"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.658068,139.751599]},
+        "properties": {
+            "name": "Minato-ku"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.6050574,140.12330629999997]},
+        "properties": {
+            "name": "Chiba-ken"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.439795,140.030983]},
+        "properties": {
+            "name": "Nigorikawa"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.661777,139.704051]},
+        "properties": {
+            "name": "Shibuya-ku"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.6050574,140.12330629999997]},
+        "properties": {
+            "name": "CHIBA-KEN"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.1814464,136.90639799999997]},
+        "properties": {
+            "name": "Nagoya-shi"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.1801883,136.9065647]},
+        "properties": {
+            "name": "Aichi-ken"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.641463,139.698171]},
+        "properties": {
+            "name": "Meguro"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.891084,139.790938]},
+        "properties": {
+            "name": "KOSHIGAYA-SHI"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.33914,139.490994]},
+        "properties": {
+            "name": "Fujisawa-shi"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.0116363,135.76802939999993]},
+        "properties": {
+            "name": "Kyoto-shi"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.6641575,138.5684486]},
+        "properties": {
+            "name": "Yamanashi-ken"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [36.6512986,138.18095570000003]},
+        "properties": {
+            "name": "Nagano-ken"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.7502986,140.46755140000005]},
+        "properties": {
+            "name": "Fukushima-ken"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.4722952,133.05049970000005]},
+        "properties": {
+            "name": "Shimane-ken"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.9025518,139.02309460000004]},
+        "properties": {
+            "name": "Niigata-ken"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [34.6912688,135.18307060000006]},
+        "properties": {
+            "name": "Hyogo-ken"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.661777,139.704051]},
+        "properties": {
+            "name": "Shibuya"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.459953,139.595979]},
+        "properties": {
+            "name": "Hodogaya-ku"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.459953,139.595979]},
+        "properties": {
+            "name": "Kyoto-fu"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.7090259,139.73199249999993]},
+        "properties": {
+            "name": "Tokyo-to"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [34.6937378,135.50216509999996]},
+        "properties": {
+            "name": "Osaka"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [34.573262,135.482998]},
+        "properties": {
+            "name": "Sakai"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [33.558804,133.531168]},
+        "properties": {
+            "name": "Kochi-shi"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [34.891718,136.937961]},
+        "properties": {
+            "name": "Handa-shi"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [26.2124013,127.6809317]},
+        "properties": {
+            "name": "Okinawa-ken"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [26.2124013,127.6809317]},
+        "properties": {
+            "name": "Ome city"
+        }
+     },
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [34.784306,135.400947]},
+        "properties": {
+            "name": "Itami-shi"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.2967,135.126563]},
+        "properties": {
+            "name": "Fukuchiyama-shi"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [36.009857,136.300672]},
+        "properties": {
+            "name": "Abakacho"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [34.676785,135.830923]},
+        "properties": {
+            "name": "Shibanoshinyacho"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [36.0651779,136.22152689999996]},
+        "properties": {
+            "name": "Fukui-ken"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [34.784306,135.400947]},
+        "properties": {
+            "name": "Itami"
+        }
+     }
+	
+	
+	
+     
+]     

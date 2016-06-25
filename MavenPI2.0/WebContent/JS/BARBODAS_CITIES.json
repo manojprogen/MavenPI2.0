@@ -1,0 +1,23 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.1132219,-59.598808899999995]},
+        "properties": {
+            "name": "ST-MICHALE"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.136278,-59.460577]},
+        "properties": {
+            "name": "ST-PHILIP"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.148292,-59.552715]},
+        "properties": {
+            "name": "ST-George"
+        }
+     }
+]     

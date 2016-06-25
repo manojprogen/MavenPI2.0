@@ -1,0 +1,235 @@
+/* 
+    Document   : reportPage
+    Created on : Jan 6, 2016, 7:14:34 PM
+    Author     : Susmitha
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+ .imgShadow{
+                border-radius: 2px;
+                background: white none repeat scroll 0% 0%;
+                box-shadow: 8px 3px 5px white;}
+ 
+ 
+ 
+    .container{
+                /*margin-left: 2%;*/
+                width: 100%;
+
+            }
+            .no-csstransforms .cn-button {
+                display: none;
+            }
+
+            .btn-custom2 { background-color: hsl(190, 80%, 43%) !important; background-repeat: repeat-x;
+                           filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#27c7e7", endColorstr="#15a8c5");
+                           background-image: -khtml-gradient(linear, left top, left bottom, from(#27c7e7), to(#15a8c5));
+                           background-image: -moz-linear-gradient(top, #27c7e7, #15a8c5);
+                           background-image: -ms-linear-gradient(top, #27c7e7, #15a8c5);
+                           background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #27c7e7), color-stop(100%, #15a8c5));
+                           background-image: -webkit-linear-gradient(top, #27c7e7, #15a8c5); background-image: -o-linear-gradient(top, #27c7e7, #15a8c5);
+                           background-image: linear-gradient(#27c7e7, #15a8c5); border-color: #15a8c5 #15a8c5 hsl(190, 80%, 40.5%);
+                           color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16); -webkit-font-smoothing: antialiased;
+            }
+            #rightDiv1{
+                /*width:1300px;*/
+                /*    height:50px;*/
+            }
+            #list-container {
+                overflow:hidden;
+                width: 90vw;
+                height:30px;
+                float:left;
+            }
+
+            #list-containertable {overflow:hidden;width:90%;height:30px;float:left;}
+            #list-containertr {overflow:hidden;width: 85vw;height:30px;float:left;}
+            #list-containerad {overflow:hidden;width: 90vw;height:30px;float:left;}
+            .list{
+                /*    background:grey;*/
+                border:0px;
+                min-width:15000px;
+                float:left;
+            }
+
+
+            #arrowR{
+                /*background:yellow;*/
+                width:20px;
+                height:10px;
+                float:right;
+                cursor:pointer;
+            }
+            #arrowRtr{width:20px;height:10px;float:right;cursor:pointer;}
+            #arrowRad{width:20px;height:10px;float:right;cursor:pointer;}
+            #arrowRtable{width:20px;height:10px;display:none;float:right;cursor:pointer;}
+            #resetgraph{width:40px;height:10px;float:right;cursor:pointer;}
+            #quickfilter{width:40px;height:10px;float:right;cursor:pointer;}
+            #gottabId11{
+                width:20px;
+                height:10px;
+                float:right;
+                cursor:pointer;
+            }
+            #morefilters{
+                width:20px;
+                height:10px;
+                z-index: 101;
+                float:right;
+                cursor:pointer;
+            }
+
+            #arrowL{
+                /*background:yellow;*/
+                width:20px;
+                height:10px;
+                float:left;
+                cursor:pointer;
+            }
+            #arrowLtr{width:20px; height:10px;  float:left;cursor:pointer;}
+            #arrowLad{width:20px; height:10px;  float:left;cursor:pointer;}
+            #arrowLtable{width:20px; height:10px; display:none; float:left;cursor:pointer;}
+
+
+            .item{
+                margin:5px;
+                float:left;
+                position:relative;
+            }
+            .itemad{ margin:5px; float:left; position:relative;}
+            .itemtr{ margin:5px; float:left; position:relative;}
+            .itemtable{ margin:5px; float:left; position:relative;}
+
+
+            
+            
+            
+              #search3,
+            #submit3 {
+                float: left;
+            }
+
+            #search3 {
+                padding-left: 7px;
+                height: 18px;
+                width: 330px;
+                border: 1px solid #a4c3ca;
+                font: normal 14px 'trebuchet MS', arial, helvetica;
+                background: #f1f1f1;
+                border-radius: 50px 3px 3px 50px;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+                margin-left: 5px;
+            }
+
+            /* ----------------------- */
+
+            #submit3
+            {
+                /*    background-color: #6cbb6b;*/
+                background-color: #33CCCC;
+                /*    background-image: linear-gradient(#95d788, #6cbb6b);*/
+                border-radius: 3px 50px 50px 3px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #7eba7c #578e57 #447d43;
+                box-shadow: 0 0 1px rgba(0, 0, 0, 0.3),
+                    0 1px 0 rgba(255, 255, 255, 0.3) inset;
+                height: 19px;
+                margin: 0 0 0 10px;
+                padding: 0;
+                width: 70px;
+                cursor: pointer;
+                font: bold 12px Arial, Helvetica;
+                /*    color: #23441e;*/
+                color: white;
+                text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+            }
+
+            #submit3:hover {
+                /*    background-color: #95d788;*/
+                background-color: #3399CC;
+                /*    background-image: linear-gradient(#6cbb6b, #95d788);*/
+            }
+
+            #submit3:active {
+                /*    background: #95d788;*/
+                background: #3399CC;
+                outline: none;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+            }
+
+            /*#submit::-moz-focus-inner {
+                   border: 0;   Small centering fix for Firefox
+            }
+            #search::-webkit-input-placeholder {
+               color: #9c9c9c;
+               font-style: italic;
+            }*/
+
+            #search3:-moz-placeholder {
+                color: #9c9c9c;
+                font-style: italic;
+            }
+
+            #search3:-ms-placeholder {
+                color: #9c9c9c;
+                font-style: italic;
+            }
+            #search3.placeholder {
+                color: #9c9c9c !important;
+                font-style: italic;
+            }
+
+            /*******************************
+            Author:-Faiz Ansari
+            Details:- These css codes are used to style the header/banner when report/graph/advance visuals are opned. 
+            *******************************/
+            /*** Code Start ***/
+            .select2-results__option,.select2-selection__rendered{font-family:Helvetica, Arial,  sans-serif;font-weight:500;font-size: 12px; color:#444;text-align:center}
+            .customRadio1,.customRadio2,.customRadio3{
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background-color: #ffffff;
+                border:2px solid #fff;
+
+            }
+            .customSelect {
+                float: left;width: 40%;background-color: #f2f2f2;color: #545759;height:16px;
+                font-size: 14px;margin-left: 4%;padding: 5px;border-radius: 2px;cursor:pointer;
+            }
+            .customSelect span{font-family:Helvetica, Arial,  sans-serif;font-weight:500;font-size: 14px;}
+            .customSelect i{float:right;padding-right:5px;font-size:18px;}
+            .customSelect ul{display:none;position: absolute;width: 98px;margin-top: 6px;background-color: #f2f2f2;box-shadow: 0px 1px 2px 0px #808080}
+            .customSelect ul li{padding:5px;font-family:Helvetica, Arial,  sans-serif;font-weight:500;font-size: 14px;}
+            .customSelect ul li:hover{background-color: #8BC34A}
+            .timeRadio{display: none}
+
+            select option{
+                font-family:Helvetica, Arial,  sans-serif;
+                font-weight:500;
+                font-size: 14px;
+            }
+            .pdd1{padding:2px 0px 2px 14px;}
+            .mrg-l{margin-left:10px;}
+            .hoverEft:hover {background-color:#8bc34a;border-radius:1px;cursor:pointer;padding:5px;}
+
+            #goBtn:hover {background-color:#8bc34a}
+            .ftddropmnu{margin:0px;padding:0px;display:none;background-color:#F8F8F8}
+            .ftddropmnu li{color:rgb(80, 80, 80);list-style-type:none;cursor:pointer;padding:5px 10px 5px 10px;
+                           text-decoration:none; font-family:Helvetica, Arial,  sans-serif;font-weight:500;font-size: 12px;}
+            .ftddropmnu li input{margin-right:10px}
+            .ftddropmnum{display:block;background-color:#FDFDFD;color:#000;font-family:Helvetica, Arial,  sans-serif;
+                         font-weight:500;font-size: 12px;padding:5px;border-top:1px solid #D0D0D0;border-bottom:1px solid #D0D0D0;cursor:pointer}
+            #reportMenu{position:absolute;background-color: #000;margin-top:5px;display:none}
+            #reportMenu li{display:block;list-style-type: none;padding:5px;cursor:pointer}
+            #reportMenu li a{color:#fff;text-decoration:  none;font-family:Helvetica, Arial,  sans-serif;font-weight:500;font-size: 14px;}
+            #reportMenu li:hover{background-color:#8bc34a}
+            #optionMenuDiv li{list-style-type: none;cursor:pointer;border-bottom: 1px solid #ccc;color:#555;padding:4px;}
+            #optionMenuDiv li:hover{background-color:#8bc34a}
+            #optionMenuDiv li:hover a{color:#fff}
+            #optionMenuDiv li a{display:block;padding:5px;text-decoration: none;color:#262626;font-size: 12px;}

@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function transposeTable(id) {
+                var table = document.getElementById(id);
+                var tbody = table.tBodies[0];
+                var rows = tbody.rows;
+                var numRows = rows.length;
+                var numCells = rows[0].cells.length;
+                var i, j, k;
+
+                for(var r=0; r<numRows; r++) {
+                    var currentRow = rows[r];
+
+                    for (var c=r+1; c<numCells; c++) {
+
+                        // skip diagonal cells
+                        if (c != r) {
+
+                            // Get the current (upper) cell to swap
+                            var currentCell = currentRow.cells[c];
+
+                            // Get the swap (lower) cell
+                            var swapRow = rows[c];
+                            var swapCell = swapRow && swapRow.cells[r]
+
+
+                            // If both exist, swap them
+                            if (currentCell && swapCell) {
+                                currentRow.insertBefore(swapCell, currentCell);
+                               swapRow.insertBefore(currentCell, swapRow.cells[r]);
+                            }
+
+                            // If current exists but not swap, keep adding cells
+                            // from current row. Add rows if required
+                            else if (currentCell) {
+                                k = c;
+
+                                do {
+
+                                    if (!swapRow) {
+                                        swapRow = currentRow.cloneNode(false);
+                                        tbody.appendChild(swapRow);
+                                    }
+
+                                    swapRow.appendChild(currentRow.cells[k]);
+                                    swapRow = rows[swapRow.rowIndex + 1];
+
+                                    // Increment counter to shortcut loop when finished
+                                } while (++c < numCells)
+                                }
+                            }
+                        }
+
+                        // If there are more rows than cells, add cells to
+                        // appropriate rows
+                        if (r > numCells - 1) {
+
+                            // Keep current row index
+                            j = r;
+
+                            while (currentRow) {
+                                i = 0;
+
+                                // Add cells from lower rows to upper rows
+                                do {
+                                    rows[i].appendChild(currentRow.cells[0]);
+                                } while (++i < numCells)
+
+                                // Remove empty rows along the way
+                                    tbody.removeChild(currentRow);
+                                currentRow = rows[j];
+
+                                // Increment counter to shortcut loop when finished
+                                r++;
+                            }
+                        }
+                    }
+                }
+
+                /*
+             function transposeTable(id) {
+                var table = document.getElementById(id);
+                var rows = table.rows;
+                var numRows = rows.length;
+                var numCells = rows[0].cells.length;
+                var i, j, k;
+                //alert("numRows is "+numRows+" and numCells is "+numCells)
+                for(var r=0; r<numRows; r++) {
+                    var currentRow = rows[r];
+                    for (var c=r+1; c<numCells; c++) {
+                        // skip diagonal cells
+                        //alert("c is "+c+" and r is "+r)
+                        if (c != r) {
+                            // Get the current (upper) cell to swap
+                            var currentCell = currentRow.cells[c];
+                            // Get the swap (lower) cell
+                            var swapRow = rows[c];
+                            var swapCell = swapRow && swapRow.cells[r];
+
+                            // If both exist, swap them
+                            //alert(currentCell && swapCell)
+                            if (currentCell && swapCell) {
+                                currentRow.insertBefore(swapCell, currentCell);
+                                swapRow.insertBefore(currentCell, swapRow.cells[r]);
+                            }
+                            // If current exists but not swap, keep adding cells
+                            // from current row. Add rows if required
+                            else if (currentCell) {
+                                k = c;
+                                do {
+                                    if (!swapRow) {
+                                        swapRow = currentRow.cloneNode(false);
+                                        table.appendChild(swapRow);
+                                    }
+                                    swapRow.appendChild(currentRow.cells[k]);
+                                    swapRow = rows[swapRow.rowIndex + 1];
+                                    // Increment counter to shortcut loop when finished
+                                } while (++c < numCells)
+                                }
+                            }
+                        }
+                        // If there are more rows than cells, add cells to
+                        // appropriate rows
+                        if (r > numCells - 1) {
+                            // Keep current row index
+                            j = r;
+                            while (currentRow) {
+                                i = 0;
+                                // Add cells from lower rows to upper rows
+                                do {
+                                    rows[i].appendChild(currentRow.cells[0]);
+                                } while (++i < numCells)
+                                // Remove empty rows along the way
+                                    table.removeChild(currentRow);
+                                currentRow = rows[j];
+                                // Increment counter to shortcut loop when finished
+                                r++;
+                            }
+                        }
+                    }
+                }
+                 */
+                function formatStr(EL,maxchars)
+                {
+                    var aObj=EL.getElementsByTagName("a");
+                    if(aObj!=null && aObj!=undefined){
+                        strbuff=aObj[0].innerHTML;
+                        //strbuff=EL.innerHTML;
+                        newstr='';
+                        startI = 0;
+                        max=maxchars;
+                        str='';
+                        subarr=new Array(parseInt(strbuff.length/max+1));
+                        for (i=0;i<subarr.length;i++)
+                        {
+                            subarr[i]=strbuff.substr(startI,max);
+                            startI+=max;
+                        }
+                        for (i=0;i<subarr.length-1;i++)
+                        {
+                            newstr+=subarr[i]+'<br/>';
+                        }
+                        str+=subarr[subarr.length-1];
+                        if(subarr.length==1){
+                            aObj[0].innerHTML=aObj[0].innerHTML;
+                        }else{
+                            aObj[0].innerHTML=newstr;
+                        }
+                    }else{
+                        strbuff=EL.innerHTML;
+                        newstr='';
+                        startI = 0;
+                        max=maxchars;
+                        str='';
+                        subarr=new Array(parseInt(strbuff.length/max+1));
+                        for (i=0;i<subarr.length;i++)
+                        {
+                            subarr[i]=strbuff.substr(startI,max);
+                            startI+=max;
+                        }
+                        for (i=0;i<subarr.length-1;i++)
+                        {
+                            newstr+=subarr[i]+'<br/>';
+                        }
+                        str+=subarr[subarr.length-1];
+                        if(subarr.length==1){
+                            EL.innerHTML=EL.innerHTML;
+                        }else{
+                            EL.innerHTML=newstr;
+                        }
+                    }
+                }
+        </script>
+    </head>
+    <body>
+        <Table ID="displayTable" class="prgtable"   width="100%"  CELLPADDING="0" CELLSPACING="1"><Tr><Th ID="column0"  style="cursor:pointer;height:auto;font-size:11px;background-color:#b4d9ee;display:null" ><table width="100%" border="0"><tr valign="top"><td valign="top" width="45%" style="background-color:#b4d9ee" onClick="parent.doOpenMenu(document.getElementById('HMENU_0'))"><table width="100%" border="0"><tr valign="top"><td valign="top" id="tdRef0" align="left" width="70%" style="background-color:#b4d9ee;font-size:11px;font-weight:bold;" >Age Group</td><td  valign="top" align="right" width="30%" style="background-color:#b4d9ee"><img  src='/piEE/TableDisplay/Images/bg.gif'></td></tr></table></td></tr></table><Div style="position:absolute;display:none;width:auto;height:auto;background-color:#ffffff;overflow:auto" id="HMENU_0"><Table border='1' CELLPADDING='0' CELLSPACING='0' CLASS='' > <Tr  onMouseOut="parent.mouseOut1(this)" onMouseOver="parent.mouseOn(this)"><Td  STYLE="cursor:pointer" onClick="parent.doCallOperation(document.getElementById('HMENU_0'),'A_31159',0,'C','2441')" >Sort Ascend</Td></Tr><Tr><Td STYLE="cursor:pointer"  onClick="parent.doCallOperation(document.getElementById('HMENU_0'),'A_31159',1,'C','2441')">Sort Descend</Td></Tr></Table></Div></Th><Th ID="column1"  style="cursor:pointer;height:auto;font-size:11px;background-color:#b4d9ee;display:''" ><table width="100%" border="0"><tr valign="top"><td valign="top" width="45%" style="background-color:#b4d9ee" onClick="parent.doOpenMenu(document.getElementById('HMENU_1'))"><table width="100%" border="0"><tr valign="top"><td valign="top" id="tdRef1" align="left" width="70%" style="background-color:#b4d9ee;font-size:11px;font-weight:bold;" >Avg New Business Income</td><td  valign="top" align="right" width="30%" style="background-color:#b4d9ee"><img  src='/piEE/TableDisplay/Images/bg.gif'></td></tr></table></td></tr></table><Div style="position:absolute;display:none;width:auto;height:auto;background-color:#ffffff;overflow:auto" id="HMENU_1"><Table border='1' CELLPADDING='0' CELLSPACING='0' CLASS='' > <Tr  onMouseOut="parent.mouseOut1(this)" onMouseOver="parent.mouseOn(this)"><Td  STYLE="cursor:pointer" onClick="parent.doCallOperation(document.getElementById('HMENU_1'),'A_31144',0,'N','2441')" >Sort Ascend</Td></Tr><Tr><Td STYLE="cursor:pointer"  onClick="parent.doCallOperation(document.getElementById('HMENU_1'),'A_31144',1,'N','2441')">Sort Descend</Td></Tr><Tr><Td  STYLE="cursor:pointer" onClick="parent.applycolor('A_31144','Avg New Business Income')">Color Group</Td></Tr><Tr><Td><span id="A_31144~Avg New Business Income" class="NFCtxMenuHdr">Number Format</span></Td></Tr><Tr><Td  STYLE="cursor:pointer" onClick="parent.addPercentColumn(document.getElementById('HMENU_1'),'A_31144','Avg New Business Income','2441','/piEE')">% wise</Td></Tr></Table></Div></Th><Th ID="column2"  style="cursor:pointer;height:auto;font-size:11px;background-color:#b4d9ee;display:''" ><table width="100%" border="0"><tr valign="top"><td valign="top" width="45%" style="background-color:#b4d9ee" onClick="parent.doOpenMenu(document.getElementById('HMENU_2'))"><table width="100%" border="0"><tr valign="top"><td valign="top" id="tdRef2" align="left" width="70%" style="background-color:#b4d9ee;font-size:11px;font-weight:bold;" >Number of Policies</td><td  valign="top" align="right" width="30%" style="background-color:#b4d9ee"><img  src='/piEE/TableDisplay/Images/bg.gif'></td></tr></table></td></tr></table><Div style="position:absolute;display:none;width:auto;height:auto;background-color:#ffffff;overflow:auto" id="HMENU_2"><Table border='1' CELLPADDING='0' CELLSPACING='0' CLASS='' > <Tr  onMouseOut="parent.mouseOut1(this)" onMouseOver="parent.mouseOn(this)"><Td  STYLE="cursor:pointer" onClick="parent.doCallOperation(document.getElementById('HMENU_2'),'A_31146',0,'N','2441')" >Sort Ascend</Td></Tr><Tr><Td STYLE="cursor:pointer"  onClick="parent.doCallOperation(document.getElementById('HMENU_2'),'A_31146',1,'N','2441')">Sort Descend</Td></Tr><Tr><Td  STYLE="cursor:pointer" onClick="parent.applycolor('A_31146','Number of Policies')">Color Group</Td></Tr><Tr><Td><span id="A_31146~Number of Policies" class="NFCtxMenuHdr">Number Format</span></Td></Tr><Tr><Td  STYLE="cursor:pointer" onClick="parent.addPercentColumn(document.getElementById('HMENU_2'),'A_31146','Number of Policies','2441','/piEE')">% wise</Td></Tr></Table></Div></Th><Script>formatStr(document.getElementById('tdRef'+w),15);</Script></Tr><Tr><Td ID="column0" style="display:null" ><Input type='text' name='search0' class="inputbox" style="width:100%" value="" readonly onClick="parent.doOpenMenu(document.getElementById('SRCHMENU_0'))"></Td><Td ID="column1" style="display:''" ><Input type='text' name='search1' class="inputbox" style="width:100%" value="" readonly onClick="parent.doOpenMenu(document.getElementById('SRCHMENU_1'))"></Td><Td ID="column2" style="display:''" ><Input type='text' name='search2' class="inputbox" style="width:100%" value="" readonly onClick="parent.doOpenMenu(document.getElementById('SRCHMENU_2'))"></Td></Tr><Tr><Td ID="column0" style="display:null" ><Div style="position:absolute;display:none;width:auto;height:auto;background-color:#ffffff;overflow:auto" name="SRCHMENU_" id="SRCHMENU_0" ><Table border="1" class="tableBody" CELLPADDING="0" CELLSPACING="0" STYLE="padding:0"><Tr ><Td > > </Td><Td ><input type="text" valign="top" style="font-size:8pt;" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'>','A_31159',event,'2441','')"></Td> </Tr><Tr  ><Td > < </Td><Td ><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'<','A_31159',event,'2441','')" ></Td></Tr><Tr  ><Td > = </Td><Td><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'=','A_31159',event,'2441','')" ></Td></Tr><Tr  ><Td > * </Td><Td ><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'*','A_31159',event,'2441','')"></Td></Tr><Tr  ><Td > <> </Td><Td ><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText1" id="1srch0" size="5" onkeyup="parent.doSrchOperation(this,'BT','A_31159',event,'2441',document.getElementById('2srch0')) "> -<input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText2" id="2srch0" size="5" onkeyup="parent.doSrchOperation(this,'BT','A_31159',event,'2441',document.getElementById('1srch0')) "> </Td></Tr> </Table></Div></Td><Td ID="column1" style="display:''" ><Div style="position:absolute;display:none;width:auto;height:auto;background-color:#ffffff;overflow:auto" name="SRCHMENU_" id="SRCHMENU_1" ><Table border="1" class="tableBody" CELLPADDING="0" CELLSPACING="0" STYLE="padding:0"><Tr ><Td > > </Td><Td ><input type="text" valign="top" style="font-size:8pt;" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'>','A_31144',event,'2441','')"></Td> </Tr><Tr  ><Td > < </Td><Td ><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'<','A_31144',event,'2441','')" ></Td></Tr><Tr  ><Td > = </Td><Td><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'=','A_31144',event,'2441','')" ></Td></Tr><Tr  ><Td > * </Td><Td ><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'*','A_31144',event,'2441','')"></Td></Tr><Tr  ><Td > <> </Td><Td ><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText1" id="1srch1" size="5" onkeyup="parent.doSrchOperation(this,'BT','A_31144',event,'2441',document.getElementById('2srch1')) "> -<input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText2" id="2srch1" size="5" onkeyup="parent.doSrchOperation(this,'BT','A_31144',event,'2441',document.getElementById('1srch1')) "> </Td></Tr> </Table></Div></Td><Td ID="column2" style="display:''" ><Div style="position:absolute;display:none;width:auto;height:auto;background-color:#ffffff;overflow:auto" name="SRCHMENU_" id="SRCHMENU_2" ><Table border="1" class="tableBody" CELLPADDING="0" CELLSPACING="0" STYLE="padding:0"><Tr ><Td > > </Td><Td ><input type="text" valign="top" style="font-size:8pt;" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'>','A_31146',event,'2441','')"></Td> </Tr><Tr  ><Td > < </Td><Td ><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'<','A_31146',event,'2441','')" ></Td></Tr><Tr  ><Td > = </Td><Td><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'=','A_31146',event,'2441','')" ></Td></Tr><Tr  ><Td > * </Td><Td ><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText" size="8" onkeyup="parent.doSrchOperation(this,'*','A_31146',event,'2441','')"></Td></Tr><Tr  ><Td > <> </Td><Td ><input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText1" id="1srch2" size="5" onkeyup="parent.doSrchOperation(this,'BT','A_31146',event,'2441',document.getElementById('2srch2')) "> -<input type="text" valign="top" style="font-size:8pt" class="inputbox" name="srchText2" id="2srch2" size="5" onkeyup="parent.doSrchOperation(this,'BT','A_31146',event,'2441',document.getElementById('1srch2')) "> </Td></Tr> </Table></Div></Td></Tr><Tr onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)"><Td ID="column0" style="display:null"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('%2FpiEE%2FreportViewer.do%3FreportBy%3DviewReport%26REPORTID%3D2441%26CBOVIEW_BY1826%3D31159%26CBOARP31150%3D55%2520-%252059%2520years')"  target='_parent' style='text-decoration:none'>55 - 59 years</A></Td><Td style="display:'';background-color:" ID="column1" align="RIGHT" >54,009.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td><Td style="display:'';background-color:" ID="column2" align="RIGHT" >382.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td></Tr><Tr onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)"><Td ID="column0" style="display:null"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('%2FpiEE%2FreportViewer.do%3FreportBy%3DviewReport%26REPORTID%3D2441%26CBOVIEW_BY1826%3D31159%26CBOARP31150%3DOver%252060%2520years')"  target='_parent' style='text-decoration:none'>Over 60 years</A></Td><Td style="display:'';background-color:" ID="column1" align="RIGHT" >46,906.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td><Td style="display:'';background-color:" ID="column2" align="RIGHT" >31.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td></Tr><Tr onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)"><Td ID="column0" style="display:null"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('%2FpiEE%2FreportViewer.do%3FreportBy%3DviewReport%26REPORTID%3D2441%26CBOVIEW_BY1826%3D31159%26CBOARP31150%3D45%2520-%252054%2520years')"  target='_parent' style='text-decoration:none'>45 - 54 years</A></Td><Td style="display:'';background-color:" ID="column1" align="RIGHT" >31,081.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td><Td style="display:'';background-color:" ID="column2" align="RIGHT" >2,090.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td></Tr><Tr onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)"><Td ID="column0" style="display:null"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('%2FpiEE%2FreportViewer.do%3FreportBy%3DviewReport%26REPORTID%3D2441%26CBOVIEW_BY1826%3D31159%26CBOARP31150%3D35%2520-%252044%2520years')"  target='_parent' style='text-decoration:none'>35 - 44 years</A></Td><Td style="display:'';background-color:" ID="column1" align="RIGHT" >28,561.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td><Td style="display:'';background-color:" ID="column2" align="RIGHT" >3,854.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td></Tr><Tr onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)"><Td ID="column0" style="display:null"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('%2FpiEE%2FreportViewer.do%3FreportBy%3DviewReport%26REPORTID%3D2441%26CBOVIEW_BY1826%3D31159%26CBOARP31150%3DBelow%252018%2520years')"  target='_parent' style='text-decoration:none'>Below 18 years</A></Td><Td style="display:'';background-color:" ID="column1" align="RIGHT" >23,626.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td><Td style="display:'';background-color:" ID="column2" align="RIGHT" >614.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td></Tr><Tr onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)"><Td ID="column0" style="display:null"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('%2FpiEE%2FreportViewer.do%3FreportBy%3DviewReport%26REPORTID%3D2441%26CBOVIEW_BY1826%3D31159%26CBOARP31150%3D25%2520-%252034%2520years')"  target='_parent' style='text-decoration:none'>25 - 34 years</A></Td><Td style="display:'';background-color:" ID="column1" align="RIGHT" >21,838.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td><Td style="display:'';background-color:" ID="column2" align="RIGHT" >7,284.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td></Tr><Tr onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)"><Td ID="column0" style="display:null"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('%2FpiEE%2FreportViewer.do%3FreportBy%3DviewReport%26REPORTID%3D2441%26CBOVIEW_BY1826%3D31159%26CBOARP31150%3D18%2520-%252024%2520years')"  target='_parent' style='text-decoration:none'>18 - 24 years</A></Td><Td style="display:'';background-color:" ID="column1" align="RIGHT" >19,933.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td><Td style="display:'';background-color:" ID="column2" align="RIGHT" >3,298.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Td></Tr><Tr  ID="nettotrow" STYLE="display:none"><Th  style="background-color:#b4d9ee;color:#369;font-family:verdana;display:null" ID="column0" >&nbsp;Sub Total</Th><Td style="display:'';background-color:" ID="column1"  align="RIGHT"><B class="tabFooter">225,957.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td><Td style="display:'';background-color:" ID="column2"  align="RIGHT"><B class="tabFooter">17,553.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td></Tr><Tr  ID="grdtotrow" STYLE="display:none"><Th style="background-color:#b4d9ee;color:#369;font-family:verdana; display:null" ID="column0" >&nbsp;Grand Total</Th><Td style="display:'';background-color:" ID="column1"  align="RIGHT"><B class="tabFooter">225,957.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td><Td style="display:'';background-color:" ID="column2"  align="RIGHT"><B class="tabFooter">17,553.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td></Tr><Tr  ID="avgrow" STYLE="display:none"> <Th style="background-color:#b4d9ee;color:#369;font-family:verdana; display:null" ID="column0" >&nbsp;Average</Th> <Td style="display:'';background-color:" ID="column1"  align="RIGHT"><B class="tabFooter">32,279.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td> <Td style="display:'';background-color:" ID="column2"  align="RIGHT"><B class="tabFooter">2,507.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td> </Tr><Tr  ID="overallminrow" STYLE="display:none"> <Th style="background-color:#b4d9ee;color:#369;font-family:verdana; display:null" ID="column0" >&nbsp;Min</Th><Td style="display:'';background-color:" ID="column1"   align="RIGHT"><B class="tabFooter">19,933.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td><Td style="display:'';background-color:" ID="column2"   align="RIGHT"><B class="tabFooter">31.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td> </Tr><Tr  ID="overallmaxrow" STYLE="display:none"><Th style="background-color:#b4d9ee;color:#369;font-family:verdana; display:null" ID="column0" >&nbsp;Max</Th><Td style="display:'';background-color:" ID="column1"  align="RIGHT"><B class="tabFooter">54,009.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td><Td style="display:'';background-color:" ID="column2"  align="RIGHT"><B class="tabFooter">7,284.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td> </Tr> <Tr  ID="catminrow" STYLE="display:none"> <Th style="background-color:#b4d9ee;color:#369;font-family:verdana; display:null" ID="column0" >&nbsp;Category Min</Th><Td style="display:'';background-color:" ID="column1"  align="RIGHT"><B class="tabFooter">19,933.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td><Td style="display:'';background-color:" ID="column2"  align="RIGHT"><B class="tabFooter">31.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td> </Tr> <Tr  ID="catmaxrow" STYLE="display:none"> <Th style="background-color:#b4d9ee;color:#369;font-family:verdana; display:null" ID="column0" >&nbsp;Category Max</Th> <Td style="display:'';background-color:" ID="column1"  align="RIGHT"><B class="tabFooter">54,009.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td> <Td style="display:'';background-color:" ID="column2"  align="RIGHT"><B class="tabFooter">7,284.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td> </Tr></Tbody></Table>
+
+                                <script>
+        transposeTable("displayTable");
+</script>
+</body>
+</html>

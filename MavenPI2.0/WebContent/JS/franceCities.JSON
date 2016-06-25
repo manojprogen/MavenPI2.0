@@ -1,0 +1,240 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [44.795454,-1.147783000000004]},
+        "properties": {
+            "name": "Lege Cap Ferret"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.856614,2.3522219]},
+        "properties": {
+            "name": "Paris"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.816147,1.473408]},
+        "properties": {
+            "name": "Brie"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.911856,2.3337639999999737]},
+        "properties": {
+            "name": "St Ouen"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.924857,2.123343]},
+        "properties": {
+            "name": "Mesnil Le Roi"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.801408,2.1301220000000285]},
+        "properties": {
+            "name": "Versailles"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.764043,4.835658999999964]},
+        "properties": {
+            "name": "Lyon"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.194109,6.223001]},
+        "properties": {
+            "name": "Ambilly"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.21503999999999,6.612732000000051]},
+        "properties": {
+            "name": "Ramatuelle"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.863812,2.448451]},
+        "properties": {
+            "name": "Montreuil"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.115447,6.037474]},
+        "properties": {
+            "name": "Viry"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.296482,5.36978]},
+        "properties": {
+            "name": "Marseille"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.816363,2.3173839999999473]},
+        "properties": {
+            "name": "Montrouge"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.564601,5.917781]},
+        "properties": {
+            "name": "Chambery"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.936181,2.3574429999999893]},
+        "properties": {
+            "name": "St Denis"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.711926,4.80066]},
+        "properties": {
+            "name": "Oullins"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.931513,1.920753999999988]},
+        "properties": {
+            "name": "Fleury les Aubrais"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.404676,2.7016]},
+        "properties": {
+            "name": "Fontainebleau"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.924857,2.123343]},
+        "properties": {
+            "name": "Le Mesnil-le-Roi"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [44.0221252,1.3529598999999735]},
+        "properties": {
+            "name": "Montauban"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.995291,2.558571]},
+        "properties": {
+            "name": "Villemoutiers"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.615576,3.219421]},
+        "properties": {
+            "name": "Chauny Cedex"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.657892,7.122337]},
+        "properties": {
+            "name": "Villeneuve Loubet"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.184685,6.208959]},
+        "properties": {
+            "name": "Gaillard"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.7101728,7.2619532]},
+        "properties": {
+            "name": "Nice"
+        }
+     },
+     
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.806421,2.0657]},
+        "properties": {
+            "name": "St Cyr l Ecole"
+        }
+     },
+     
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.821772,1.756772]},
+        "properties": {
+            "name": "Garancieres"
+        }
+     },
+     
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.892152,2.794171]},
+        "properties": {
+            "name": "Coupvray"
+        }
+     },
+     
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.931513,1.920753999999988]},
+        "properties": {
+            "name": "Fleury les Aubrais"
+        }
+     }
+     
+     
+     
+]     

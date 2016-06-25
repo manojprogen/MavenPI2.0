@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : MetadataConn.xml
+    Created on : 7 August, 2010, 2:14 PM
+    Author     : arun
+    Description:
+        Metadata Database Connection Properties
+
+        Sample Entry for Oracle
+
+        <entry key="dbType">oracle</entry>
+        <entry key="driverType">thin</entry>
+        <entry key="networkProtocol">tcp</entry>
+        <entry key="serverPort">1521</entry>
+        <entry key="serverName">192.168.0.111</entry>
+        <entry key="databaseName">XE</entry>
+        <entry key="userName">metaminda</entry>
+        <entry key="password">metaminda</entry>
+        <entry key="schemaName">metaminda</entry>
+        <entry key="maxConnections">5</entry>
+
+
+        Sample Entry fo SQL Server
+
+        <entry key="dbType">SqlServer</entry>
+        <entry key="serverPort">1433</entry>
+        <entry key="serverName">183.82.22.0</entry>
+        <entry key="databaseName">metadata1</entry>
+        <entry key="userName">sa</entry>
+        <entry key="password">welcome</entry>
+        <entry key="maxConnections">5</entry>
+
+
+        Sample Entry for MySQL
+
+        <entry key="dbType">mysql</entry>
+        <entry key="serverPort">3306</entry>
+        <entry key="serverName">183.82.22.0</entry>
+        <entry key="databaseName">metaipca1</entry>
+        <entry key="userName">root</entry>
+        <entry key="password">progen1976</entry>
+        <entry key="maxConnections">5</entry>
+
+-->
+
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+    <comment>pi Metadata Connection Properties</comment>
+
+<!--        <entry key="dbType">oracle</entry>
+        <entry key="driverType">thin</entry>
+        <entry key="networkProtocol">tcp</entry>
+        <entry key="serverPort">1521</entry>
+        <entry key="serverName">192.168.0.254</entry>
+        <entry key="databaseName">orcl</entry>
+        <entry key="userName">metanivea</entry>
+        <entry key="password">metanivea</entry>
+        <entry key="schemaName">metanivea</entry>
+        <entry key="maxConnections">50</entry>  -->
+
+<!--
+-->            
+<!--    <entry key="dbType">oracle</entry>
+            <entry key="driverType">thin</entry>
+            <entry key="networkProtocol">tcp</entry>
+            <entry key="serverPort">1522</entry>
+            <entry key="serverName">183.82.3.61</entry>-->
+<!--            <entry key="databaseName">orcl</entry>
+            <entry key="userName">meta_veraction2k16</entry>
+            <entry key="password">meta_veraction2k16</entry>
+            <entry key="schemaName">meta_veraction2k16</entry>
+            <entry key="maxConnections">50</entry>-->
+            <!--
+ -->
+<!--        <entry key="dbType">oracle</entry>
+        <entry key="driverType">thin</entry>
+        <entry key="networkProtocol">tcp</entry>
+        <entry key="serverPort">1521</entry>
+        <entry key="serverName">192.168.1.114</entry>
+        <entry key="databaseName">xe</entry>
+        <entry key="userName">metaipca</entry>
+        <entry key="password">metaipca</entry>
+        <entry key="schemaName">metaipca</entry>
+        <entry key="maxConnections">50</entry> -->
+
+<!--        <entry key="dbType">mysql</entry>
+        <entry key="serverPort">3306</entry>
+        <entry key="serverName">192.168.0.251</entry>
+        <entry key="databaseName">meta_cs</entry>
+        <entry key="userName">root</entry>
+        <entry key="password">root</entry>
+        <entry key="maxConnections">100</entry>-->
+
+<!--
+        <entry key="dbType">oracle</entry>
+        <entry key="driverType">thin</entry>
+        <entry key="networkProtocol">tcp</entry>
+        <entry key="serverPort">1525</entry>
+        <entry key="serverName">183.82.3.61</entry>
+        <entry key="databaseName">ORCL</entry>
+        <entry key="userName">metaipca</entry>
+        <entry key="password">metaipca</entry>
+        <entry key="schemaName">metaipca</entry>
+        <entry key="maxConnections">50</entry> >-->
+
+<!--             <entry key="dbType">oracle</entry>
+            <entry key="driverType">thin</entry>
+            <entry key="networkProtocol">tcp</entry>
+            <entry key="serverPort">1522</entry>
+            <entry key="serverName">192.168.0.251</entry>
+            <entry key="databaseName">orcl</entry>
+            <entry key="userName">meta_veraction2k15</entry>
+            <entry key="password">meta_veraction2k15</entry>
+            <entry key="schemaName">meta_veraction2k15</entry>
+            <entry key="maxConnections">50</entry> -->
+
+<!--        <entry key="dbType">oracle</entry>
+        <entry key="driverType">thin</entry>
+        <entry key="networkProtocol">tcp</entry>
+        <entry key="serverPort">1521</entry>
+        <entry key="serverName">db-tst-16.mem-tw.veraction.net</entry>
+        <entry key="databaseName">BITEST</entry>
+        <entry key="userName">meta_veraction2k15</entry>
+        <entry key="password">meta_veraction2k15</entry>
+        <entry key="schemaName">meta_veraction2k15</entry>
+        <entry key="maxConnections">50</entry>-->
+
+<!--        <entry key="dbType">SqlServer</entry>
+       <entry key="serverPort">1433</entry>
+       <entry key="serverName">183.82.3.61</entry>
+       <entry key="databaseName">Meta_Leela</entry>
+       <entry key="userName">sa</entry>
+       <entry key="password">ProGen2008</entry>
+       <entry key="maxConnections">50</entry>
+-->
+   <entry key="dbType">SqlServer</entry>
+        <entry key="serverPort">1433</entry>
+        <entry key="serverName">183.82.3.61</entry>
+        <entry key="databaseName">metainsurance</entry>
+        <entry key="userName">sa</entry>
+        <entry key="password">ProGen2008</entry>
+        <entry key="maxConnections">50</entry>
+
+<!--    <entry key="dbType">SqlServer</entry>
+        <entry key="serverPort">1434</entry>
+        <entry key="serverName">183.82.3.61</entry>
+        <entry key="databaseName">meta_demo1</entry>
+        <entry key="userName">sa</entry>
+        <entry key="password">ProGen2008</entry>
+        <entry key="maxConnections">50</entry>-->
+        <!--
+        -->
+<!--        <entry key="dbType">mysql</entry>
+        <entry key="serverPort">3306</entry>
+        <entry key="serverName">10.0.1.85</entry>
+        <entry key="databaseName">meta_cs</entry>
+        <entry key="userName">root</entry>
+        <entry key="password">CampBell2015</entry>
+        <entry key="maxConnections">100</entry>-->
+
+<!--        <entry key="dbType">mysql</entry>
+        <entry key="serverPort">3306</entry>
+        <entry key="serverName">192.168.0.251</entry>
+        <entry key="databaseName">meta_cs</entry>
+        <entry key="userName">root</entry>
+        <entry key="password">root</entry>
+        <entry key="maxConnections">100</entry>-->
+
+<!--
+        <entry key="dbType">mysql</entry>
+        <entry key="serverPort">3306</entry>
+        <entry key="serverName">152.63.1.195</entry>
+        <entry key="databaseName">metaspend</entry>
+        <entry key="userName">root</entry>
+        <entry key="password">Pr0gen</entry>
+        <entry key="maxConnections">100</entry>-->
+
+<!--      <entry key="dbType">mysql</entry>
+        <entry key="serverPort">3306</entry>
+        <entry key="serverName">192.168.0.251</entry>
+        <entry key="databaseName">meta_CS</entry>
+        <entry key="userName">root</entry>
+        <entry key="password">root</entry>
+        <entry key="maxConnections">100</entry>-->
+
+<!--
+-->
+<!--    <entry key="dbType">mysql</entry>
+        <entry key="serverPort">3306</entry>
+        <entry key="serverName">192.168.0.251</entry>
+        <entry key="databaseName">meta_bbraun</entry>
+        <entry key="userName">root</entry>
+        <entry key="password">root</entry>
+        <entry key="maxConnections">100</entry>-->
+
+<!--        <entry key="dbType">oracle</entry>
+        <entry key="driverType">thin</entry>
+        <entry key="networkProtocol">tcp</entry>
+        <entry key="serverPort">1522</entry>
+        <entry key="serverName">localhost</entry>
+        <entry key="databaseName">xe</entry>
+        <entry key="userName">metalink1</entry>
+        <entry key="password">metalink1</entry>
+        <entry key="schemaName">metalink1</entry>
+        <entry key="maxConnections">50</entry>-->
+
+<!--<entry key="dbType">mysql</entry>
+        <entry key="serverPort">3306</entry>
+        <entry key="serverName">10.0.1.85</entry>
+        <entry key="databaseName">meta_cs</entry>
+        <entry key="userName">root</entry>
+        <entry key="password">CampBell2015</entry>
+        <entry key="maxConnections">100</entry>-->
+
+<!--         <entry key="dbType">oracle</entry>
+        <entry key="driverType">thin</entry>
+        <entry key="networkProtocol">tcp</entry>
+        <entry key="serverPort">1521</entry>
+        <entry key="serverName">83.111.210.93</entry>
+        <entry key="databaseName">orcl</entry>
+        <entry key="userName">metastc</entry>
+        <entry key="password">metastc</entry>
+        <entry key="schemaName">metastc</entry>
+        <entry key="maxConnections">50</entry>-->
+
+<!--        <entry key="dbType">oracle</entry>
+        <entry key="driverType">thin</entry>
+        <entry key="networkProtocol">tcp</entry>
+        <entry key="serverPort">1521</entry>
+        <entry key="serverName">192.168.0.254</entry>
+        <entry key="databaseName">ORCL</entry>
+        <entry key="userName">metaipca</entry>
+        <entry key="password">metaipca</entry>
+        <entry key="schemaName">metaipca</entry>
+        <entry key="maxConnections">50</entry>-->
+
+<!--        <entry key="dbType">SqlServer</entry>
+        <entry key="serverPort">1433</entry>
+        <entry key="serverName">172.16.38.150</entry>
+        <entry key="databaseName">metammt</entry>
+        <entry key="userName">sa</entry>
+        <entry key="password">admin@123</entry>
+        <entry key="maxConnections">50</entry>-->
+
+<!--        <entry key="dbType">SqlServer</entry>
+        <entry key="serverPort">1433</entry>
+        <entry key="serverName">122.169.241.230</entry>
+        <entry key="databaseName">metaflight</entry>
+        <entry key="userName">sa</entry>
+        <entry key="password">progen123</entry>
+        <entry key="maxConnections">50</entry>-->
+
+<!--        <entry key="dbType">SqlServer</entry>
+        <entry key="serverPort">1433</entry>
+        <entry key="serverName">192.168.0.130</entry>
+        <entry key="databaseName">metaLogistics</entry>
+        <entry key="userName">sa</entry>
+        <entry key="password">welcome</entry>
+        <entry key="maxConnections">50</entry>-->
+<!--
+        <entry key="dbType">mysql</entry>
+        <entry key="serverPort">3306</entry>
+        <entry key="serverName">localhost</entry>
+        <entry key="databaseName">metapgmas</entry>
+        <entry key="userName">root</entry>
+        <entry key="password">mysql</entry>
+        <entry key="maxConnections">100</entry>-->
+
+</properties>
+

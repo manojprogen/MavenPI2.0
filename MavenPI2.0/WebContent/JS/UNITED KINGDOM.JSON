@@ -1,0 +1,471 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.656991,-3.805476]},
+        "properties": {
+            "name": "Neath"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.5073509,-0.1277583]},
+        "properties": {
+            "name": "London"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.954469,-0.128701]},
+        "properties": {
+            "name": "Burgess Hill"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.864237,-4.251805999999988]},
+        "properties": {
+            "name": "Glasgow"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.646481,-1.202317]},
+        "properties": {
+            "name": "Glenfield"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.954641,0.848927]},
+        "properties": {
+            "name": "Wells-next-the-Sea"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.444148,-0.410772]},
+        "properties": {
+            "name": "Feltham"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.454513,-2.5879099999999653]},
+        "properties": {
+            "name": "Bristol"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.696636,-0.17594800000006217]},
+        "properties": {
+            "name": "Potters Bar"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [56.462018,-2.970721000000026]},
+        "properties": {
+            "name": "Dundee"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.411811,-1.77761]},
+        "properties": {
+            "name": "Solihull"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.195043,0.27568]},
+        "properties": {
+            "name": "Tonbridge"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.4062365,-0.6755624]},
+        "properties": {
+            "name": "Ascot"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.9225301,-1.4746185999999852]},
+        "properties": {
+            "name": "Derby"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.48158100000001,-3.1790899999999738]},
+        "properties": {
+            "name": "Cardiff"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.872164,0.15365]},
+        "properties": {
+            "name": "Bishops Stortfo"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.71505,-1.987248]},
+        "properties": {
+            "name": "Poole"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.173516,-0.172109]},
+        "properties": {
+            "name": "Horley"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.958674,-2.774864]},
+        "properties": {
+            "name": "Haddington"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.815606,-0.8084]},
+        "properties": {
+            "name": "Aylesbury"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [56.300621,-3.700041]},
+        "properties": {
+            "name": "Auchterarder"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.428825,-0.547876]},
+        "properties": {
+            "name": "Egham"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.4083714,-2.9915726000000404]},
+        "properties": {
+            "name": "Liverpool"
+        }
+     },
+     
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [54.978252,-1.6177800000000389]},
+        "properties": {
+            "name": "Newcastle upon Tyne"
+        }
+     },
+     
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.72702,-1.8575399999999718]},
+        "properties": {
+            "name": "Halifax"
+        }
+     },
+     
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.586246,-0.220009]},
+        "properties": {
+            "name": "Hendon"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.7520209,-1.2577263000000585]},
+        "properties": {
+            "name": "Oxford"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.625985,-2.248256]},
+        "properties": {
+            "name": "West Lulworth"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.723048,-1.707525]},
+        "properties": {
+            "name": "Cleckheaton"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.724913,-4.768399]},
+        "properties": {
+            "name": "Jeffreyston"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.616419,-0.319686]},
+        "properties": {
+            "name": "Stanmore"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.711116,-4.723153]},
+        "properties": {
+            "name": "Dalry"
+        }
+     },
+	
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [54.68528,-5.9645]},
+        "properties": {
+            "name": "Newtownabbey"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [54.549699,-3.589233]},
+        "properties": {
+            "name": "Whitehaven"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.536413,-2.619493]},
+        "properties": {
+            "name": "Ince"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.95478319999999,-1.1581085999999914]},
+        "properties": {
+            "name": "Nottingham"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.580559,-0.341995]},
+        "properties": {
+            "name": "Harrow"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.439933,0.154327]},
+        "properties": {
+            "name": "Bexley"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.419194,-0.41915]},
+        "properties": {
+            "name": "Sunbury on Thames"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.27241,0.190898]},
+        "properties": {
+            "name": "Sevenoaks"
+        }
+     },
+	
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.615786,-0.262034]},
+        "properties": {
+            "name": "Edgware"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.628611,-0.748229]},
+        "properties": {
+            "name": "High Wycombe"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.23622,-0.570409]},
+        "properties": {
+            "name": "Guildford"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [54.634447,-5.846256]},
+        "properties": {
+            "name": "Holywood"
+        }
+     },
+	
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.059771,-1.3101420000000417]},
+        "properties": {
+            "name": "Winchester"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.706726,0.252139]},
+        "properties": {
+            "name": "Ongar"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.522414,-0.7219]},
+        "properties": {
+            "name": "Maidenhead"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.081397,1.169456]},
+        "properties": {
+            "name": "Folkestone"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.377084,-2.363919]},
+        "properties": {
+            "name": "Bowdon"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.946217,-0.018547]},
+        "properties": {
+            "name": "Buntingford"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.647615,-0.35842]},
+        "properties": {
+            "name": "Bushey"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.303663,-2.847222]},
+        "properties": {
+            "name": "Winscombe"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.876378,-4.473076]},
+        "properties": {
+            "name": "Georgetown"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.30265,0.623968]},
+        "properties": {
+            "name": "Lackford"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.718412,-3.5338990000000194]},
+        "properties": {
+            "name": "Exeter"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.316774,-0.560035]},
+        "properties": {
+            "name": "Woking"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.895927,0.891874]},
+        "properties": {
+            "name": "Colchester"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.420073,-1.7270619999999326]},
+        "properties": {
+            "name": "Marlborough"
+        }
+     }
+   
+     
+]     

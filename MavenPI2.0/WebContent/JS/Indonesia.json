@@ -1,0 +1,32 @@
+[
+
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-6.2087634,106.845599]},
+        "properties": {
+            "name": "Jakarta"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-8.65,115.216667]},
+        "properties": {
+            "name": "Denpasar"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-6.597147,106.806039]},
+        "properties": {
+            "name": "Bogor"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-8.536715,115.331441]},
+        "properties": {
+            "name": "Gianyar"
+        }
+     }
+     
+]     

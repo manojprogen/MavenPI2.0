@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<!--
+    Document   : GenerateAssignModule.xml
+    Created on : 10 July, 2012, 4:14 PM
+    Author     : progen
+    Description:
+        Purpose of the document follows.
+-->
+
+<properties>
+    <comment>Assign Module count</comment>
+<!--	<entry key="Admin">1</entry>-->
+        <entry key="SuperAdmin">1</entry>
+	<entry key="Query Studio">5</entry>
+        <entry key="Power Analyzer">5</entry>
+        <entry key="Portals">5</entry>
+        <entry key="One View">5</entry>
+        <entry key="Scorecards">5</entry>
+</properties>

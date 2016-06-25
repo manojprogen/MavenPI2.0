@@ -1,0 +1,9 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [19.2869323,-81.36743890000002]},
+        "properties": {
+            "name": "George Town"
+        }
+     }
+]     

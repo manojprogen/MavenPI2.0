@@ -1,0 +1,300 @@
+/* 
+    Document   : TableCss
+    Created on : 1 Oct, 2010, 10:49:22 AM
+    Author     : progen
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.dimensionCell
+{
+    background-color: rgb(230, 230, 230);
+    color:#336699;
+    font-family: verdana;
+    text-align: left;
+}
+
+/*--Progentable.css---------*/
+table.prgtable {
+    font-family:arial;
+    background-color: silver;
+    margin:10px 0pt 15px;
+    font-size: 8pt;
+    width: 100%;
+    height:40px;
+    text-align: left;
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+}
+table.prgtable1 {
+
+    font-size: 8pt;
+    width: 90%;
+    text-align: left;
+}
+/*table.prgtable thead tr th, table.prgtable tfoot tr th {
+    background-color: black;
+    border: 1px solid #FFF;
+    font-size: 10pt;
+    padding: 4px;
+    vertical-align: top;
+}*/
+table.prgtable thead tr .header {
+
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+table.prgtable tbody td {
+/*    color: #3D3D3D;*/
+    padding: 4px;
+    /*background-color: #FFF;*/
+    vertical-align: top;
+}
+table.prgtable tbody tr.odd td {
+    background-color:#F0F0F6;
+}
+table.prgtable thead tr .headerSortUp {
+
+}
+table.prgtable thead tr .headerSortDown {
+
+}
+table.prgtable thead tr .headerSortDown, table.prgtable thead tr .headerSortUp {
+    background-color: #8dbdd8;
+}
+.inputbox{
+    font-size: 10px;
+    background-color:#fff;
+
+    border-right:#000000 1px outset;
+    border-right:#000000 1px inset;
+    border-top: white 1px inset;
+    border-left: white 1px inset;
+    border-bottom: #000000 1px inset;
+    font-family: verdana, arial;
+    -moz-border-radius-bottomleft:2px;
+    -moz-border-radius-bottomright:2px;
+    -moz-border-radius-topleft:2px;
+    -moz-border-radius-topright:2px;
+}
+/*---ProgentableCss.css End*/
+
+/*--pbDisplayCSS.css-----*/
+body {
+    scrollbar-face-color: #DEE3E7;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-3dlight-color: #D1D7DC;
+    scrollbar-darkshadow-color: #98AAB1;
+    scrollbar-shadow-color: #DEE3E7;
+    scrollbar-arrow-color: #006699;
+    scrollbar-track-color: #EFEFEF;
+}
+/*
+.tableHover{
+    background-color:red;
+}
+tbody td {
+background-color:#e6e6e6;
+}
+.background{
+background-color:#e6e6e6;
+}*/
+.tabFooter{
+    color:#000000;
+    font-size:11px;
+    font-weight:bold;
+    background-color: #e6e6e6;
+/*    text-align: right;*/
+}
+.flagDiv{
+    width:auto;
+    height:50px;
+    background-color:#ffffff;
+    overflow:auto;
+    position:absolute;
+    text-align:left;
+    border:1px solid #000000;
+    border-top-width: 0px;
+    z-index:1002;
+}
+.subTotalRow{
+    background-color:#e6e6e6;
+    color:#369;
+    font-family:verdana;
+}
+.tableSideMenu{
+    text-decoration:none;
+    font-family:verdana;
+    font-size:11px
+}
+.tableSearchDiv{
+    position:absolute;
+    display:none;
+    width:auto;
+    height:auto;
+    background-color:#ffffff;
+    overflow:auto
+}
+.tableHeaderStyle{
+    cursor:pointer;
+    height:auto;
+    font-size:11px;
+    background-color:#DCDCDC;
+
+}
+
+.measureNumericCell
+{
+    color:#000000;
+    text-align: right;
+}
+
+.measureNumericIndicator
+{
+    color:#000000;
+    text-align: center;
+}
+.measureNonNumericCell
+{
+    color:#000000;
+    text-align: right;
+}
+.subTotalCell
+{
+    background-color: #B4D9EE;
+    color:#336699;
+    font-family: verdana;
+    text-align: left;
+    font-weight: bold;
+}
+
+.headerText{
+/*   text-align:center;*/
+   width:auto;
+   background-color:#DCDCDC;
+   font-size:11px;
+   font-weight:bold;
+   color: #000000;
+}
+
+
+.measureNumericCellPositive
+{
+    color:#000000;
+    text-align: right;
+    background-image:url("../../images/positive.GIF") ;
+    background-repeat: no-repeat;
+    background-position:center right;
+
+}
+.measureNumericCellNegative
+{
+    color:#000000;
+    text-align: right;
+    background-image:url("../../images/negative.gif");
+    background-repeat: no-repeat;
+    background-position:center right
+}
+
+/*---pbDisplayCss.css End-----*/
+
+
+
+/*----DropDown.css*/
+
+* 									{ margin: 0; padding: 0; }
+body								{ font-family: Verdana; }
+#page-wrap							{ width: 800px; margin: 25px auto; }
+a									{ text-decoration: none; }
+ul									{ list-style: none; }
+p                                   { margin: 15px 0; }
+
+/*
+	LEVEL ONE
+*/
+ul.dropDownMenu                         { position: relative }
+ul.dropDownMenu li                      { font-weight: bold; float: left; zoom: 1; background: transparent;z-index: 1002 }
+ul.dropDownMenu a:hover		        { color: #000; text-decoration: none }
+ul.dropDownMenu a:active                { color: #b4d9ee; }
+ul.dropDownMenu li a                    { display: block; padding: 4px 8px; border-right: 1px solid #b4d9ee;color: #000 }
+ul.dropDownMenu li:last-child a         { border-right: none; } /* Doesn't work in IE */
+/*ul.dropDownMenu li.hover,*/
+ul.dropDownMenu li:hover                { background: #fff; color: black; position: relative; }
+ul.dropDownMenu li.hover a              { color: #000; }
+
+
+/*
+	LEVEL TWO
+*/
+ul.dropDownMenu ul 						{ width: 100px; visibility: hidden; position: absolute; top: 100%; left: 0; }
+ul.dropDownMenu ul li 					{ font-weight: normal; background: #dcdcdc;  color: #000;border:1px solid grey; float: none;}
+
+/* IE 6 & 7 Needs Inline Block */
+ul.dropDownMenu ul li a					{ border-right: none; width: 100%; display: inline-block; }
+
+/*
+	LEVEL THREE
+*/
+ul.dropDownMenu ul ul 					{ left: 100%; top: 0; }
+ul.dropDownMenu li:hover > ul 			{ visibility:visible; }
+
+/*End of DropDown.css*/
+
+/*---ToolTip.css--------*/
+.glt-elm{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    color: #fff;
+    opacity: 0.9;
+    visibility: hidden;
+    float:left;
+    z-index:1003
+}
+
+.glt-elm p{
+    background:#738678;
+    margin: 0;
+    padding: 0.5em;
+    line-height:15px;
+    color:#fff;
+    font-family:verdana;
+    float:left;
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+}
+
+.glt-elm img{
+    float:left;
+    display: block;
+}
+
+.glt-elm{
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+*{font:11px verdana}
+/*---End of ToolTip.css------*/
+
+.tabBgcolor{
+  background-color: #DCDCDC;
+}
+.tabMenuCol
+{
+    color:gray;
+    background-color:gray;
+}

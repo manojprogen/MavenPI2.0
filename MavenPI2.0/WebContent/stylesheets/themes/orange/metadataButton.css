@@ -1,0 +1,66 @@
+.navtitle-hover{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+/*    background:#79C9EC url(../jQuery/images/ui-bg_glass_75_79c9ec_1x400.png) repeat-x scroll 50% 50%;*/
+  background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+/*    border:1px solid #448DAE;*/
+     border:1px solid #C77405;
+    color:#000;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: auto;
+    WIDTH: auto;
+    cursor:pointer;
+}
+.titlehover{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+/*    background:#79C9EC url(../jQuery/images/ui-bg_glass_75_79c9ec_1x400.png) repeat-x scroll 50% 50%;*/
+  background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+/*    border:1px solid #448DAE;*/
+ border:1px solid #C77405;
+    color:#000;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 20px;
+    WIDTH: 100%;
+    cursor:pointer;
+}
+.navtitle1 {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+/*    background:#2191C0 url(../jQuery/images/ui-bg_gloss-wave_75_2191c0_500x100.png) repeat-x scroll 50% 50%;*/
+background: #f6a828 url(images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x ;
+    border:1px solid #C77405;
+    color:#EAF5F7;
+    font-weight:bold;
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 18px;
+    WIDTH: 100%;
+}
+.portletHeader{
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+/*     background:#79C9EC url(../jQuery/images/ui-bg_glass_75_79c9ec_1x400.png) repeat-x scroll 50% 50%;*/
+  background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+/*    border:1px solid #448DAE;*/
+     border:1px solid #C77405;
+    color:#000;
+    font-weight:bold;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+}

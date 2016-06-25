@@ -1,0 +1,17 @@
+[
+
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [11.538121,104.735687]},
+        "properties": {
+            "name": "Kandal"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [12.565679,104.99096299999997]},
+        "properties": {
+            "name": "Cambodia"
+        }
+     }
+]     

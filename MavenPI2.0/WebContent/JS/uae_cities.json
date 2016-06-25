@@ -1,0 +1,54 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [24.466667,54.36666700000001]},
+        "properties": {
+            "name": "Abu Dhabi"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [25.113393,-55.17622]},
+        "properties": {
+            "name": "Al Sufouh"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [25.2048493,55.2707828]},
+        "properties": {
+            "name": "Dubai "
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [25.095293,55.195544]},
+        "properties": {
+            "name": "Al Barsha "
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [24.718813,54.6863]},
+        "properties": {
+            "name": "Taweela"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [25.3223269,55.51364330000001]},
+        "properties": {
+            "name": "Sharja"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [24.1301619,55.8023118]},
+        "properties": {
+            "name": "Al Ain "
+        }
+     }
+     
+     
+]     

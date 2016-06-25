@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://192.168.0.111:8086/PiFx/FxFiles/" href="JavaFXApplication3_browser.jnlp">
+    <information>
+        <title>JavaFXApplication3</title>
+        <vendor>Saurabh</vendor>
+        <homepage href="http://192.168.0.111:8086/PiFx/FxFiles/"/>
+        <description>JavaFXApplication3</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://192.168.0.111:8086/PiFx/FxFiles/javafx-rt.jnlp"/>
+        <jar href="JavaFXApplication3.jar"  main="true"/>
+        <jar href="lib/jdom.jar" />
+    </resources>
+    <applet-desc name="JavaFXApplication3" main-class="com.sun.javafx.runtime.adapter.Applet" width="500" height="500">
+        <param name="MainJavaFXScript" value="misc.MyChart">
+        </applet-desc>
+        <update check="background">
+        </jnlp>

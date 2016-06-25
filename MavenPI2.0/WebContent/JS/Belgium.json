@@ -1,0 +1,45 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.8798438,4.700517600000012]},
+        "properties": {
+            "name": "LEUVEN"
+        }
+     },
+	
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.185272,3.56389]},
+        "properties": {
+            "name": "EEKLO"
+        }
+     },
+	
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.8503396,4.3517103]},
+        "properties": {
+            "name": "BRUSSELS"
+        }
+     },
+	
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.0543422,3.717424299999948]},
+        "properties": {
+            "name": "GHENT"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.054438,3.71733]},
+        "properties": {
+            "name": "GENT"
+        }
+     },
+	
+     
+]     

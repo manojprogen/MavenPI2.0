@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+"  codebase="http://192.168.0.108/piEE/FxFiles/" href="JavaFXApplication3_browser.jnlp">
+    <information>
+        <title>piEE</title>
+        <vendor>ProGen</vendor>
+        <homepage href="http://192.168.0.108/piEE/FxFiles/"/>
+        <description>ProGen</description>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <!--<extension name="JavaFX Runtime" href="http://192.168.0.107/piEE/FxFiles/javafx-rt.jnlp"/>-->
+        <jar href="JavaFXApplication3.jar" main="true"/>
+        <jar href="lib/jdom.jar"/>
+    </resources>
+    <applet-desc name="JavaFXApplication3" main-class="com.sun.javafx.runtime.adapter.Applet" width="500" height="500">
+        <param name="MainJavaFXScript" value="misc.MyChart"/>
+    </applet-desc>
+    <update check="background"/>
+</jnlp> 

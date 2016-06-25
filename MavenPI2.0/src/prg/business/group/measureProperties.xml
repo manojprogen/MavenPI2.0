@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : measureProperties.xml
+    Created on : 20 November, 2010, 2:23 PM
+    Author     : progen
+    Description:
+        Purpose of the document follows.
+-->
+
+<measureProPerties>
+    <measureCategories>
+        <category>STD</category>
+        <category>NON_STD</category>
+    </measureCategories>
+    <measureTypes>
+        <measureType>
+            <type>CURRENCY</type>
+            <Units>
+                <unit>VARIABLE</unit>
+                <unit>INR</unit>
+                <unit>EUR</unit>
+                <unit>USD</unit>
+                <unit>CAD</unit>
+                <unit>GBP</unit>
+                <unit>AUD</unit>
+                <unit>JPY</unit>
+            </Units>
+        </measureType>
+        <measureType>
+            <type>AMT</type>
+        </measureType>
+        <measureType>
+            <type>QTY</type>
+            <Units>
+                <unit>VARIABLE</unit>
+                <unit>KILOGRAM</unit>
+                <unit>LITRE</unit>
+            </Units>
+        </measureType>
+        <measureType>
+            <type>PERC</type>
+        </measureType>
+        <measureType>
+            <type>RATIO</type>
+        </measureType>
+        <measureType>
+            <type>DIST</type>
+            <Units>
+                <unit>VARIABLE</unit>
+                <unit>MILES</unit>
+                <unit>KILOMETERS</unit>
+                <unit>METERS</unit>
+            </Units>
+        </measureType>
+        <measureType>
+            <type>DURATION</type>
+            <Units>
+                <unit>VARIABLE</unit>
+                <unit>HOURS</unit>
+                <unit>MINUTES</unit>
+                <unit>SECONDS</unit>
+                <unit>MILLISEC</unit>
+            </Units>
+        </measureType>
+    </measureTypes>
+</measureProPerties>

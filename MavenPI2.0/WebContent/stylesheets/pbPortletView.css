@@ -1,0 +1,195 @@
+/*
+Document   : pbReportViewerCSS
+Created on : Oct 3, 2009, 1:55:49 PM
+Author     : Administrator
+Description:
+Purpose of the stylesheet follows.
+*/
+
+/*
+TODO customize this sample style
+Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.navsection {
+    text-decoration: none;
+    margin: 0 0 0 0;
+    border: 1px solid #CDCDCD;
+/*    background: url(../images/navtitlebg.gif) no-repeat top left;*/
+    -moz-border-radius: 4px 4px 4px 4px;
+    COLOR: #000;
+    WIDTH: 100%;
+}
+.navtitle
+{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+     background:#2191C0 url(../jQuery/images/ui-bg_gloss-wave_75_2191c0_500x100.png) repeat-x scroll 50% 50%;
+    border:1px solid #4297D7;
+    color:#EAF5F7;
+    font-weight:bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 20px;
+    WIDTH: 100%;
+    cursor:pointer;
+}
+.navtitle-hover{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+     background:#79C9EC url(../jQuery/images/ui-bg_glass_75_79c9ec_1x400.png) repeat-x scroll 50% 50%;
+    border:1px solid #448DAE;
+    color:#000;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 20px;
+    WIDTH: 100%;
+    cursor:pointer;
+}
+
+.buttonClass{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+
+      background:#e14f1c url(../jQuery/images/ui-bg_gloss-wave_45_e14f1c_500x100.png) repeat-x scroll 50% 50%;
+    border:1px solid #e14f1c;
+    color:#000;
+    font-weight:bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 20px;
+    WIDTH: 100%;
+    cursor:pointer;
+}
+.buttonAlt{
+     -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+
+      background:#6eac2c url(../jQuery/images/ui-bg_gloss-wave_50_6eac2c_500x100.png) repeat-x scroll 50% 50%;
+    border:1px solid #6eac2c;
+    color:#000;
+    font-weight:bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 20px;
+    WIDTH: 100%;
+    cursor:pointer;
+}
+.navtitle1-hover{
+     -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+     background:#79C9EC url(../jQuery/images/ui-bg_glass_75_79c9ec_1x400.png) repeat-x scroll 50% 50%;
+    border:1px solid #448DAE;
+    color:#000;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 16px;
+    WIDTH: 100%;
+    cursor:pointer;
+}
+.navtitle12
+{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+    FONT-SIZE: 11px;
+    COLOR: #fff;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 18px;
+    WIDTH: 100%;
+    background:#2191C0 url(../jQuery/images/ui-bg_gloss-wave_75_2191c0_500x100.png) repeat-x scroll 50% 50%;
+    border:1px solid #4297D7;
+    color:#EAF5F7;
+    cursor:pointer;
+}
+.navtitle1 {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#2191C0 url(../jQuery/images/ui-bg_gloss-wave_75_2191c0_500x100.png) repeat-x scroll 50% 50%;
+    border:1px solid #4297D7;
+    color:#EAF5F7;
+    font-weight:bold;
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 18px;
+    WIDTH: 100%;
+}
+.ui-corner-all {
+    -moz-border-radius-bottomleft:6px;
+    -moz-border-radius-bottomright:6px;
+    -moz-border-radius-topleft:6px;
+    -moz-border-radius-topright:6px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    border:1px solid #E6E6E6;
+    height:20px;
+    color:#000;
+    font-weight:normal;
+    background-color:#B4D9EE;
+    border-color:white;
+    outline-style:none;
+    outline-width:medium;
+}
+.frame1{
+    border: 0px;
+    width: 700px;
+    height: 500px;
+}
+.test
+{
+    width : 140px;
+    height : 120px;
+    border : 1px solid #ffff99;
+    background-color: #ffff99;
+}
+.mycls
+{
+    width : 150px;
+    height : 150px;
+    border : 1px solid #ffff99;
+    background-color: #ffff99;
+}
+.colorButton
+{
+    width:20px;
+    height:20px;
+    background-color:green;
+}
+.inputlabel
+{
+    font-size: 10px;
+
+    border-right:#000000 1px outset;
+    border-right:#000000 1px inset;
+    border-top: white 1px inset;
+    border-left: white 1px inset;
+    border-bottom: #000000 1px inset;
+    font-family: verdana, arial;
+    background-color: transparent;
+}

@@ -1,0 +1,137 @@
+{
+                "status": 200,
+                "content": {
+                    "directed": false,
+                    "links": [
+                        {
+                            "status": "online1",
+                            "load": "2",
+                            "source": 2,
+                            "target": 3
+                        },
+                        {
+                            "status": "online4",
+                            "load": "2",
+                            "source": 2,
+                            "target": 1
+                        },
+                        {
+                            "status": "online",
+                            "load": "2",
+                            "source": 2,
+                            "target": 0
+                        },
+                        {
+                            "status": "online2",
+                            "load": "2",
+                            "source": 4,
+                            "target": 0
+                        },
+                        {
+                            "status": "online",
+                            "load": "2",
+                            "source": 5,
+                            "target": 4
+                        },
+                        {
+                            "status": "online3",
+                            "load": "2",
+                            "source": 1,
+                            "target": 7
+                        },
+                        {
+                            "status": "online",
+                            "load": "2",
+                            "source": 1,
+                            "target": 6
+                        },
+                        {
+                            "status": "online",
+                            "load": "2",
+                            "source": 3,
+                            "target": 8
+                        }
+                    ],
+                    "multigraph": false,
+                    "graph": [],
+                    "nodes": [
+                        {
+                            "status": "online",
+                            "bandwidth": "normal",
+                            "forwarding_policy": "0",
+                            "type": "router",
+                            "id": "router1",
+                            "name": "Router-Cisco-1800-26",
+                            "type_of_switch": "OF"
+                        },
+                        {
+                            "status": "online",
+                            "bandwidth": "normal",
+                            "forwarding_policy": "0",
+                            "type": "switch",
+                            "id": "switch1",
+                            "name": "Switch-Cisco4900-Core-SW-3",
+                            "type_of_switch": "OF"
+                        },
+                        {
+                            "status": "online",
+                            "bandwidth": "normal",
+                            "forwarding_policy": "2",
+                            "type": "switch",
+                            "id": "switch2",
+                            "name": "Edge-Switch-Jumper E-320",
+                            "type_of_switch": "OF"
+                        },
+                        {
+                            "status": "online",
+                            "bandwidth": "normal",
+                            "forwarding_policy": "0",
+                            "type": "router",
+                            "id": "router2",
+                            "name": "Router-BGP-Cisco-7200",
+                            "type_of_switch": "OF"
+                        },
+                        {
+                            "status": "online",
+                            "bandwidth": "normal",
+                            "forwarding_policy": "1",
+                            "type": "Server",
+                            "id": "Server",
+                            "name": "Linux -rh-server 5",
+                            "type_of_switch": "ON"
+                        },
+                        
+                        {
+                            "status": "offline",
+                            "bandwidth": "normal",
+                            "type": "host",
+                            "id": "host",
+                            "name": "192.168.104.0"
+                        },
+                        
+                        {
+                            "status": "offline",
+                            "bandwidth": "normal",
+                            "type": "host",
+                            "id": "host1",
+                            "name": "128.215.5.0/24"
+                        },
+                        {
+                            "status": "offline",
+                            "bandwidth": "normal",
+                            "type": "host",
+                            "id": "host2",
+                            "name": "128.215.132.0"
+                        },
+                        {
+                            "status": "offline",
+                            "bandwidth": "normal",
+                            "type": "host",
+                            "id": "host3",
+                            "name": "193.93.104.0/30"
+                        }
+                    ],
+                    "last_seen": "1421832648.22"
+               },
+               "message": "success"
+           }

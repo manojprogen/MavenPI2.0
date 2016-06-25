@@ -1,0 +1,703 @@
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="TableDisplay.css" />
+<link href="/reportRunner/css/styles.css" rel="stylesheet" type="text/css">
+<link href="/reportRunner/css/css.css" rel="stylesheet" type="text/css">
+<script>
+    function addColumnsList(addColumnsListObj,addColumnsObj,reportId,tableId,lastSeq,path){
+        if(addColumnsListObj.style.display=='none'){
+            addColumnsListObj.style.display='';
+        }
+        else{
+            addColumnsListObj.style.display='none';
+            addColumns(addColumnsObj,reportId,tableId,lastSeq,path);
+        }
+    }
+    function addColumns(addColumnsObj,reportId,tableId,lastSeq,path){
+        var queryColumnIds='';
+        for(var i=0;i<addColumnsObj.length;i++){
+            if( addColumnsObj[i].checked){
+                queryColumnIds=queryColumnIds+addColumnsObj[i].value+';';
+            }
+        }
+        if(queryColumnIds!=''){
+            document.getElementById('columnIds').value=queryColumnIds;
+            document.getElementById('reportId').value=reportId;
+            document.getElementById('tableId').value=tableId;
+            document.getElementById('lastSeq').value=lastSeq;
+
+            document.myForm.action='pbAddColumns.jsp';
+            document.myForm.submit();
+            for(i=0;i<20;i++){
+            }
+            parent.submiturls(path);
+        }
+    }
+
+</script>
+
+<table width="100%" border="0" cellpadding="1" cellspacing="1" class="dashboardtableborder">
+    <tr>
+
+
+        <div align="center" class="days">Table Region</div>
+
+    </tr>
+    <tr>
+        <td><div align="center" style="width:auto;height:auto">
+
+
+                <Table  class="progenTable"  width="100%" border=0 CELLPADDING="0" CELLSPACING="1">
+                    <Tr>
+                        <Td colspan="9">
+                            <Table border='0' WIDTH="100%">
+
+                                <Tr>
+                                    <form name="myForm" id="myForm" method="POST">
+                                        <input type="hidden" name="columnIds" id="columnIds" value="">
+                                        <input type="hidden" name="reportId" id="reportId" value="">
+                                        <input type="hidden" name="tableId" id="tableId" value="">
+                                        <input type="hidden" name="lastSeq" id="lastSeq" value="">
+
+
+                                        <Td NOWRAP><Img src=Images/firstPage.gif id="FIRST" name="FIRST" style="cursor:pointer;cursor:hand" onClick="parent.goFirst(1,125)" title="First Page" /></Td>
+                                        <Td NOWRAP><Img src=Images/prevPage.gif id="UP" name="UP" style="cursor:pointer;cursor:hand" onClick="parent.goUp(1,125)" title="Previous Page" /></Td>
+
+                                        <Td NOWRAP><input type=text name="fVal" id="fVal" size=3 class="inputbox" style="text-align:right"
+                                                              value="1"
+                                                              onKeyUp="parent.doSetFirstRow(this,event,6,1,125)">
+                                        _6 of 6</Td>
+                                        <Td NOWRAP><Img src=Images/nextPage.gif id="DOWN" name="DOWN" style="cursor:pointer;cursor:hand" onClick="parent.goDown(6,6,125)" title="Next Page" /></Td>
+                                        <Td NOWRAP><Img src=Images/lastPage.gif id="LAST" name="LAST" style="cursor:pointer;cursor:hand" onClick="parent.goLast(6,6,125)" title="Last Page" /></Td>
+                                        <Td NOWRAP><Img src=Images/refresh.GIF id="REFRESH" name="REFRESH" style="cursor:pointer;cursor:hand" onClick="parent.goRefresh(125)" title="Refresh List" /></Td>
+                                        <Td NOWRAP>&nbsp;</Td>
+                                        <Td NOWRAP><Img src=Images/rowsDisplayed.gif></Td>
+                                        <Td NOWRAP><input type=text name="recordsSize" id="recordsSize" size=3 class="inputbox" onKeyUp="parent.doSetRecordSize(this,event,6,10,125)" value="10"></Td>
+
+                                        <Td NOWRAP>&nbsp;</Td>
+                                        <Td NOWRAP><font class="calcTitle">Download:</font></Td>
+                                        <Td NOWRAP><Img src=Images/excel.gif style="cursor:pointer;cursor:hand" onClick="parent.doDownload('E',125)" /></Td>
+                                        <Td NOWRAP><Img src=Images/pdf.gif style="cursor:pointer;cursor:hand" onClick="parent.doDownload('P',125)" /></Td>
+                                        <!-- added by santhosh on 18/07/09-->
+                                        <Td NOWRAP><img src=Images/separator.gif style="border:0"  alt="Separator" /></Td>
+                                        <Td NOWRAP>
+                                            <a  href="javascript:parent.showColumnList(document.getElementById('ColumnList'),document.getElementsByName('colNames'),'VOLUME,CHANGE_VOLUME,REV_IN_LAC,CHANGE_REV_IN_LAC,YIELD_PER,CHANGE_YIELD_PER,PER_TOT_REV,PRIOR_TOT_REV','125');" style='text-decoration:none' class="calcTitle" title="Hide / Show Columns">Hide / Show Columns</a>
+
+                                            <div  style="display:none;min-width:50px;max-width:300px;height:100px;background-color:#ffffff;overflow:auto;overflow-x:hidden"   id="ColumnList">
+                                                <Table BORDER="0" STYLE="width:inherit">
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left"><input type="checkbox" checked name="colNames" id="checkBox1" onClick='parent.modifyColumns("column1",document.getElementById("checkBox1"),document.getElementById("displayTable"),"VOLUME")' value="VOLUME"></Td>
+                                                        <Td NOWRAP ALIGN="left">Volume</Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left"><input type="checkbox" checked name="colNames" id="checkBox2" onClick='parent.modifyColumns("column2",document.getElementById("checkBox2"),document.getElementById("displayTable"),"CHANGE_VOLUME")' value="CHANGE_VOLUME"></Td>
+
+                                                        <Td NOWRAP ALIGN="left">Change Volume</Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left"><input type="checkbox" checked name="colNames" id="checkBox3" onClick='parent.modifyColumns("column3",document.getElementById("checkBox3"),document.getElementById("displayTable"),"REV_IN_LAC")' value="REV_IN_LAC"></Td>
+                                                        <Td NOWRAP ALIGN="left">Rev In Lac</Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left"><input type="checkbox" checked name="colNames" id="checkBox4" onClick='parent.modifyColumns("column4",document.getElementById("checkBox4"),document.getElementById("displayTable"),"CHANGE_REV_IN_LAC")' value="CHANGE_REV_IN_LAC"></Td>
+
+                                                        <Td NOWRAP ALIGN="left">Change Rev in lac</Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left"><input type="checkbox" checked name="colNames" id="checkBox5" onClick='parent.modifyColumns("column5",document.getElementById("checkBox5"),document.getElementById("displayTable"),"YIELD_PER")' value="YIELD_PER"></Td>
+                                                        <Td NOWRAP ALIGN="left">yield per</Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left"><input type="checkbox" checked name="colNames" id="checkBox6" onClick='parent.modifyColumns("column6",document.getElementById("checkBox6"),document.getElementById("displayTable"),"CHANGE_YIELD_PER")' value="CHANGE_YIELD_PER"></Td>
+
+                                                        <Td NOWRAP ALIGN="left">change yield per</Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left"><input type="checkbox" checked name="colNames" id="checkBox7" onClick='parent.modifyColumns("column7",document.getElementById("checkBox7"),document.getElementById("displayTable"),"PER_TOT_REV")' value="PER_TOT_REV"></Td>
+                                                        <Td NOWRAP ALIGN="left">Percent of Total Revenue</Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left"><input type="checkbox" checked name="colNames" id="checkBox8" onClick='parent.modifyColumns("column8",document.getElementById("checkBox8"),document.getElementById("displayTable"),"PRIOR_TOT_REV")' value="PRIOR_TOT_REV"></Td>
+
+                                                        <Td NOWRAP ALIGN="left">Prior Percent of Total Revenue</Td>
+                                                    </Tr>
+
+
+                                                </Table>
+                                            </div>
+                                        </Td>
+
+                                        <Td NOWRAP><img src=Images/separator.gif style="border:0"  alt="Separator" /></Td>
+                                        <Td NOWRAP>
+                                            <a  href="javascript:parent.changeColSeq(document.getElementById('dispColSeq'));" style='text-decoration:none' class="calcTitle" title="Column Sequence"> Column Sequence</a>
+
+                                            <div style="display:none;min-width:150px;max-width:400px;height:100px;background-color:#ffffff;overflow:auto;overflow-x:hidden"    id="dispColSeq">
+                                                 <Table BORDER="0" STYLE="width:inherit">
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left">Volume</Td>
+                                                        <Td NOWRAP ALIGN="left">
+                                                            <select name="columnSeq" id="colSeq" style="width:40px" class="select">
+
+                                                                <option selected value="2">2</option>
+
+                                                                <option  value="3">3</option>
+
+
+                                                                <option  value="4">4</option>
+
+                                                                <option  value="5">5</option>
+
+                                                                <option  value="6">6</option>
+
+                                                                <option  value="7">7</option>
+
+                                                                <option  value="8">8</option>
+
+                                                                <option  value="9">9</option>
+
+
+                                                            </select>
+                                                        </Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left">Change Volume</Td>
+                                                        <Td NOWRAP ALIGN="left">
+                                                            <select name="columnSeq" id="colSeq" style="width:40px" class="select">
+
+                                                                <option  value="2">2</option>
+
+
+                                                                <option selected value="3">3</option>
+
+                                                                <option  value="4">4</option>
+
+                                                                <option  value="5">5</option>
+
+                                                                <option  value="6">6</option>
+
+                                                                <option  value="7">7</option>
+
+                                                                <option  value="8">8</option>
+
+
+                                                                <option  value="9">9</option>
+
+                                                            </select>
+                                                        </Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left">Rev In Lac</Td>
+                                                        <Td NOWRAP ALIGN="left">
+                                                            <select name="columnSeq" id="colSeq" style="width:40px" class="select">
+
+
+                                                                <option  value="2">2</option>
+
+                                                                <option  value="3">3</option>
+
+                                                                <option selected value="4">4</option>
+
+                                                                <option  value="5">5</option>
+
+                                                                <option  value="6">6</option>
+
+                                                                <option  value="7">7</option>
+
+
+                                                                <option  value="8">8</option>
+
+                                                                <option  value="9">9</option>
+
+                                                            </select>
+                                                        </Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left">Change Rev in lac</Td>
+
+                                                        <Td NOWRAP ALIGN="left">
+                                                            <select name="columnSeq" id="colSeq" style="width:40px" class="select">
+
+                                                                <option  value="2">2</option>
+
+                                                                <option  value="3">3</option>
+
+                                                                <option  value="4">4</option>
+
+                                                                <option selected value="5">5</option>
+
+                                                                <option  value="6">6</option>
+
+
+                                                                <option  value="7">7</option>
+
+                                                                <option  value="8">8</option>
+
+                                                                <option  value="9">9</option>
+
+                                                            </select>
+                                                        </Td>
+                                                    </Tr>
+
+                                                    <Tr>
+
+                                                        <Td NOWRAP ALIGN="left">yield per</Td>
+                                                        <Td NOWRAP ALIGN="left">
+                                                            <select name="columnSeq" id="colSeq" style="width:40px" class="select">
+
+                                                                <option  value="2">2</option>
+
+                                                                <option  value="3">3</option>
+
+                                                                <option  value="4">4</option>
+
+                                                                <option  value="5">5</option>
+
+
+                                                                <option selected value="6">6</option>
+
+                                                                <option  value="7">7</option>
+
+                                                                <option  value="8">8</option>
+
+                                                                <option  value="9">9</option>
+
+                                                            </select>
+                                                        </Td>
+                                                    </Tr>
+
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left">change yield per</Td>
+                                                        <Td NOWRAP ALIGN="left">
+                                                            <select name="columnSeq" id="colSeq" style="width:40px" class="select">
+
+                                                                <option  value="2">2</option>
+
+                                                                <option  value="3">3</option>
+
+                                                                <option  value="4">4</option>
+
+
+                                                                <option  value="5">5</option>
+
+                                                                <option  value="6">6</option>
+
+                                                                <option selected value="7">7</option>
+
+                                                                <option  value="8">8</option>
+
+                                                                <option  value="9">9</option>
+
+                                                            </select>
+
+                                                        </Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left">Percent of Total Revenue</Td>
+                                                        <Td NOWRAP ALIGN="left">
+                                                            <select name="columnSeq" id="colSeq" style="width:40px" class="select">
+
+                                                                <option  value="2">2</option>
+
+                                                                <option  value="3">3</option>
+
+
+                                                                <option  value="4">4</option>
+
+                                                                <option  value="5">5</option>
+
+                                                                <option  value="6">6</option>
+
+                                                                <option  value="7">7</option>
+
+                                                                <option selected value="8">8</option>
+
+                                                                <option  value="9">9</option>
+
+
+                                                            </select>
+                                                        </Td>
+                                                    </Tr>
+
+                                                    <Tr>
+                                                        <Td NOWRAP ALIGN="left">Prior Percent of Total Revenue</Td>
+                                                        <Td NOWRAP ALIGN="left">
+                                                            <select name="columnSeq" id="colSeq" style="width:40px" class="select">
+
+                                                                <option  value="2">2</option>
+
+
+                                                                <option  value="3">3</option>
+
+                                                                <option  value="4">4</option>
+
+                                                                <option  value="5">5</option>
+
+                                                                <option  value="6">6</option>
+
+                                                                <option  value="7">7</option>
+
+                                                                <option  value="8">8</option>
+
+
+                                                                <option selected value="9">9</option>
+
+                                                            </select>
+                                                        </Td>
+                                                    </Tr>
+
+                                                </Table>
+                                            </div>
+                                        </Td>
+                                        <Td NOWRAP><img src=Images/separator.gif style="border:0"  alt="Separator" /></Td>
+
+                                        <Td NOWRAP>
+                                            <a  href="javascript:parent.showColumnTotal(document.getElementById('ColumnTotal'),'125',document.getElementById('nettotrow'),document.getElementById('grdtotrow'),document.getElementById('avgrow'));" class="calcTitle" style='text-decoration:none' title="Show Total"> Show Total</a>
+                                            <div style="display:none;width:auto;height:85px;background-color:#ffffff;overflow:auto;"    id="ColumnTotal">
+                                                 <Table BORDER="0" STYLE="width:inherit">
+                                                    <Tr>
+
+                                                        <Td ><input type="checkbox" checked name="subtotal" id="subtotal" onclick='parent.modifyColumnTotal(document.getElementById("nettotrow"),document.getElementById("subtotal"))'  value="subtotal"></Td>
+
+                                                        <Td >Sub Total</Td>
+
+                                                    </Tr>
+                                                    <Tr>
+
+                                                        <Td ><input type="checkbox" checked name="grandtotal" id="grandtotal" onclick='parent.modifyColumnTotal(document.getElementById("grdtotrow"),document.getElementById("grandtotal"))' value="grandtotal"></Td>
+
+                                                        <Td >Grand Total</Td>
+                                                    </Tr>
+                                                    <Tr>
+
+                                                        <Td ><input type="checkbox" checked name="averagetotal" id="averagetotal" onclick='parent.modifyColumnTotal(document.getElementById("avgrow"),document.getElementById("averagetotal"))'  value="averagetotal"></Td>
+
+                                                        <Td >Average</Td>
+
+                                                    </Tr>
+
+                                                </Table>
+                                            </div>
+                                        </Td>
+                                        <Td NOWRAP><img src=Images/separator.gif style="border:0"  alt="Separator" /></Td>
+                                        <Td NOWRAP><a  id="showtable" href="javascript:parent.showTable(document.getElementById('displayTable'),'125')" class="calcTitle" style='text-decoration:none' title="Hide Table"> Hide Table</a> </Td>
+                                        <Td NOWRAP><img src=Images/separator.gif style="border:0"  alt="Separator" /></Td>
+
+                                        <Td NOWRAP><a  id="showgraph" href="javascript:parent.showGraph('125','true')" class="calcTitle" style='text-decoration:none' title="Hide Graph"> Hide Graph</a> </Td>
+
+
+                                    </form>
+                                    <!-- added by santhosh on 18/07/09-->
+                                </Tr>
+                            </Table>
+                        </Td>
+                    </Tr>
+
+                    <Tr>
+                        <Td NOWRAP>
+
+                            <Table ID="displayTable" class="tableRegion"   width="100%" border=0 CELLPADDING="0" CELLSPACING="1">
+
+
+
+                                <Tr>
+
+                                    <Th NOWRAP class="tableHeader"  ID="column0"  style="background-image: url('Images/nosort.GIF');background-repeat: no-repeat;cursor:pointer;cursor:hand;background-position:center right;display:''"  onClick='parent.doSort(this,"VIEW_BY","C","125")'>Newspaper&nbsp;&nbsp;&nbsp;</Th>
+
+                                    <Th NOWRAP class="tableHeader"  ID="column1"  style="background-image: url('Images/nosort.GIF');background-repeat: no-repeat;cursor:pointer;cursor:hand;background-position:center right;display:''"  onClick='parent.doSort(this,"VOLUME","N","125")'>Volume&nbsp;&nbsp;&nbsp;</Th>
+
+                                    <Th NOWRAP class="tableHeader"  ID="column2"  style="background-image: url('Images/nosort.GIF');background-repeat: no-repeat;cursor:pointer;cursor:hand;background-position:center right;display:''"  onClick='parent.doSort(this,"CHANGE_VOLUME","N","125")'>Change Volume&nbsp;&nbsp;&nbsp;</Th>
+
+
+                                    <Th NOWRAP class="tableHeader"  ID="column3"  style="background-image: url('Images/nosort.GIF');background-repeat: no-repeat;cursor:pointer;cursor:hand;background-position:center right;display:''"  onClick='parent.doSort(this,"REV_IN_LAC","N","125")'>Rev In Lac&nbsp;&nbsp;&nbsp;</Th>
+
+                                    <Th NOWRAP class="tableHeader"  ID="column4"  style="background-image: url('Images/sortdescend.GIF');background-repeat: no-repeat;cursor:pointer;cursor:hand;background-position:center right;display:''"  onClick='parent.doSort(this,"CHANGE_REV_IN_LAC","N","125")'>Change Rev in lac&nbsp;&nbsp;&nbsp;</Th>
+
+
+                                    <Th NOWRAP class="tableHeader"  ID="column5"  style="background-image: url('Images/nosort.GIF');background-repeat: no-repeat;cursor:pointer;cursor:hand;background-position:center right;display:''"  onClick='parent.doSort(this,"YIELD_PER","N","125")'>yield per&nbsp;&nbsp;&nbsp;</Th>
+
+                                    <Th NOWRAP class="tableHeader"  ID="column6"  style="background-image: url('Images/nosort.GIF');background-repeat: no-repeat;cursor:pointer;cursor:hand;background-position:center right;display:''"  onClick='parent.doSort(this,"CHANGE_YIELD_PER","N","125")'>change yield per&nbsp;&nbsp;&nbsp;</Th>
+
+                                    <Th NOWRAP class="tableHeader"  ID="column7"  style="background-image: url('Images/nosort.GIF');background-repeat: no-repeat;cursor:pointer;cursor:hand;background-position:center right;display:''"  onClick='parent.doSort(this,"PER_TOT_REV","N","125")'>Percent of Total Revenue&nbsp;&nbsp;&nbsp;</Th>
+
+                                    <Th NOWRAP class="tableHeader"  ID="column8"  style="background-image: url('Images/nosort.GIF');background-repeat: no-repeat;cursor:pointer;cursor:hand;background-position:center right;display:''"  onClick='parent.doSort(this,"PRIOR_TOT_REV","N","125")'>Prior Percent of Total Revenue&nbsp;&nbsp;&nbsp;</Th>
+
+
+                                </Tr>
+
+
+                                <Tr class="trcls">
+
+                                    <Td NOWRAP ID="column0" style="display:''" ><Input type=text name=search0 class="inputbox" style="width:100%" onKeyUp="parent.doSearch(0,this,event,125)"></Td>
+
+                                    <Td NOWRAP ID="column1" style="display:''" ><Input type=text name=search1 class="inputbox" style="width:100%" onKeyUp="parent.doSearch(1,this,event,125)"></Td>
+
+                                    <Td NOWRAP ID="column2" style="display:''" ><Input type=text name=search2 class="inputbox" style="width:100%" onKeyUp="parent.doSearch(2,this,event,125)"></Td>
+
+                                    <Td NOWRAP ID="column3" style="display:''" ><Input type=text name=search3 class="inputbox" style="width:100%" onKeyUp="parent.doSearch(3,this,event,125)"></Td>
+
+                                    <Td NOWRAP ID="column4" style="display:''" ><Input type=text name=search4 class="inputbox" style="width:100%" onKeyUp="parent.doSearch(4,this,event,125)"></Td>
+
+                                    <Td NOWRAP ID="column5" style="display:''" ><Input type=text name=search5 class="inputbox" style="width:100%" onKeyUp="parent.doSearch(5,this,event,125)"></Td>
+
+
+                                    <Td NOWRAP ID="column6" style="display:''" ><Input type=text name=search6 class="inputbox" style="width:100%" onKeyUp="parent.doSearch(6,this,event,125)"></Td>
+
+                                    <Td NOWRAP ID="column7" style="display:''" ><Input type=text name=search7 class="inputbox" style="width:100%" onKeyUp="parent.doSearch(7,this,event,125)"></Td>
+
+                                    <Td NOWRAP ID="column8" style="display:''" ><Input type=text name=search8 class="inputbox" style="width:100%" onKeyUp="parent.doSearch(8,this,event,125)"></Td>
+
+                                </Tr>
+
+                                <tbody class="tableBody" >
+
+                                    <Tr class="trcls" onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)" >
+
+                                        <Td NOWRAP ID="column0" style="display:''"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('reportRunner.jsp?REPORTID=125&CBOVIEW_BY_NAME=Edition&CBONEWSPAPER=DAINIK JAGRAN')" target='_parent' style='text-decoration:none'>DAINIK JAGRAN</A></Td>
+
+                                        <Td NOWRAP ID="column1"  align="RIGHT" style="display:''" >249,742.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+
+                                        <Td NOWRAP ID="column2"  align="RIGHT"  style="display:''; background-image: url('Images/red.gif');width:8px;height:10px;background-repeat: no-repeat;background-position:center right" >-4.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column3"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column4"  align="RIGHT"  style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column5"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column6"  align="RIGHT"  style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column7"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+
+                                        <Td NOWRAP ID="column8"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                    </Tr>
+
+                                    <Tr class="trcls" onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)" >
+
+                                        <Td NOWRAP ID="column0" style="display:''"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('reportRunner.jsp?REPORTID=125&CBOVIEW_BY_NAME=Edition&CBONEWSPAPER=TIMES OF INDIA')" target='_parent' style='text-decoration:none'>TIMES OF INDIA</A></Td>
+
+                                        <Td NOWRAP ID="column1"  align="RIGHT" style="display:''" >293,021.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column2"  align="RIGHT"  style="display:''; background-image: url('Images/red.gif');width:8px;height:10px;background-repeat: no-repeat;background-position:center right" >-28.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column3"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+
+                                        <Td NOWRAP ID="column4"  align="RIGHT"  style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column5"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column6"  align="RIGHT"  style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column7"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column8"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                    </Tr>
+
+
+                                    <Tr class="trcls" onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)" >
+
+                                        <Td NOWRAP ID="column0" style="display:''"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('reportRunner.jsp?REPORTID=125&CBOVIEW_BY_NAME=Edition&CBONEWSPAPER=PRABHAT KHABAR')" target='_parent' style='text-decoration:none'>PRABHAT KHABAR</A></Td>
+
+                                        <Td NOWRAP ID="column1"  align="RIGHT" style="display:''" >294,976.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column2"  align="RIGHT"  style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column3"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column4"  align="RIGHT"  style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+
+                                        <Td NOWRAP ID="column5"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column6"  align="RIGHT"  style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column7"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column8"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                    </Tr>
+
+                                    <Tr class="trcls" onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)" >
+
+                                        <Td NOWRAP ID="column0" style="display:''"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('reportRunner.jsp?REPORTID=125&CBOVIEW_BY_NAME=Edition&CBONEWSPAPER=THE TRIBUNE')" target='_parent' style='text-decoration:none'>THE TRIBUNE</A></Td>
+
+
+                                        <Td NOWRAP ID="column1"  align="RIGHT" style="display:''" >595,903.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column2"  align="RIGHT"  style="display:''; background-image: url('Images/red.gif');width:8px;height:10px;background-repeat: no-repeat;background-position:center right" >-17.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column3"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column4"  align="RIGHT"  style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column5"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column6"  align="RIGHT"  style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+
+                                        <Td NOWRAP ID="column7"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column8"  align="RIGHT" style="display:''" >0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                    </Tr>
+
+                                    <Tr class="trcls" onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)" >
+
+                                        <Td NOWRAP ID="column0" style="display:''"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('reportRunner.jsp?REPORTID=125&CBOVIEW_BY_NAME=Edition&CBONEWSPAPER=HINDUSTAN')" target='_parent' style='text-decoration:none'>HINDUSTAN</A></Td>
+
+                                        <Td NOWRAP ID="column1"  align="RIGHT" style="display:''" >381,655.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column2"  align="RIGHT"  style="display:''; background-image: url('Images/red.gif');width:8px;height:10px;background-repeat: no-repeat;background-position:center right" >-23.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+
+                                        <Td NOWRAP ID="column3"  align="RIGHT" style="display:''" >122.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column4"  align="RIGHT"  style="display:''; background-image: url('Images/red.gif');width:8px;height:10px;background-repeat: no-repeat;background-position:center right" >-34.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column5"  align="RIGHT" style="display:''" >32.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column6"  align="RIGHT"  style="display:''; background-image: url('Images/red.gif');width:8px;height:10px;background-repeat: no-repeat;background-position:center right" >-5.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column7"  align="RIGHT" style="display:''" >23.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column8"  align="RIGHT" style="display:''" >23.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+
+                                    </Tr>
+
+                                    <Tr class="trcls" onMouseOut="parent.mouseOut(this)" onMouseOver="parent.mouseOn(this)" >
+
+                                        <Td NOWRAP ID="column0" style="display:''"  align="LEFT">&nbsp;<A href="javascript:parent.submiturls('reportRunner.jsp?REPORTID=125&CBOVIEW_BY_NAME=Edition&CBONEWSPAPER=HINDUSTAN TIMES')" target='_parent' style='text-decoration:none'>HINDUSTAN TIMES</A></Td>
+
+                                        <Td NOWRAP ID="column1"  align="RIGHT" style="display:''" >913,884.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column2"  align="RIGHT"  style="display:''; background-image: url('Images/red.gif');width:8px;height:10px;background-repeat: no-repeat;background-position:center right" >-28.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column3"  align="RIGHT" style="display:''" >389.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column4"  align="RIGHT"  style="display:''; background-image: url('Images/red.gif');width:8px;height:10px;background-repeat: no-repeat;background-position:center right" >-35.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+
+                                        <Td NOWRAP ID="column5"  align="RIGHT" style="display:''" >42.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column6"  align="RIGHT"  style="display:''; background-image: url('Images/red.gif');width:8px;height:10px;background-repeat: no-repeat;background-position:center right" >-5.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column7"  align="RIGHT" style="display:''" >76.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP ID="column8"  align="RIGHT" style="display:''" >76.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                    </Tr>
+
+                                    <Tr class="trcls" ID="nettotrow" STYLE="display:''">
+
+                                        <Th NOWRAP class="calcTitle" style="display:''" ID="column0" >Sub Total</Th>
+
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column1"  align="RIGHT"><B>2,729,181.7</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column2"  align="RIGHT"><B>-101.5</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column3"  align="RIGHT"><B>511.9</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column4"  align="RIGHT"><B>-70.5</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column5"  align="RIGHT"><B>74.7</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column6"  align="RIGHT"><B>-10.7</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column7"  align="RIGHT"><B>100.0</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column8"  align="RIGHT"><B>100.0</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Td>
+
+                                    </Tr>
+
+                                    <Tr class="trcls" ID="grdtotrow" STYLE="display:''">
+
+                                        <Th NOWRAP class="calcTitle" style="display:''" ID="column0" >Grand Total</Th>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column1"  align="RIGHT"><B>2,729,181.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column2"  align="RIGHT"><B>-101.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column3"  align="RIGHT"><B>511.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column4"  align="RIGHT"><B>-70.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column5"  align="RIGHT"><B>74.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column6"  align="RIGHT"><B>-10.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column7"  align="RIGHT"><B>100.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column8"  align="RIGHT"><B>100.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+
+                                    </Tr>
+
+                                    <Tr class="trcls" ID="avgrow" STYLE="display:''">
+
+                                        <Th NOWRAP class="calcTitle" style="display:''" ID="column0" >Average</Th>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column1"  align="RIGHT"><B>454,863.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column2"  align="RIGHT"><B>-16.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column3"  align="RIGHT"><B>85.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column4"  align="RIGHT"><B>-11.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column5"  align="RIGHT"><B>12.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column6"  align="RIGHT"><B>-1.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column7"  align="RIGHT"><B>16.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                        <Td NOWRAP class="calcResult" style="display:''" ID="column8"  align="RIGHT"><B>16.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></Td>
+
+                                    </Tr>
+
+                                </tbody>
+                            </Table>
+
+                        </Td>
+                    </Tr>
+
+                </Table>
+
+
+        </div></td>
+    </tr>
+</table>
+
+<Script>
+    parent.refreshGraphs("TableDisplay/pbGraphDisplayRegion.jsp",125);
+    //parent.setFrameHeight('350','350');
+</Script>
+

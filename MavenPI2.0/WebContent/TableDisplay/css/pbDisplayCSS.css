@@ -1,0 +1,130 @@
+/* 
+    Document   : pbDisplayCSS
+    Created on : Feb 23, 2010, 3:55:32 PM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    scrollbar-face-color: #DEE3E7;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-3dlight-color: #D1D7DC;
+    scrollbar-darkshadow-color: #98AAB1;
+    scrollbar-shadow-color: #DEE3E7;
+    scrollbar-arrow-color: #006699;
+    scrollbar-track-color: #EFEFEF;
+}
+/*
+.tableHover{
+    background-color:red;
+}
+tbody td {
+background-color:#e6e6e6;
+}
+.background{
+background-color:#e6e6e6;
+}*/
+.tabFooter{
+    color:#000000;
+    font-size:11px;
+    font-weight:bold;
+    background-color: #e6e6e6;
+    text-align: right;
+}
+.flagDiv{
+    width:auto;
+    height:50px;
+    background-color:#ffffff;
+    overflow:auto;
+    position:absolute;
+    text-align:left;
+    border:1px solid #000000;
+    border-top-width: 0px;
+    z-index:1002;
+}
+.subTotalRow{
+    background-color:#e6e6e6;
+    color:#369;
+    font-family:verdana;
+}
+.tableSideMenu{
+    text-decoration:none;
+    font-family:verdana;
+    font-size:11px
+}
+.tableSearchDiv{
+    position:absolute;
+    display:none;
+    width:auto;
+    height:auto;
+    background-color:#ffffff;
+    overflow:auto
+}
+.tableHeaderStyle{
+    cursor:pointer;
+    height:auto;
+    font-size:11px;
+    background-color:#DCDCDC;
+}
+.dimensionCell
+{
+    background-color: rgb(230, 230, 230);
+    color:#336699;
+    font-family: verdana;
+    text-align: left;
+}
+.measureNumericCell
+{
+    color:#000000;
+    text-align: right;
+}
+.measureNonNumericCell
+{
+    color:#000000;
+    text-align: right;
+}
+.measureNumericIndicator
+{
+    color:#000000;
+    text-align: center;
+}
+.subTotalCell
+{
+    background-color: #B4D9EE;
+    color:#336699;
+    font-family: verdana;
+/*    text-align: left;*/
+}
+
+.headerText{
+   text-align:center;
+   width:auto;
+   background-color:#DCDCDC;
+   font-size:11px;
+   font-weight:bold;
+   color: #000000;
+}
+
+
+.measureNumericCellPositive
+{
+    color:#000000;
+    text-align: right;
+    background-image: url('../Images/positive.GIF');
+    background-repeat: no-repeat;
+    background-position:center right;
+}
+.measureNumericCellNegative
+{
+    color:#000000;
+    text-align: right;
+    background-image: url('../Images/negative.gif');
+    background-repeat: no-repeat;
+    background-position:center right
+}

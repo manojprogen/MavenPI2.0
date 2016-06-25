@@ -1,0 +1,198 @@
+/* 
+    Document   : dashBoardViewer
+    Created on : Dec 19, 2009, 3:48:10 PM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.suggestLink { position: relative;
+               background-color: #FFFFFF;
+               border: 0px solid #000000;
+               border-top-width: 0px;
+               padding: 2px 6px 2px 6px;
+               left:3px;
+               min-width: 20px;
+               max-width: 150px;
+}
+a {font-family:Verdana;cursor:pointer;}
+a:link {color:#369}
+.suggestLinkOver { background-color: #0099CC;
+                   padding: 2px 6px 2px 6px; }
+#cboRegionsuggestList { position: absolute;
+                        background-color: #FFFFFF;
+                        text-align: left;
+                        border: 1px solid #000000;
+                        border-top-width: 0px;
+                        width: 160px; }
+.imageStyle{
+    position: absolute;
+    width:12px;
+    height:16px;
+    display:inline;
+}
+*{
+    font:11px verdana;
+}
+.startpage {
+    display:none;
+    position: absolute;
+    top: 15%;
+    left: 24%;
+    width:800px;
+    height:400px;
+    padding: 5px;
+    border: 10px solid silver;
+    background-color: white;
+    z-index:1002;
+    -moz-border-radius-bottomleft:6px;
+    -moz-border-radius-bottomright:6px;
+    -moz-border-radius-topleft:6px;
+    -moz-border-radius-topright:6px;
+}
+.black_start{
+    display:none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.5;
+    opacity:.50;
+    filter:alpha(opacity=50);
+    overflow:auto;
+}
+.ajaxboxstyle {
+    position: absolute;
+    background-color: #FFFFFF;
+    text-align: left;
+    border: 1px solid #000000;
+    border-top-width:1px;
+    min-height:40px;
+    min-width:112px;
+    max-width:300px;
+    overflow:auto;
+    overflow-x:hidden;
+    max-height:100px;
+    margin:0em 0.5em;
+}
+.myAjaxTable {
+    table-layout:fixed;
+    background-color: #FFFFFF;
+    text-align:left;
+    border: 0px solid #000000;
+    font-size:10px;
+    left:4px;
+    width:inherit;
+    border-collapse:separate;
+    border-spacing:5px;
+}
+.myAjaxTable td {
+    min-width:30px;
+    max-width:100px;
+    text-align:left;
+}
+#wrapper { display: inline;}
+#cbostate { width: 160px; }
+#cboRegion { width: 160px; }
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 200%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.5;
+    opacity:.50;
+    filter:alpha(opacity=50);
+    overflow:auto;
+}
+.white_content {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 25%;
+    padding: 16px;
+    border: 16px solid #308dbb;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+}
+.test
+{
+    width : 150px;
+    height : 150px;
+    border : 1px solid #ffff99;
+    background-color: #ffff99;
+}
+.colorButton
+{
+    width:20px;
+    height:20px;
+    background-color:green;
+}
+.ui-widget-content {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FFFFFF ;
+    border:1px solid #A6C9E2;
+    color:#222222;
+}
+.whiteBus {
+    display:none;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    width: 200px;
+    height:200px;
+    padding: 16px;
+    border: 16px solid silver;
+    background-color: white;
+    z-index:1002;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+}
+.blackBus{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 200%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.5;
+    opacity:.50;
+    filter:alpha(opacity=50);
+    overflow:auto;
+}
+.fontsty{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+    background-color:#bdbdbd;
+}
+.innerDiv{
+    overflow:auto;
+    height:96%;
+    width:100%;
+}
+.paramRegion{
+    background-color:#e6e6e6;
+}
+/* .body{background-color:#e6e6e6}*/
+
+
+/* .body{
+background-color:#e6e6e6;
+}*/

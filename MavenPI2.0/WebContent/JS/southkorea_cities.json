@@ -1,0 +1,185 @@
+[
+
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.566535,126.97796919999996]},
+        "properties": {
+            "name": "Seoul"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.57295,126.979358]},
+        "properties": {
+            "name": "Jongno-gu"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.564091,126.99794]},
+        "properties": {
+            "name": "JUNG-gu"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.495403,126.887369]},
+        "properties": {
+            "name": "Guro-gu"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.514544,127.106597]},
+        "properties": {
+            "name": "Songpa-gu"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.234441,127.201346]},
+        "properties": {
+            "name": "Cheoin-gu"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.382699,127.118906]},
+        "properties": {
+            "name": "Bundang-gu"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.649444,127.535278]},
+        "properties": {
+            "name": "NA"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.517236,127.047325]},
+        "properties": {
+            "name": "Gangnam-gu"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.54,129.2]},
+        "properties": {
+            "name": "Ulju-gun"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.163114,129.163551]},
+        "properties": {
+            "name": "Haeundae-gu"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.538427,126.965444]},
+        "properties": {
+            "name": "Yongsan-gu"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.636003,127.216528]},
+        "properties": {
+            "name": "Namyangju-si"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.446989,126.731942]},
+        "properties": {
+            "name": "Namdong-gu"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.648629,126.758842]},
+        "properties": {
+            "name": "DONG"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.392584,126.95145]},
+        "properties": {
+            "name": "Dongan-gu,"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.483712,127.032411]},
+        "properties": {
+            "name": "SEOCHO-GU"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.53695,126.737743]},
+        "properties": {
+            "name": "GYEYANG-GU"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.630278,126.538611]},
+        "properties": {
+            "name": "DAE"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.478488,126.864289]},
+        "properties": {
+            "name": "Gwangmyeong-s"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.530125,127.123762]},
+        "properties": {
+            "name": "GANGDONG-GU"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.457529,126.639334]},
+        "properties": {
+            "name": "Aam-daero"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.858244,128.630609]},
+        "properties": {
+            "name": "SUSEONG-GU"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.1795543,129.07564160000004]},
+        "properties": {
+            "name": "BUSAN"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.526372,126.896228]},
+        "properties": {
+            "name": "Yeongdeungpo-gu"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.589116,127.018215]},
+        "properties": {
+            "name": "seongbuk-gu"
+        }
+     }
+]     

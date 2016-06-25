@@ -1,0 +1,27 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [19.479196,-70.693057]},
+        "properties": {
+            "name": "Santiago"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [19.7807686,-70.68710909999999]},
+        "properties": {
+            "name": "Puerto Plata"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [18.466667,-69.94999999999999]},
+        "properties": {
+            "name": "Santo Domingo"
+        }
+     }
+	
+     
+]     

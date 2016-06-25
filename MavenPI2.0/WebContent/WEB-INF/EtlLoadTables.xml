@@ -1,0 +1,25 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+    <!--Excel Table Details  -->
+    <entry key="AccessTable1">WNBRP_DATA</entry>   
+ 
+   <!--Mail Addresses-->
+   <entry key="mailto1">arun@progenbusiness.com</entry>
+<!--   <entry key="mailto2">k.sreekanth@progenbusiness.com</entry>-->
+
+
+   <!--Time Details-->
+
+   <entry key="Hours">10</entry>
+   <entry key="Minutes">14</entry>
+   <entry key="Seconds">0</entry>
+   <entry key="type">PM</entry>
+   <entry key="Day_Of_Week">Monday</entry>  <!--Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday-->
+
+   <!--Connection Details -->
+   <entry key="DataConnectionId">7</entry>
+   <entry key="DataLoadProcedure">BAXA_Data_Load</entry>
+
+
+</properties>

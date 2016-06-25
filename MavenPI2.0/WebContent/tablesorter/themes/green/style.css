@@ -1,0 +1,84 @@
+table.tablesorter {
+/*	font-size: 12px;
+	background-color: #4D4D4D;
+	width: 1024px;
+	border: 1px solid #000;*/
+        font-family:Verdana;
+        font-size: 8pt;
+        margin:10px 0pt 15px;
+	background-color: #fff;
+	width: 100%;
+        text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+        background-color: #cae97c;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+/*	background-color: #FFF;*/
+	vertical-align: top;
+        background-color: #ffffff;
+/*        border-left: 1px solid #727272;*/
+	border-right: 1px solid #727272;
+	border-top: 1px solid #727272;
+/*        color: #727272*/
+}
+table.tablesorter tbody tr.odd td {
+	background-color: silver;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+/*background-color: #b4d9ee;*/
+background-color: #cae97c;
+}
+
+
+table.tablesorter th {
+	text-align: left;
+	padding: 5px;
+/*	background-color: #6E6E6E;*/
+        background-color: #cae97c;
+}
+table.tablesorter td {
+	color: #FFF;
+	padding: 5px;
+}
+table.tablesorter .even {
+	background-color: #3D3D3D;
+}
+table.tablesorter .odd {
+	background-color: #6E6E6E;
+}
+table.tablesorter .header {
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #000;
+	border-top: 1px solid #FFF;
+	padding-left: 30px;
+	padding-top: 8px;
+	height: auto;
+}
+table.tablesorter .headerSortUp {
+	background-image: url(asc.png);
+	background-repeat: no-repeat;
+}
+table.tablesorter .headerSortDown {
+	background-image: url(desc.png);
+	background-repeat: no-repeat;
+}

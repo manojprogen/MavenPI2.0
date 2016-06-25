@@ -1,0 +1,1595 @@
+[
+{
+    "type":"Feature",
+    "geometry":{
+        "type": "Point",
+        "coordinates": [36.3416,-92.378775]
+        },
+    "properties": {
+        "name": "1 MATHERSON STREET"
+    }
+},
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.775346,6.083887]},
+        "properties": {
+            "name": "AACHEN"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [57.149717,-2.094278]},
+        "properties": {
+            "name": "ABERDEEN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [5.603717,-0.186964]},
+        "properties": {
+            "name": "ACCRA GHANA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [31.137136,-83.423494]},
+        "properties": {
+            "name": "ADEL"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.27444,4.741823]},
+        "properties": {
+            "name": "AIRPORT TOWN PU DONG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-37.008248,174.785036]},
+        "properties": {
+            "name": "AKL"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.248366,-0.755751]},
+        "properties": {
+            "name": "ALDERSHOT"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [36.752887,3.042048]},
+        "properties": {
+            "name": "ALGER"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.717187,9.066346]},
+        "properties": {
+            "name": "ALLENSBACH"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [38.75776,-9.224547]},
+        "properties": {
+            "name": "AMADORA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.528217,99.812886]},
+        "properties": {
+            "name": "AMPHOE MUANG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.28947,4.956682]},
+        "properties": {
+            "name": "AMSTERDAM 1105"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-27.511451,153.031711]},
+        "properties": {
+            "name": "ANNERLEY"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [17.074656,-61.817521]},
+        "properties": {
+            "name": "ANTIGUA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.219448,4.402464]},
+        "properties": {
+            "name": "ANTWERP"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.394253,126.956821]},
+        "properties": {
+            "name": "ANYANG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.797693,-6.159929]},
+        "properties": {
+            "name": "ARKLOW DO WICKLOW"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-33.789063,150.883743]},
+        "properties": {
+            "name": "ARNDELL PARK"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-25.26374,-57.575926]},
+        "properties": {
+            "name": "ASUNCION"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.983917,23.72936]},
+        "properties": {
+            "name": "ATHENS"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-36.84846,174.763332]},
+        "properties": {
+            "name": "AUCKALND"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-37.008248,174.785036]},
+        "properties": {
+            "name": "AUCKLAND INT AIRPORT"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-36.943211,174.893677]},
+        "properties": {
+            "name": "AUCKLAND, EAST TAMAK"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-25.274398,133.775136]},
+        "properties": {
+            "name": "AUSTRALIA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [29.316881,120.079019]},
+        "properties": {
+            "name": "B DONG,16-1 SHI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.707167,-2.201259]},
+        "properties": {
+            "name": "BACUP"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.218498,9.437489]},
+        "properties": {
+            "name": "BAD MNDER"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.870364,2.423459]},
+        "properties": {
+            "name": "BAGNOLET"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [16.250366,-61.566166]},
+        "properties": {
+            "name": "BAIE-MAHAULT"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [36.545015,104.138586]},
+        "properties": {
+            "name": "BAIYIN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [54.961223,-1.718196]},
+        "properties": {
+            "name": "BALYDON ON TYNE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [30.870828,121.003427]},
+        "properties": {
+            "name": "BANG TOU XIAN FENG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.582184,100.420861]},
+        "properties": {
+            "name": "BANGKHUNTIAN BANGKOK"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.756331,100.501765]},
+        "properties": {
+            "name": "BANGKOK THAILAND"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.454876,-16.579032]},
+        "properties": {
+            "name": "BANJUL"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-6.286076,106.752951]},
+        "properties": {
+            "name": "BANTEN 15412"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [44.766212,8.706162]},
+        "properties": {
+            "name": "BASALUZZO"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [1.045626,104.030454]},
+        "properties": {
+            "name": "BATAM"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-33.38909,151.473327]},
+        "properties": {
+            "name": "BATEAU BAY"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [2.030859,111.474777]},
+        "properties": {
+            "name": "BAYONG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.802056,116.505943]},
+        "properties": {
+            "name": "BDA BEIJING"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.802056,116.505943]},
+        "properties": {
+            "name": "BDA BEIJING, CHINA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.640882,0.980126]},
+        "properties": {
+            "name": "BEAUBOURG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.31949,4.85482]},
+        "properties": {
+            "name": "BEERSE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.904211,116.407395]},
+        "properties": {
+            "name": "BEHJING"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.904211,116.407395]},
+        "properties": {
+            "name": "BEIJIGN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.904211,116.407395]},
+        "properties": {
+            "name": "BEIJIN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.904211,116.407395]},
+        "properties": {
+            "name": "BEIJIN CHINA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [40.012749,116.407395]},
+        "properties": {
+            "name": "BEIJING"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.904211,116.407395]},
+        "properties": {
+            "name": "BEIJING"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.92147,116.443108]},
+        "properties": {
+            "name": "BEIJING  CHAOYING DISTRI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.801904,116.505262]},
+        "properties": {
+            "name": "BEIJING 100176 CN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.904211,116.407395]},
+        "properties": {
+            "name": "BEIJING BEIJING"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.904211,116.407395]},
+        "properties": {
+            "name": "BEIJING CHINA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.926283,116.35412]},
+        "properties": {
+            "name": "BEIJING PRC CHINA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-36.551496,145.981702]},
+        "properties": {
+            "name": "BENALLA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.654747,4.564678]},
+        "properties": {
+            "name": "4791 VC MOERDIJK"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.351178,114.125662]},
+        "properties": {
+            "name": "5/F KWAI CHUNG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [3.125023,101.714284]},
+        "properties": {
+            "name": "55200, KUALA LUMPUR"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.69179,10.063894]},
+        "properties": {
+            "name": "89555 STEINHEIM"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-34.911476,138.572488]},
+        "properties": {
+            "name": "ADELAIDE UNIVERSITY"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.761761,9.388987]},
+        "properties": {
+            "name": "AICHWALD"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.569012,13.086888]},
+        "properties": {
+            "name": "AIDENBACH"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [31.144344,121.808273]},
+        "properties": {
+            "name": "AIRPRT CHIAN  PUDONG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.850855,-79.020373]},
+        "properties": {
+            "name": "AJAX"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-37.008248,174.785036]},
+        "properties": {
+            "name": "AKLD"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [26.217191,50.197138]},
+        "properties": {
+            "name": "AL KHOBAR"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-36.080779,146.916469]},
+        "properties": {
+            "name": "ALBURY"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [41.017861,29.041786]},
+        "properties": {
+            "name": "ALTUNIZADE ISTANBUL"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [15.313579,100.687246]},
+        "properties": {
+            "name": "AMPHUR MUANG LOPBURI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [41.851441,0.293812]},
+        "properties": {
+            "name": "AN    140-0003"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [10.322462,123.899112]},
+        "properties": {
+            "name": "APAS, CEBU CITY,  CE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.211157,5.969923]},
+        "properties": {
+            "name": "APELDOORN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [40.013618,116.483414]},
+        "properties": {
+            "name": "AREA BEIJING P R C"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.737522,-0.820371]},
+        "properties": {
+            "name": "ASKETT"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-33.034399,137.584915]},
+        "properties": {
+            "name": "WHYALLA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.328,-2.229409]},
+        "properties": {
+            "name": "WILMSLOW"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.246271,-1.992213]},
+        "properties": {
+            "name": "WILTHSHIRE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.800465,-1.983]},
+        "properties": {
+            "name": "WIMBORNE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.899754,-97.137494]},
+        "properties": {
+            "name": "WINNIPEG MB"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.899754,-97.137494]},
+        "properties": {
+            "name": "WINNIPEG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [42.551961,-83.127935]},
+        "properties": {
+            "name": "WOODSLEE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [30.593099,114.305393]},
+        "properties": {
+            "name": "WUHAN HUBEI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [31.139071,120.645135]},
+        "properties": {
+            "name": "WUJIANG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [19.543775,-96.910181]},
+        "properties": {
+            "name": "XALAPA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-22.578854,-43.314978]},
+        "properties": {
+            "name": "XERI  M DUQUE DE CAXIAS"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [30.259543,120.13006]},
+        "properties": {
+            "name": "XIHU HANGZHOU"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [31.771302,121.74353]},
+        "properties": {
+            "name": "XING HUI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [36.632921,127.318853]},
+        "properties": {
+            "name": "YEONJE RI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [40.179186,44.499103]},
+        "properties": {
+            "name": "YEREVAN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.241086,127.177554]},
+        "properties": {
+            "name": "YHONGIN-SI GYEONGGI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [30.691967,111.286471]},
+        "properties": {
+            "name": "YICHANG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.443708,139.638026]},
+        "properties": {
+            "name": "YOKOHAMA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.281341,139.672201]},
+        "properties": {
+            "name": "YOKOSUKA KANAGAWA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.241086,127.177554]},
+        "properties": {
+            "name": "YONGIN CITY"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.241086,127.177554]},
+        "properties": {
+            "name": "YONGIN CITY KYUNGGI DO"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.241086,127.177554]},
+        "properties": {
+            "name": "YONGIN CITY,KYUNGG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.241086,127.177554]},
+        "properties": {
+            "name": "YONGIN SI GYEONGGI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.965157,-0.979626]},
+        "properties": {
+            "name": "YORK DUNNINGTON"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.241086,127.177554]},
+        "properties": {
+            "name": "YOUNGIN SI GYEONGGI D"
+        }
+    },
+    {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [1.307675,15.796742]},
+        "properties": {
+            "name": "ATTENTION"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-37.008248,174.785036]},
+        "properties": {
+            "name": "AUCKLAND INTL AIRPORT"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-36.722417,174.706081]},
+        "properties": {
+            "name": "AUCKLAND ZONE1"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-36.878533,174.728164]},
+        "properties": {
+            "name": "AUCKLAND, ST LUKES"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.370545,10.89779]},
+        "properties": {
+            "name": "AUGSBURG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.941215,2.497071]},
+        "properties": {
+            "name": "AULNAY SOUS BOIS"
+        }
+    },
+
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-37.76421,144.862839]},
+        "properties": {
+            "name": "AVONDALE HEIGHTS"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [11.574209,37.361353]},
+        "properties": {
+            "name": "BAHIR DAR"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.178363,-115.570769]},
+        "properties": {
+            "name": "BANFF"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.69541,100.512738]},
+        "properties": {
+            "name": "BANGKHO LAEM,BANGKOK"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.673896,100.425589]},
+        "properties": {
+            "name": "BANGKUNTIAN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-33.9167,150.992171]},
+        "properties": {
+            "name": "BANKSTOWN AIRPORT"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [17.302606,-62.717692]},
+        "properties": {
+            "name": "BASSETERRE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [1.045626,104.030454]},
+        "properties": {
+            "name": "BATAM."
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.126703,18.774131]},
+        "properties": {
+            "name": "BATAN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-34.979395,117.933215]},
+        "properties": {
+            "name": "BAYONET HEAD"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-8.480505,126.397196]},
+        "properties": {
+            "name": "BCH"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.061728,-96.515852]},
+        "properties": {
+            "name": "BEAUSEJOUR"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.904211,116.407395]},
+        "properties": {
+            "name": "BEI JING CHINA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.904211,116.407395]},
+        "properties": {
+            "name": "BEIJIJNG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.801904,116.505262]},
+        "properties": {
+            "name": "BEIJING 100176, P.R."
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.985509,116.33107]},
+        "properties": {
+            "name": "BEIJING SYSTEMS"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [33.888629,35.495479]},
+        "properties": {
+            "name": "BEIRUT"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-36.758711,144.283747]},
+        "properties": {
+            "name": "BENDIGO"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [17.072781,-89.13487]},
+        "properties": {
+            "name": "BENQUE VIEJO"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [14.303634,121.078149]},
+        "properties": {
+            "name": "BIANA LAGUNA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.095147,9.790152]},
+        "properties": {
+            "name": "BIBERACH AN DER RISS"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.904211,116.407395]},
+        "properties": {
+            "name": "BIEJING"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-33.85301,151.18143]},
+        "properties": {
+            "name": "BIRCHGROVE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [44.494887,11.342616]},
+        "properties": {
+            "name": "BOLOGNA BO"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [44.837789,-0.57918]},
+        "properties": {
+            "name": "BORDEAUX"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.719164,-1.880769]},
+        "properties": {
+            "name": "BOURNEMOUTH"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.41604,-0.75398]},
+        "properties": {
+            "name": "BRACKNELI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.41604,-0.75398]},
+        "properties": {
+            "name": "BRACKNELL"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-35.445997,149.799044]},
+        "properties": {
+            "name": "BRAIDWOOD"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.876659,-1.872989]},
+        "properties": {
+            "name": "BRANDBY"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.147136,17.102343]},
+        "properties": {
+            "name": "BRATISLAVA 1"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.145892,17.107137]},
+        "properties": {
+            "name": "BRATISLAVA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-27.297005,152.975644]},
+        "properties": {
+            "name": "BRAY PARK"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [54.08535,-0.198802]},
+        "properties": {
+            "name": "BRIDLINGTON"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.82253,-0.137163]},
+        "properties": {
+            "name": "BRIGTON"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [4.535277,114.727669]},
+        "properties": {
+            "name": "BRUNEI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [4.535277,114.727669]},
+        "properties": {
+            "name": "BRUNEI DARUSSALAM"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.448915,7.736072]},
+        "properties": {
+            "name": "BUBENDORF"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.16554,9.470859]},
+        "properties": {
+            "name": "BUCHS"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.168622,9.487065]},
+        "properties": {
+            "name": "BUCHS   9471"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-27.608561,152.811379]},
+        "properties": {
+            "name": "BUNDAMBA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.961176,-82.998794]},
+        "properties": {
+            "name": "BUSINESS CITY"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.883008,-2.795877]},
+        "properties": {
+            "name": "CAEWKERNE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.048615,-114.070846]},
+        "properties": {
+            "name": "CALGARY"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.048615,-114.070846]},
+        "properties": {
+            "name": "CALGRAY"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.622055,-4.682364]},
+        "properties": {
+            "name": "CAMELFORD, CORNWALL"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-27.522349,153.191323]},
+        "properties": {
+            "name": "CAPALABA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.382947,7.711908]},
+        "properties": {
+            "name": "CASTELLA MONTE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-33.732819,151.00496]},
+        "properties": {
+            "name": "CASTLE HILL"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [41.472423,-74.063895]},
+        "properties": {
+            "name": "CAUSE WAY"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.277256,114.183128]},
+        "properties": {
+            "name": "CAUSEWAY BABY"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.285979,114.191492]},
+        "properties": {
+            "name": "CAUSEWAY BAY HK"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [25.032969,121.565418]},
+        "properties": {
+            "name": "TAIPEI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [25.080569,121.542971]},
+        "properties": {
+            "name": "TAIPEI ROC"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-36.908749,174.862331]},
+        "properties": {
+            "name": "TAMAKI AUCKLAND"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.502717,144.80164]},
+        "properties": {
+            "name": "TAMUNING"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-6.202394,106.65271]},
+        "properties": {
+            "name": "TANGERANG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [24.993628,121.30098]},
+        "properties": {
+            "name": "TAOYUAM"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-37.687797,176.16513]},
+        "properties": {
+            "name": "TAURANGA METRO"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.332285,3.832426]},
+        "properties": {
+            "name": "TERNEUZEN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [31.230416,121.473701]},
+        "properties": {
+            "name": "THANGHAI CHINA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [44.559638,6.079758]},
+        "properties": {
+            "name": "THE GAP"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [18.214619,-63.047137]},
+        "properties": {
+            "name": "THE QUARTER"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.672535,-8.632751]},
+        "properties": {
+            "name": "THOMONDGATE LIMERICK"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.123609,-79.19893]},
+        "properties": {
+            "name": "THOROLD"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [31.576688,120.300659]},
+        "properties": {
+            "name": "TINGJHUANG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [41.952461,12.717349]},
+        "properties": {
+            "name": "TIVOLI TERME"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [63.336667,-142.985556]},
+        "properties": {
+            "name": "TOK"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [19.28261,-99.655665]},
+        "properties": {
+            "name": "TOLUCA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.653226,-79.383184]},
+        "properties": {
+            "name": "TORONTO"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [41.879672,12.617316]},
+        "properties": {
+            "name": "TORRE ANGELA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [23.014826,101.045687]},
+        "properties": {
+            "name": "TOWN PU DONG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [32.930816,117.374145]},
+        "properties": {
+            "name": "TOWN PU DONG AREA OF"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-34.383861,150.902907]},
+        "properties": {
+            "name": "TOWRADGI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [40.600727,-3.707974]},
+        "properties": {
+            "name": "TRES CANTOS"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.279024,114.163511]},
+        "properties": {
+            "name": "TRGDING  HONG KONG"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.371323,114.11416]},
+        "properties": {
+            "name": "TSUE WAN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.369912,114.114431]},
+        "properties": {
+            "name": "TSUEN WAN NT HONG KO"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.544851,139.57053]},
+        "properties": {
+            "name": "TSUZUKI KU,YOKOHAMA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-34.454717,150.844907]},
+        "properties": {
+            "name": "UNANDERRA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-30.641373,151.500717]},
+        "properties": {
+            "name": "URALLA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.386707,8.420693]},
+        "properties": {
+            "name": "URDORF"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-30.49663,153.020778]},
+        "properties": {
+            "name": "URUNGA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.5485,-0.479611]},
+        "properties": {
+            "name": "UXBRIDGE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [31.139071,120.645135]},
+        "properties": {
+            "name": "VAJIANG JIANGSU"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.272602,1.217085]},
+        "properties": {
+            "name": "VAL DE REUIL"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.305746,16.336607]},
+        "properties": {
+            "name": "VARAZDIN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.64674,-1.063038]},
+        "properties": {
+            "name": "VAUX S MER"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [49.9805,14.504881]},
+        "properties": {
+            "name": "VESTEC"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-37.822211,145.032802]},
+        "properties": {
+            "name": "VIC / 3122"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-35.553227,138.622949]},
+        "properties": {
+            "name": "VICTOR HARBOR"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [48.428421,-123.365644]},
+        "properties": {
+            "name": "VICTORIA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [50.623252,3.144265]},
+        "properties": {
+            "name": "VILLENEUVE DASCQ"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [45.771944,4.890171]},
+        "properties": {
+            "name": "VILLEURBANNE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [42.420677,12.107669]},
+        "properties": {
+            "name": "VITERBO"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.751074,-120.740139]},
+        "properties": {
+            "name": "WA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.601161,7.929074]},
+        "properties": {
+            "name": "WAB"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.969187,5.665395]},
+        "properties": {
+            "name": "WAGENINGEN"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-35.125095,147.349649]},
+        "properties": {
+            "name": "WAGGA WAGGA"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-9.422436,147.183088]},
+        "properties": {
+            "name": "WAIGANI"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [52.282316,-1.584927]},
+        "properties": {
+            "name": "WARWICK"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.464258,-80.52041]},
+        "properties": {
+            "name": "WATERLOO ON"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.833375,-4.280395]},
+        "properties": {
+            "name": "WAVERLEY GARDENS"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.832802,-0.212348]},
+        "properties": {
+            "name": "WELWYN HERTSFORDSHIRE"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [53.802131,-9.514347]},
+        "properties": {
+            "name": "WESPORT CO MAYO"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.502985,-0.46541]},
+        "properties": {
+            "name": "WEST DRAYTON"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [41.141472,-73.357905]},
+        "properties": {
+            "name": "WEST PORT"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-35.725112,174.323708]},
+        "properties": {
+            "name": "WHANGAREI METRO"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.513949,-0.070728]},
+        "properties": {
+            "name": "WHITECHAPEL"
+        }
+    },
+    
+    
+    
+    
+    
+    
+    {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [41.012602,29.14623]},
+        "properties": {
+            "name": "YUKARIDUDULLU UMRANIYE"
+        }
+    },
+    {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [31.880905,120.536917]},
+        "properties": {
+            "name": "ZHANGJIANGANG CITY"
+        }
+    },
+    {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.732546,115.291575]},
+        "properties": {
+            "name": "ZHAO NIN"
+        }
+    },
+    
+    {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [30.267443,120.152792]},
+        "properties": {
+            "name": "ZHEJIANG PROVINCE"
+        }
+    },
+    {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.376887,8.541694]},
+        "properties": {
+            "name": "ZI  RICH"
+        }
+    },
+    {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [51.216412,4.333591]},
+        "properties": {
+            "name": "ZWIJNDRECHT"
+        }
+    },
+    {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.68,139.76]},
+        "properties": {
+            "name": "TOKYO"
+        }
+     },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-36.85,174.78]},
+        "properties": {
+            "name": "AUCKLAND"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [13.75,100.48]},
+        "properties": {
+            "name": "BANGKOK"
+        }
+    },
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [29.01,77.38]},
+        "properties": {
+            "name": "DELHI"
+        }
+    }
+]

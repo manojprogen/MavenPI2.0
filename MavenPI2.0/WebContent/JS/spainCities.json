@@ -1,0 +1,135 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [40.231209,-3.994221]},
+        "properties": {
+            "name": "el alamo"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [40.4122794,-3.8887699]},
+        "properties": {
+            "name": "boadilla del monte"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [28.012526,-16.668922]},
+        "properties": {
+            "name": "el fraile"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [40.345688,-1.106435]},
+        "properties": {
+            "name": "teruel"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [40.4167754,-3.7037902]},
+        "properties": {
+            "name": "madrid"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.02632,-3.727642]},
+        "properties": {
+            "name": "rozas (las)"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [42.8591656,-2.681791800000042]},
+        "properties": {
+            "name": "victoria"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [41.3850639,2.1734035]},
+        "properties": {
+            "name": "barcelona"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [41.315296,2.0133208]},
+        "properties": {
+            "name": "viladecans"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [41.6488226,-0.8890853000000334]},
+        "properties": {
+            "name": "zaragoza"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.460757,-3.844486]},
+        "properties": {
+            "name": "Virgen del Mar"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.5696005,2.6501603000000387]},
+        "properties": {
+            "name": "Palma de Mallorca"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [42.8591656,-2.681791800000042]},
+        "properties": {
+            "name": "VITORIA"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [39.4752765,-6.3724247000000105]},
+        "properties": {
+            "name": "CACERES"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [42.087905,-0.196336]},
+        "properties": {
+            "name": "Blecua y Torres"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [41.6488226,-0.8890853000000334]},
+        "properties": {
+            "name": "Zaragoza"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [37.1439159,-3.6254529]},
+        "properties": {
+            "name": "ARMILLA"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [40.4122794,-3.8887699]},
+        "properties": {
+            "name": "Boadilla del Monte"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.324265,-1.933151]},
+        "properties": {
+            "name": "SEBASTIAN"
+        }
+     }
+]     

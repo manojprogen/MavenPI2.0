@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" version="1.2.1_b28" codebase="http://dl.javafx.com/1.2/" href="javafx-rt.jnlp">
+    <information>
+        <title>JavaFX Runtime</title>
+        <vendor>Sun Microsystems, Inc.</vendor>
+        <offline-allowed/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <update check="background"/>
+    <resources>
+        <extension name="jogl" href="/jogl.jnlp" version="1.1.1a">
+            <ext-download ext-part="jogl" download="lazy"/>
+        </extension>
+    </resources>
+    <resources os="Windows" arch="x86">
+        <jar href="/javafx-rt-windows-i586__V1.2.1_b28.jar" part="javafx-rt" download="eager"/>
+        <nativelib href="/javafx-rt-natives-windows-i586__V1.2.1_b28.jar" part="javafx-rt" download="eager"/>
+    </resources>
+    <resources os="Mac OS X">
+        <jar href="/javafx-rt-macosx-universal__V1.2.1_b28.jar" part="javafx-rt" download="eager"/>
+        <nativelib href="/javafx-rt-natives-macosx-universal__V1.2.1_b28.jar" part="javafx-rt" download="eager"/>
+    </resources>
+    <resources os="Linux" arch="i386">
+        <jar href="/javafx-rt-linux-i586__V1.2.1_b28.jar" part="javafx-rt" download="eager"/>
+        <nativelib href="/javafx-rt-natives-linux-i586__V1.2.1_b28.jar" part="javafx-rt" download="eager"/>
+    </resources>
+    <resources os="Linux" arch="x86">
+        <jar href="/javafx-rt-linux-i586__V1.2.1_b28.jar" part="javafx-rt" download="eager"/>
+        <nativelib href="/javafx-rt-natives-linux-i586__V1.2.1_b28.jar" part="javafx-rt" download="eager"/>
+    </resources>
+    <resources os="SunOS" arch="x86">
+        <jar href="/javafx-rt-solaris-i586__V1.2.1_b28.jar" part="javafx-rt" download="eager"/>
+        <nativelib href="/javafx-rt-natives-solaris-i586__V1.2.1_b28.jar" part="javafx-rt" download="eager"/>
+    </resources>
+    <component-desc/>
+</jnlp>

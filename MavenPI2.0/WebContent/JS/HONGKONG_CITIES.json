@@ -1,0 +1,191 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.23716,114.197123]},
+        "properties": {
+            "name": "Repulse Bay"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.263248,114.158798]},
+        "properties": {
+            "name": "The Peak"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.256777,114.210643]},
+        "properties": {
+            "name": "TAI TAM"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.336932,114.176337]},
+        "properties": {
+            "name": "Kowloon Tong"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.37713,114.19744]},
+        "properties": {
+            "name": "Shatin"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.326665,114.207843]},
+        "properties": {
+            "name": "Kowloon Bay"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.281167,114.142449]},
+        "properties": {
+            "name": "Mid-level"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.26792,114.129072]},
+        "properties": {
+            "name": "Pok Fu Lam"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.279991,114.158798]},
+        "properties": {
+            "name": "CENTRAL"
+        }
+     },
+     {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.286394,114.149138]},
+        "properties": {
+            "name": "Sheung Wan"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [43.460757,-3.844486]},
+        "properties": {
+            "name": "Chai Wan"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.26781,114.236078]},
+        "properties": {
+            "name": "Tsim Sha Tsu"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.406083,114.120154]},
+        "properties": {
+            "name": "New Territories"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.310369,114.222703]},
+        "properties": {
+            "name": "Kwun Tong"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.318567,114.179606]},
+        "properties": {
+            "name": "Kowloon"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.396428,114.10949700000003]},
+        "properties": {
+            "name": "Hong Kong"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.276022,-114.175147]},
+        "properties": {
+            "name": "Wan Chai"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.371323,114.11416]},
+        "properties": {
+            "name": "Tsuen Wan"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.371323,114.11416]},
+        "properties": {
+            "name": "Kwai Chung"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.444538,114.022208]},
+        "properties": {
+            "name": "YEUN LONG"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.336443,114.198926]},
+        "properties": {
+            "name": "San Po Kong"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.281167,114.142449]},
+        "properties": {
+            "name": "Mid-level"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.285979,114.191492]},
+        "properties": {
+            "name": "Causeway Bay"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.275188,114.193724]},
+        "properties": {
+            "name": "TAI HANG"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.318507,114.175534]},
+        "properties": {
+            "name": "Ho Man Tin"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.317337,114.187969]},
+        "properties": {
+            "name": "To Kwa Wan"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [22.288468,114.192803]},
+        "properties": {
+            "name": "North Point"
+        }
+     }
+]     

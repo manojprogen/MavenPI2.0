@@ -1,0 +1,63 @@
+# DEFAULT CACHE REGION
+
+jcs.default=DC
+jcs.default.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.default.cacheattributes.MaxObjects=50
+jcs.default.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+
+
+#reportQuery Cache
+jcs.region.reportQuery=DC
+jcs.region.reportQuery.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.region.reportQuery.cacheattributes.MaxObjects=1
+jcs.region.reportQuery.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.reportQuery.UseMemoryShrinker=true
+jcs.region.reportQuery.ShrinkerIntervalSeconds=600
+jcs.region.reportQuery.elementattributes.IsEternal=false
+jcs.region.reportQuery.elementattributes.MaxLifeSeconds=43200
+jcs.region.reportQuery.elementattributes.IdleTime=21600
+#jcs.region.reportQuery.elementattributes.MaxMemoryIdleTimeSeconds=3600
+jcs.region.reportQuery.elementattributes.IsSpool=true
+jcs.region.reportQuery.elementattributes.IsRemote=false
+jcs.region.reportQuery.elementattributes.IsLateral=false
+
+#metadata Cache
+jcs.region.metadata=DC
+jcs.region.metadata.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.region.metadata.cacheattributes.MaxObjects=20
+jcs.region.metadata.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.metadata.UseMemoryShrinker=true
+jcs.region.metadata.ShrinkerIntervalSeconds=600
+jcs.region.metadata.elementattributes.IsEternal=false
+jcs.region.metadata.elementattributes.MaxLifeSeconds=43200
+jcs.region.metadata.elementattributes.IdleTime=21600
+#jcs.region.metadata.elementattributes.MaxMemoryIdleTimeSeconds=3600
+jcs.region.metadata.elementattributes.IsSpool=true
+jcs.region.metadata.elementattributes.IsRemote=false
+jcs.region.metadata.elementattributes.IsLateral=false
+
+#Disk for reportQuery Cache
+jcs.auxiliary.DC=org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCacheFactory
+jcs.auxiliary.DC.attributes=org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCacheAttributes
+jcs.auxiliary.DC.attributes.DiskPath=/usr/local/cache
+jcs.auxiliary.DC.attributes.MaxKeySize=10000
+jcs.auxiliary.DC.attributes.MaxPurgatorySize=5000
+jcs.auxiliary.DC.attributes.MaxRecycleBinSize=5000
+jcs.auxiliary.DC.attributes.OptimizeAtRemoveCount=15000
+jcs.auxiliary.DC.attributes.OptimizeOnShutdown=true
+jcs.auxiliary.DC.attributes.EventQueueType=POOLED
+jcs.auxiliary.DC.attributes.EventQueuePoolName=disk_cache_event_queue
+
+#Thread pool configuration
+# Disk Cache Event Queue Pool
+thread_pool.disk_cache_event_queue.useBoundary=false
+thread_pool.remote_cache_client.maximumPoolSize=15
+thread_pool.disk_cache_event_queue.minimumPoolSize=1
+thread_pool.disk_cache_event_queue.keepAliveTime=3500
+thread_pool.disk_cache_event_queue.startUpSize=1
+
+
+
+
+
+

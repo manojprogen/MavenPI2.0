@@ -1,0 +1,207 @@
+/* 
+    Document   : ReportCss
+    Created on : 23 Sep, 2010, 3:01:47 PM
+    Author     : progen
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+root { 
+    display: block;
+}
+ .fontsty{
+                -moz-border-radius-bottomleft:4px;
+                -moz-border-radius-bottomright:4px;
+                -moz-border-radius-topleft:4px;
+                -moz-border-radius-topright:4px;
+/*                background-color:#b4d9ee;*/
+                background-color: #fccc69;
+            }
+
+/*---pbWhatifScenario.jsp--------*/
+.MeasuresULClass{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+/*    background:#79C9EC url(../jQuery/images/ui-bg_glass_75_79c9ec_1x400.png) repeat-x scroll 50% 50%;*/
+     background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+    border:1px solid #448DAE;
+    color:#000;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 20px;
+    WIDTH: auto;
+    cursor:pointer;
+}
+.selectedMeasuresULClass{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+/*    background:#79C9EC url(../jQuery/images/ui-bg_glass_75_79c9ec_1x400.png) repeat-x scroll 50% 50%;*/
+  background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+    border:1px solid #448DAE;
+    color:#000;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 20px;
+    WIDTH: auto;
+    cursor:pointer;
+}
+.dependentMeasuresULClass{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+/*    background:#79C9EC url(../jQuery/images/ui-bg_glass_75_79c9ec_1x400.png) repeat-x scroll 50% 50%;*/
+  background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+    border:1px solid #448DAE;
+    color:#000;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+    VERTICAL-ALIGN: middle;
+    HEIGHT: 20px;
+    WIDTH: auto;
+    cursor:pointer;
+}
+/*----End of PbWhatIfSCneario.jsp-------*/
+
+/*-------createParentParameter.jsp--------*/
+ .myhead
+            {
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 8pt;
+                font-weight: bold;
+/*                color: #3A457C;*/
+                color:black;
+                padding-left:12px;
+                width:50%;
+/*                background-color:#b4d9ee;*/
+                background-color: #FCCC69;
+                border:0px;
+                /*apply this class to a Headings of servicestable only*/
+            }
+            .prgtableheader
+            {   font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 11px;
+                font-weight: bold;
+/*                color: #3A457C;*/
+                color:black;
+                padding-left:12px;
+/*                background-color:#b4d9ee;*/
+                background-color: #FCCC69;
+                height:100%;
+            }
+
+
+/*---End Of ---------createParentParameter.jsp--------*/
+
+/*-----ChageViewBy.jsp-----*/
+.bgcolor
+{
+/*    background-color: #b4d9ee;*/
+/*    color: #369;*/
+    background-color: #FCCC69;/*
+    color:black;*/
+}
+
+/*---End Of ---------ChageViewBy.jsp--------*/
+
+ a:link {color:#C77405}
+
+  /*---ViewerReviewtext.jsp--------*/
+ .textstyle
+ {
+     height:auto;
+     border:1px thin darkred;
+     background-color:#FCCC69;
+}
+
+ .textColor
+ {
+     overflow:auto;
+     width:99%;
+     height:70px;
+     background-color:#e6e6e6;
+     font-size:12px;
+     font-family:verdana;
+     color:#C77405;
+     font-weight:bold;
+}
+     .wordStyle{
+    color:#C77405;
+    font-size:12px;
+     font-family:verdana;
+}
+.textareaLikeDiv {
+    border: 1px solid #B2B2B2;
+    ftextareaLikeDivont: medium -moz-fixed;
+    font: verdana;
+    height: 16px;
+    overflow: auto;
+    padding: 2px;
+    width: 300px;
+    display: table-cell;
+    position: relative;
+}
+.newparamView{
+    border:1px solid;
+    border-color:#B2B2B2;
+    background:#E5E5E5;
+    overflow: hidden;
+/*    width:100px;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+.newParamName{
+    font-family:verdana;
+    font-size:6pts;
+}
+.newTextBoxStyle{
+    border:0px solid #B2B2B2;
+    background:transparent;
+    float:left;
+    height:25px;
+    width: 80px;
+}
+.staticClass{
+    overflow: no;
+}
+.dynamicClass{
+    float: left;
+    overflow-y:scroll;
+}
+.paramNameNew{
+    font:verdana;
+    font-size:9pt;
+    color:black;
+    font-style:bold;
+}
+.viewbyParamName{
+    font:verdana;
+    font-size:9pt;
+    font-color:#EAF5F7;
+    font-style:bold;
+}
+.globalfilterShow {
+    /*border: 1px solid #B2B2B2;*/
+    ftextareaLikeDivont: medium -moz-fixed;
+    font: verdana;
+    height: 16px;
+    overflow: auto;
+    padding: 2px;
+
+    display: table-cell;
+    position: relative;
+}
+/*#E5E5E5 */

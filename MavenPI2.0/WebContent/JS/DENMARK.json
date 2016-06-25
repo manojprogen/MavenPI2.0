@@ -1,0 +1,105 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [56.146047,10.202726]},
+        "properties": {
+            "name": "AARHUS C"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.6760968,12.5683371]},
+        "properties": {
+            "name": "KOBENHAVN V"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.677069,12.513321000000019]},
+        "properties": {
+            "name": "FREDERIKSBERG"
+        }
+     },
+	
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.6760968,12.5683371]},
+        "properties": {
+            "name": "KOBENHAVN K"
+        }
+     },
+	
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.736654,12.569196]},
+        "properties": {
+            "name": "HELLERUP"
+        }
+     },
+	
+	
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [54.765422,11.875492]},
+        "properties": {
+            "name": "NYKOBING F"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [57.4567788,9.9957635]},
+        "properties": {
+            "name": "Hjørring"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.677069,12.513321000000019]},
+        "properties": {
+            "name": "Frederiksberg"
+        }
+     },
+	{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.6760968,12.5683371]},
+        "properties": {
+            "name": "Copenhagen"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [56.138557,8.967322]},
+        "properties": {
+            "name": "Herning"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.7113112,9.5363541]},
+        "properties": {
+            "name": "Vejle"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [54.76723,11.877547]},
+        "properties": {
+            "name": "Nykøbing F"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [55.883514,12.504924]},
+        "properties": {
+            "name": "Hørsholm"
+        }
+     }
+	
+	
+	
+     
+]     

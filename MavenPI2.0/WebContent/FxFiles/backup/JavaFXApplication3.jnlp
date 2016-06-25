@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/PiFx/FxFiles/" href="JavaFXApplication3.jnlp">
+    <information>
+        <title>JavaFXApplication3</title>
+        <vendor>Saurabh</vendor>
+        <homepage href="/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/PiFx/FxFiles/"/>
+        <description>JavaFXApplication3</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="/PiFx/FxFiles/javafx-rt.jnlp"/>
+        <jar href="JavaFXApplication3.jar" main="true"/>
+        <jar href="lib/jdom.jar" />
+    </resources>
+    <application-desc main-class="com.sun.javafx.runtime.main.Main">
+        <argument>MainJavaFXScript=misc.MyChart</argument>
+    </application-desc>
+    <update check="background">
+</jnlp>

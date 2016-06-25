@@ -1,0 +1,30 @@
+/* 
+Document   : pbPortalTabViewerCSS
+Created on : Nov 7, 2009, 12:42:37 PM
+Author     : Administrator
+Description:
+Purpose of the stylesheet follows.
+*/
+
+
+.liClass{
+    color:white;
+    width:300px;
+}
+.fontsty{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-topright:4px;
+    background-color:#bdbdbd;
+}
+a {font-family:Verdana;cursor:pointer;text-decoration:none}
+a:link {color:#336699}
+.ui-widget-header {
+    background:#CCCCCC url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) repeat-x scroll 50% 50%;
+    border:1px solid #AAAAAA;
+    color:#222222;
+    font-weight:bold;
+}
+
+

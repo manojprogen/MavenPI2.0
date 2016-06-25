@@ -1,0 +1,170 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.1983922,6.142296100000067]},
+        "properties": {
+            "name": "Geneve"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.394335,6.249293]},
+        "properties": {
+            "name": "Prangins"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.499061,7.553281]},
+        "properties": {
+            "name": "Therwil"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.505463,7.864519]},
+        "properties": {
+            "name": "Buus"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.34121,8.577215]},
+        "properties": {
+            "name": "Zollikon"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.322009,8.545212]},
+        "properties": {
+            "name": "Kilchberg ZH"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.524661,6.829473]},
+        "properties": {
+            "name": "Granges"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.822296,7.150944]},
+        "properties": {
+            "name": "Granges-Paccot"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.551651,7.62725]},
+        "properties": {
+            "name": "Birsfelden"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.519962,6.633597]},
+        "properties": {
+            "name": "Lausanne"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.2335,6.08]},
+        "properties": {
+            "name": "Meyrin"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.3768866,8.541694000000007]},
+        "properties": {
+            "name": "zuerich"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.186706,8.744338]},
+        "properties": {
+            "name": "Tegna"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.050038,8.30893]},
+        "properties": {
+            "name": "luzern"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.224552,6.182737]},
+        "properties": {
+            "name": "Cologny"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.411784,9.441691]},
+        "properties": {
+            "name": "Speicher"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.35367,8.43714]},
+        "properties": {
+            "name": "Birmensdorf zh"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.19717,8.71338]},
+        "properties": {
+            "name": "Wollerau"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.140187,7.243773]},
+        "properties": {
+            "name": "Biel/Bienne"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [46.5093,6.6616]},
+        "properties": {
+            "name": "Pully"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [47.318923,8.58447]},
+        "properties": {
+            "name": "Kusnacht ZH"
+        }
+     }
+     
+]     

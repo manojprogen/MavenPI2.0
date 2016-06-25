@@ -1,0 +1,89 @@
+<html>
+
+<head>
+<title>jQuery Column Filters Demo</title>
+
+<script language="JavaScript" src="jquery-1.3.2.min.js"></script>
+<script language="JavaScript" src="jquery.columnfilters.js"></script>
+
+<style type="text/css">
+
+table tr th {
+	background-color: #d3DADE;
+	padding: 3px;
+}
+table tr.rowb { background-color:#EAf2FD; }
+
+table tr.filterColumns td { padding:2px; }
+
+body { padding-bottom:150px; }
+
+
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<div id="tableList" style="height:100px;width:200px;overflow:auto">
+<table id="filterTable2" cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+    <th></th><th>Name</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+	
+    <td><input type="checkbox" value="Tom"></td>
+    <td>Table1</td>
+</tr>
+<tr>
+	
+    <td><input type="checkbox" value="Tom1">
+        <td>Table2</td>
+</tr>
+<tr>
+	
+    <td><input type="checkbox" value="Tom2">
+        <td>Table3</td>
+</tr>
+<tr>
+	
+    <td><input type="checkbox" value="Tom3">
+        <td>Table11</td>
+</tr>
+<tr>
+	
+    <td><input type="checkbox" value="Tom4">
+        <td>Table22</td>
+</tr>
+<tr>
+	
+    <td><input type="checkbox" value="Tom5">
+        <td>Table33</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+
+
+
+<script>
+	$(document).ready(function() {
+		$('table#filterTable2').columnFilters({alternateRowClassNames:['rowa','rowb'], excludeColumns:[0]});
+		
+	});
+</script>
+
+<br />
+
+</body>
+
+</html>

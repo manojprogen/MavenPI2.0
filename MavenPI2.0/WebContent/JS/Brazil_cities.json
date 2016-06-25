@@ -1,0 +1,88 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-14.3652443,-51.6913553]},
+        "properties": {
+            "name": "São Paulo"
+        }
+     },
+	 
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-15.7942287,-47.8821658]},
+        "properties": {
+            "name": "Brasília"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-22.9099384,-47.06263319999999]},
+        "properties": {
+            "name": "Campinas"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-12.9730401,-38.50230399999998]},
+        "properties": {
+            "name": "Salvador"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-27.870682,-54.480156]},
+        "properties": {
+            "name": "Santa Rosa"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-8.0578381,-34.8828969]},
+        "properties": {
+            "name": "Recife"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-8.0578381,-34.8828969]},
+        "properties": {
+            "name": "Imbituba"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-23.4209995,-51.933055800000034]},
+        "properties": {
+            "name": "Maringá"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-2.450629,-54.700923]},
+        "properties": {
+            "name": "Santarém"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-23.5015299,-47.4525603]},
+        "properties": {
+            "name": "Sorocaba"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-3.7318616,-38.5266704]},
+        "properties": {
+            "name": "Fortaleza"
+        }
+     },
+	 {"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [-29.6873064,-53.8154769]},
+        "properties": {
+            "name": "SANTA MARIA"
+        }
+     
+     
+]     

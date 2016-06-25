@@ -1,0 +1,9 @@
+[
+{"type":"Feature","geometry":{
+        "type": "Point",
+        "coordinates": [35.133842,33.359837]},
+        "properties": {
+            "name": "Strovolos"
+        }
+     }
+]     
